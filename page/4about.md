@@ -21,7 +21,7 @@ type: page
 * email：cn6u9
 ## 友情链接
 
-[GG](http://www.google.com) \| [Baidu.com](https://www.baidu.com) \|
+[GG](http://www.google.com) \| [Baidu.com](https://www.baidu.com) \|[source](https://gaohaoyang.github.io) \|
 
 ## Comments
 
