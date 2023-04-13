@@ -11,17 +11,17 @@ type: page
 
 ## 关于我
 
-<!-- <iframe src="https://githubbadge.appspot.com/gaohaoyang?s=1" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe> -->
+<!-- <iframe src="https://githubbadge.appspot.com/cn6u9?s=1" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe> -->
 
 
 
 ## 联系我
 
 * GitHub：[Gaohaoyang](https://github.com/Gaohaoyang)
-* email：gaohaoyang126@126.com
+* email：cn6u9126@126.com
 * [Weibo](http://weibo.com/3115521wh)
-* [知乎](https://www.zhihu.com/people/gaohaoyang)
-* [Facebook](https://www.facebook.com/gaohaoyang.water)
+* [知乎](https://www.zhihu.com/people/cn6u9)
+* [Facebook](https://www.facebook.com/cn6u9.water)
 * [豆瓣](https://www.douban.com/people/42525035/)
 * [豆瓣音乐人-浩阳的小站](https://site.douban.com/haoyangaiyinyue/)
 
