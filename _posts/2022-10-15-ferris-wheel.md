@@ -11,7 +11,7 @@ author: cn6u9
 
 
 注册域名
-![](./img/domain.png)
+![](https://cn6u9.github.io/img/domain.png)
 
 
 
