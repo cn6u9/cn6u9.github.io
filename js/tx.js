@@ -13,7 +13,7 @@
               l: o,
               z: n(i, "zIndex", -1),
               o: n(i, "opacity", .9),   //透明度
-              c: n(i, "color", "255, 102, 153"),   //颜色
+              c: n(i, "color", "0, 181, 26"),   //颜色
               n: n(i, "count", 99)
           }
       }
