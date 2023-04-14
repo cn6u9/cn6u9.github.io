@@ -17,7 +17,7 @@ permalink: /:year/:month/:day/:title/
 twitter_username:
 
 
-description_footer: 本站记录我前端之旅的沿途风景！
+description_footer: 本站记录我技术之旅的沿途风景！
 
 # comments
 # two ways to comment, only choose one, and use your own short name
@@ -29,8 +29,8 @@ disqus_shortname: cn6u9
 # 百度统计 id，将统计代码替换为自己的百度统计id，即
 # hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
 # xxxxx字符串
-baidu_tongji_id: cf8506e0ef223e57ff6239944e5d46a4
-google_analytics_id: UA-72449510-4 # google 分析追踪id
+baidu_tongji_id: cf8506e0ef22239944e5d46a4
+google_analytics_id: UA-9510-4 # google 分析追踪id
 
 # Build settings
 markdown: kramdown
