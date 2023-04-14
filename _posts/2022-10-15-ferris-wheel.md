@@ -1,11 +1,14 @@
 ---
 layout: post
 title:  "摩天轮动画的实现揭秘"
-
+categories: JavaScript
+tags:  Animation
+author: cn6u9
 ---
 
 * content
 {:toc}
+
 
 摩天轮动画的实现揭秘
 
