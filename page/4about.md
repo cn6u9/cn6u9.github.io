@@ -22,7 +22,7 @@ type: page
 ## 友情链接
 
 [GG](http://www.google.com) \| [Baidu.com](https://www.baidu.com) \|[source](https://gaohaoyang.github.io) \|
-
+[星际](https://xj.hk/)\|
 ## Comments
 
 {% include comments.html %}
