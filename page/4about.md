@@ -21,8 +21,8 @@ type: page
 * email：cn6u9
 ## 友情链接
 
-[GG](http://www.google.com) \| [Baidu.com](https://www.baidu.com) \|[source](https://gaohaoyang.github.io) \|
-[星际](https://xj.hk/)\|
+[GG](http://www.google.com) \| [Baidu.com](https://www.baidu.com) \|[source](https://gaohaoyang.github.io) \|[writebug](https://www.writebug.com) \|[unsafe](https://unsafe.sh/)\|[88hd](https://88hd.com)\|[星际](https://xj.hk/)\|[github](https://github.com)\|[安全文摘](http://govuln.com/news/)\|[secwiki](http://sec-wiki.com)\|[pediy](http://bbs.kanxue.com)\|[freebuf](http://www.freebuf.com)\|[phpbugs](http://bugs.php.net/search.php)\|[先知](http://xz.aliyun.com)\|[seebug](http://www.seebug.org)\|[谷歌专利](http://patents.google.com)\|[道家](http://)
+
 ## Comments
 
 {% include comments.html %}
