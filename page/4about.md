@@ -21,7 +21,7 @@ type: page
 * email：cn6u9
 ## 友情链接
 
-[GG](http://www.google.com) \|--[Baidu](https://www.baidu.com) \|--[source](https://gaohaoyang.github.io) \|--[writebug](https://www.writebug.com) \|--[unsafe](https://unsafe.sh/)\|--[88hd](https://88hd.com)\|--[星际](https://xj.hk/)\|--[github](https://github.com)\|--[安全文摘](http://govuln.com/news/)\|--[secwiki](http://sec-wiki.com)\|--[pediy](http://bbs.kanxue.com)\|--[freebuf](http://www.freebuf.com)\|--[phpbugs](http://bugs.php.net/search.php)\|--[先知](http://xz.aliyun.com)\|--[seebug](http://www.seebug.org)\|--[谷歌专利](http://patents.google.com)\|--[道家](http://quanxue.cn/CT_DaoJia/index.html)\|--[ddosi](https://www.ddosi.org/)\|--[hackone](https://hackerone.com/hacktivity)\|--[世界杀毒网](https://www.virustotal.com/gui/home/upload)\|---
+[GG](http://www.google.com) \|--[Baidu](https://www.baidu.com) \|--[source](https://gaohaoyang.github.io) \|--[writebug](https://www.writebug.com) \|--[unsafe](https://unsafe.sh/)\|--[88hd](https://88hd.com)\|--[星际](https://xj.hk/)\|--[github](https://github.com)\|--[安全文摘](http://govuln.com/news/)\|--[secwiki](http://sec-wiki.com)\|--[pediy](http://bbs.kanxue.com)\|--[freebuf](http://www.freebuf.com)\|--[phpbugs](http://bugs.php.net/search.php)\|--[先知](http://xz.aliyun.com)\|--[seebug](http://www.seebug.org)\|--[谷歌专利](http://patents.google.com)\|--[道家](http://quanxue.cn/CT_DaoJia/index.html)\|--[ddosi](https://www.ddosi.org/)\|--[hackone](https://hackerone.com/hacktivity)\|--[世界杀毒网](https://www.virustotal.com/gui/home/upload)\|--[dnslog](https://www.callback.red/)\|--
 
 ## Comments
 
