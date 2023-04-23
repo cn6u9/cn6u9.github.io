@@ -1,6 +1,5 @@
 {% if site.duoshuo_shortname %}
 <!-- 多说评论框 start -->
-<div class="ds-thread" data-thread-key="{{ site.url }}{{ page.url }}" data-title="{{page.title}}" data-url="{{ site.url }}{{ page.url }}"></div>
 <!-- 多说评论框 end -->
 <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
   <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
@@ -10,7 +9,7 @@
 var gitalk = new Gitalk({
   clientID: '6000dbcb4215de37a0d4',
   clientSecret: '93f2255de83b2f9c7a9dd0d1932da7f7176dc5cd',
-  repo: 'GitHub repo',
+  repo: 'gitalk-comments',
   owner: 'GitHub repo owner',
   admin: ['cn6u9'],
   id: location.pathname,      // Ensure uniqueness and length less than 50
