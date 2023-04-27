@@ -33,7 +33,7 @@ baidu_tongji_id: cf8506e0ef22239944e5d46a4
 google_analytics_id: UA-9510-4 # google 分析追踪id
 
 # Build settings
-markdown: kramdown
+markdown: markdown
 
 kramdown:
   input: GFM
