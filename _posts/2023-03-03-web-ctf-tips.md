@@ -91,7 +91,7 @@ CVE-2023-25135 https://github.com/getdrive/PoC/tree/main/2023/vbulletin vbulleti
 Spring Framework 6.0.7 and 5.3.26 fix cve-2023-20860 and cve-2023-20861  
 
 
-IOT
+IOT  
 CVE-2023-3519 https://github.com/getdrive/PoC/tree/main/2023/Citrix%20ADC%20RCE%20CVE-2023-3519 Citrix VPX 13.1-48.47  
 
 
