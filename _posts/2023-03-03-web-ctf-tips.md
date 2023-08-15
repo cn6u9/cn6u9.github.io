@@ -112,6 +112,7 @@ CVE-2023-20871  https://github.com/ChriSanders22/CVE-2023-20871-poc VMware Fusio
 CVE-2023-34312  https://github.com/vi3t1/qq-tim-elevation Tencent QQ/TIM Local Privilege Elevation  
 
 
+tips：  
 shellcode:
 ```
 （1）、搜寻堆栈；
@@ -154,5 +155,13 @@ shellcode:
           push   edi
           ret
 ```
+
+tips mssql反弹命令：  
+```
+
+
+```
+
+
 
 # 小结
