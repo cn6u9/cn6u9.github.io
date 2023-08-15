@@ -87,8 +87,13 @@ CVE-2023-34192 Zimbra XSS To RCE
 CVE-2023-28467 mybb1.8.33 email xss  
 CVE-2023-32315 https://github.com/Pari-Malam/CVE-2023-32315 openfire  
 CVE-2023-29489 https://github.com/ViperM4sk/cpanel-xss-177 cPanel 11.102.0.x-11.109.9999.116 xss  
+CVE-2023-25135 https://github.com/getdrive/PoC/tree/main/2023/vbulletin vbulletin.version:<=5.6.9 rce  
+Spring Framework 6.0.7 and 5.3.26 fix cve-2023-20860 and cve-2023-20861  
 
-Spring Framework 6.0.7 and 5.3.26 fix cve-2023-20860 and cve-2023-20861
+
+IOT
+CVE-2023-3519 https://github.com/getdrive/PoC/tree/main/2023/Citrix%20ADC%20RCE%20CVE-2023-3519 Citrix VPX 13.1-48.47  
+
 
 Browser  
 
