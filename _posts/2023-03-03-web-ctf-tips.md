@@ -97,7 +97,8 @@ CVE-2023-3519 https://github.com/getdrive/PoC/tree/main/2023/Citrix%20ADC%20RCE%
 
 Browser  
 
-chrome cvc-2023-2033 无poc
+chrome cvc-2023-2033 无poc  
+chrome CVE-2023-3079 https://github.com/mistymntncop/CVE-2023-3079  
 
 
 other
