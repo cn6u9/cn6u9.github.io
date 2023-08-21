@@ -28,7 +28,8 @@ CVE-2023-21823 https://github.com/Elizarfish/CVE-2023-21823 windows bitmap组件
 CVE-2023-29336 https://github.com/m-cetin/CVE-2023-29336 Win32k Local Privilege  
 CVE-2023-28252 https://github.com/fortra/CVE-2023-28252 clfs.sys  
 CVE-2022-44666 https://github.com/j00sean/CVE-2022-44666 Microsoft Windows Contacts  
-CVE-2023-36899 https://github.com/d0rb/CVE-2023-36899 ASP.NET Elevation of Privilege Vulnerability  
+CVE-2023-36899 https://github.com/d0rb/CVE-2023-36899 ASP.NET Elevation of Cookieless IIS Auth Bypass & App Pool Privesc  
+CVE-2023-36874 https://github.com/d0rb/CVE-2023-36874 Windows Error Reporting Service lpe  
 
 windows rce
 
