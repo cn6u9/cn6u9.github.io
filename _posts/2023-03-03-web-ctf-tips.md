@@ -47,6 +47,7 @@ CVE-2023-27363 https://github.com/webraybtl/CVE-2023-27363 福昕Foxit PDF远程
 CVE-2023-36884 Office and Windows HTML Remote Code Execution Vulnerability  
 CVE-2022-30190 https://github.com/komomon/CVE-2022-30190-follina-Office-MSDT-Fixed Microsoft Office MSDT  
 CVE-2023-40477 winrar rce  无poc  
+CVE-2023-38831 https://github.com/BoredHackerBlog/winrar_CVE-2023-38831_lazy_poc winrar rce
 
 linux lpe
 
