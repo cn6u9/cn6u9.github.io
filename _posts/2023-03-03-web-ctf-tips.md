@@ -37,7 +37,7 @@ CVE-2022-34718 https://github.com/numencyber/Vulnerability_PoC/blob/main/CVE-202
 CVE-2023-28231 https://github.com/numencyber/Vulnerability_PoC/blob/main/CVE-2023-28231/CVE-2023-28231-DHCP-VUL-PoC.cpp  MICROSOFT WINDOWS SERVER 2008-2019 DHCP SERVER  
 CVE-2023-28231 https://github.com/glavstroy/CVE-2023-28231  MICROSOFT WINDOWS SERVER 2008-2019 DHCP SERVER   
 
-word and pdf and rar
+word and pdf and rar and wps
 
 CVE_2023_21716 https://github.com/Xnuvers007/CVE-2023-21716    RTF Crash POC
 
@@ -47,7 +47,9 @@ CVE-2023-27363 https://github.com/webraybtl/CVE-2023-27363 福昕Foxit PDF远程
 CVE-2023-36884 Office and Windows HTML Remote Code Execution Vulnerability  
 CVE-2022-30190 https://github.com/komomon/CVE-2022-30190-follina-Office-MSDT-Fixed Microsoft Office MSDT  
 CVE-2023-40477 winrar rce  无poc  
-CVE-2023-38831 https://github.com/Garck3h/cve-2023-38831 winrar rce
+CVE-2023-38831 https://github.com/Garck3h/cve-2023-38831 winrar rce  
+wps rce  https://github.com/ba0gu0/wps-rce WPS Office 2023 个人版 < 11.1.0.15120---WPS Office 2019 企业版 < 11.8.2.12085  
+
 
 linux lpe
 
