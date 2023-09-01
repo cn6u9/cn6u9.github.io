@@ -69,6 +69,7 @@ CVE-2023-2008   https://github.com/bluefrostsecurity/CVE-2023-2008  Ubuntu 22.04
 CVE-2023-1829 https://github.com/lanleft/CVE2023-1829 Ubuntu22.04 source code 5.15.0-25.25  
 CVE-2023-32233 https://github.com/Liuk3r/CVE-2023-32233 Ubuntu 23.04 linux-image-6.2.0-20-generic  
 CVE-2023-3338 https://github.com/TurtleARM/CVE-2023-3338 linux kernel 5.15  
+CVE-2023-35001 https://github.com/synacktiv/CVE-2023-35001 Ubuntu desktop 5.19.0-35  
 CVE-2023-35829 https://github.com/ChriSanders22/CVE-2023-35829-poc Linux kernel 6.3.2.use-after-free was found in rkvdec_remove  
 CVE-2023-3269 
 
