@@ -31,6 +31,7 @@ CVE-2022-44666 https://github.com/j00sean/CVE-2022-44666 Microsoft Windows Conta
 CVE-2023-36899 https://github.com/d0rb/CVE-2023-36899 ASP.NET Elevation of Cookieless IIS Auth Bypass & App Pool Privesc  
 CVE-2023-36874 https://github.com/d0rb/CVE-2023-36874 Windows Error Reporting Service lpe  
 CVE-2023-36900 无poc Windows Common Log File System Driver Elevation of Privilege Vulnerability  
+CVE-2023-29336 https://github.com/ayhan-dev/p0ropc Win32k Elevation of Privilege Vulnerability all version  
 
 windows rce
 
@@ -96,6 +97,8 @@ CVE-2023-32315 https://github.com/Pari-Malam/CVE-2023-32315 openfire
 CVE-2023-29489 https://github.com/ViperM4sk/cpanel-xss-177 cPanel 11.102.0.x-11.109.9999.116 xss  
 CVE-2023-25135 https://github.com/getdrive/PoC/tree/main/2023/vbulletin vbulletin.version:<=5.6.9 rce  
 Spring Framework 6.0.7 and 5.3.26 fix cve-2023-20860 and cve-2023-20861  
+CVE-2023-34039 https://github.com/Cyb3rEnthusiast/CVE-2023-34039 VMware newest exploit  
+
 
 
 IOT  
