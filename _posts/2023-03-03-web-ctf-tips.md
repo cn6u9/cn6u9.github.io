@@ -11,7 +11,7 @@ author: cn6u9
 - 记事本
 
 
-内网穿透  
+
 opengnb  
 [web_ctf](https://github.com/cn6u9/cn6u9/blob/main/Web-ctf-cheatsheet.md)  
 [shenji.py](https://github.com/cn6u9/cn6u9.github.io/blob/main/tools/shenji.py)  
