@@ -100,7 +100,7 @@ CVE-2023-29489 https://github.com/ViperM4sk/cpanel-xss-177 cPanel 11.102.0.x-11.
 CVE-2023-25135 https://github.com/getdrive/PoC/tree/main/2023/vbulletin vbulletin.version:<=5.6.9 rce  
 Spring Framework 6.0.7 and 5.3.26 fix cve-2023-20860 and cve-2023-20861  
 CVE-2023-34039 https://github.com/Cyb3rEnthusiast/CVE-2023-34039 VMware newest exploit  
-
+CVE-2023-41362 https://github.com/SorceryIE/CVE-2023-41362_MyBB_ACP_RCE MyBB_ACP_RCE  
 
 
 IOT  
@@ -129,6 +129,7 @@ CVE-2023-3519 Citrix RCE
 CVE-2023-20871  https://github.com/ChriSanders22/CVE-2023-20871-poc VMware Fusion Raw Disk local privilege escalation vulnerability  
 CVE-2023-34312  https://github.com/vi3t1/qq-tim-elevation Tencent QQ/TIM Local Privilege Elevation  
 CVE-2023-40031 https://github.com/webraybtl/CVE-2023-40031 notepad++堆缓冲区溢出漏洞  
+CVE-2023-26818 https://github.com/Zeyad-Azima/CVE-2023-26818 Telegram  
 
 
 tips：  
