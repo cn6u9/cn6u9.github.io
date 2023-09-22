@@ -112,13 +112,12 @@ CVE-2023-3519 https://github.com/getdrive/PoC/tree/main/2023/Citrix%20ADC%20RCE%
 Browser  
 
 chrome cvc-2023-2033 无poc  
-chrome CVE-2023-3079 https://github.com/mistymntncop/CVE-2023-3079  
-
+chrome CVE-2023-3079 https://github.com/mistymntncop/CVE-2023-3079    
+chrome CVE-2023-4863 https://github.com/mistymntncop/CVE-2023-4863 WebP in Google Chrome prior to 116.0.5845.187  
 
 other
 
 CVE-2022-44268 https://github.com/agathanon/cve-2022-44268 ImageMagick
-
 cve-2022-31705 https://github.com/s0duku/cve-2022-31705 windows vmware workstation 16.2.0
 
 CVE-2022-26923 域提权  
