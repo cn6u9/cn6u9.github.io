@@ -34,6 +34,7 @@ CVE-2023-36874 https://github.com/d0rb/CVE-2023-36874 Windows Error Reporting Se
 CVE-2023-36900 无poc Windows Common Log File System Driver Elevation of Privilege Vulnerability  
 CVE-2023-29336 https://github.com/ayhan-dev/p0ropc Win32k Elevation of Privilege Vulnerability all version  
 CVE-2023-28229 https://github.com/Y3A/CVE-2023-28229 Windows CNG Key Isolation Service Elevation of Privilege Vulnerability  
+CVE-2023-29360 https://github.com/Nero22k/cve-2023-29360 Microsoft Streaming Service Elevation of Privilege Vulnerability windows流媒体提全  
 
 windows rce
 
