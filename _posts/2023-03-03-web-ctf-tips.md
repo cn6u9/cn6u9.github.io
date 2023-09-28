@@ -116,6 +116,7 @@ Browser
 chrome cvc-2023-2033 无poc  
 chrome CVE-2023-3079 https://github.com/mistymntncop/CVE-2023-3079    
 chrome CVE-2023-4863 https://github.com/mistymntncop/CVE-2023-4863 WebP in Google Chrome prior to 116.0.5845.187  
+chrome CVE-2023-4762 https://github.com/sherlocksecurity/CVE-2023-4762-Code-Review Google Chrome prior to 116.0.5845.179  
 
 other
 
