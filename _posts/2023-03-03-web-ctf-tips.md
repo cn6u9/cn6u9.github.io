@@ -38,6 +38,8 @@ CVE-2023-36900 无poc Windows Common Log File System Driver Elevation of Privile
 CVE-2023-29336 https://github.com/ayhan-dev/p0ropc Win32k Elevation of Privilege Vulnerability all version  
 CVE-2023-28229 https://github.com/Y3A/CVE-2023-28229 Windows CNG Key Isolation Service Elevation of Privilege Vulnerability  
 CVE-2023-29360 https://github.com/Nero22k/cve-2023-29360 Microsoft Streaming Service Elevation of Privilege Vulnerability windows流媒体提全  
+CVE-2023-36802 https://github.com/chompie1337/Windows_MSKSSRV_LPE_CVE-2023-36802 Windows 11 22H2  
+CVE-2023-36723 https://github.com/Wh04m1001/CVE-2023-36723 Windows Container Manager Service Elevation of Privilege Vulnerability  
 
 windows rce
 
@@ -99,7 +101,6 @@ CVE-2022-33679
 web
 
 Joomla 未授权访问漏洞 CVE-2023-23752
-
 Weblogic CVE-2023-21839 RCE  
 Weblogic CVE-2023-21931  无poc  
 CVE-2023-34192 Zimbra XSS To RCE  
@@ -110,6 +111,7 @@ CVE-2023-25135 https://github.com/getdrive/PoC/tree/main/2023/vbulletin vbulleti
 Spring Framework 6.0.7 and 5.3.26 fix cve-2023-20860 and cve-2023-20861  
 CVE-2023-34039 https://github.com/Cyb3rEnthusiast/CVE-2023-34039 VMware newest exploit  
 CVE-2023-41362 https://github.com/SorceryIE/CVE-2023-41362_MyBB_ACP_RCE MyBB_ACP_RCE  
+CVE-2023-22515 https://github.com/Chocapikk/CVE-2023-22515 Confluence Data Center  
 
 
 IOT  
