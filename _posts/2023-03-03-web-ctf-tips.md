@@ -141,7 +141,7 @@ CVE-2023-20871  https://github.com/ChriSanders22/CVE-2023-20871-poc VMware Fusio
 CVE-2023-34312  https://github.com/vi3t1/qq-tim-elevation Tencent QQ/TIM Local Privilege Elevation  
 CVE-2023-40031 https://github.com/webraybtl/CVE-2023-40031 notepad++堆缓冲区溢出漏洞  
 CVE-2023-26818 https://github.com/Zeyad-Azima/CVE-2023-26818 Telegram  
-
+CVE-2023-38545 https://github.com/imfht/CVE-2023-38545 curl 堆溢出 影响面积挺大  
 
 tips：  
 shellcode:
