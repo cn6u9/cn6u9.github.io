@@ -124,6 +124,7 @@ chrome cvc-2023-2033 无poc
 chrome CVE-2023-3079 https://github.com/mistymntncop/CVE-2023-3079    
 chrome CVE-2023-4863 https://github.com/mistymntncop/CVE-2023-4863 WebP in Google Chrome prior to 116.0.5845.187  
 chrome CVE-2023-4762 https://github.com/sherlocksecurity/CVE-2023-4762-Code-Review Google Chrome prior to 116.0.5845.179  
+ios Safari 17 CVE-2023-41993 https://github.com/po6ix/POC-for-CVE-2023-41993 iOS 16.7 and iPadOS 16.7, macOS Sonoma 14  
 
 other
 
