@@ -241,6 +241,12 @@ sp_MSforeachtable和sp_MSforeachdb
 
 ```
 
-
+```
+#查找所有带user和pass的txt
+find / -type f  -name "user*.txt" -or -name "pass*.txt" 2> /dev/null 
+#查找所有文件中的账号密码
+find / -type f|egrep -v "*.js"|egrep -v "*.css"|egrep -v "*.html"|egrep -v "*.htm"|egrep -v "*.woff"|egrep -v "*.jar"|egrep -v "*.java"|egrep -v "*.class"|egrep -v "*.properties"|egrep -v "*.MF"|egrep -v "*.tmp"|egrep -v "*.vm"|egrep -v "*.svn*"|egrep -v "*LICENSE*"|egrep -v "*.exe"|egrep -v "*.xml"|egrep -v "*.svg"|xargs egrep -s -i  "*user:|*user=|username:|username=|*pass:|*pass=|password:|password=|passwd:|passwd=|账号：|账号:|用户名：|用户名:|密码：|密码:" --color
+#若需同时执行可以用 & 连接，即'命令1&命令2'
+```
 
 # 小结
