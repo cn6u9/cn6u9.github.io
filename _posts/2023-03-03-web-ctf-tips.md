@@ -20,14 +20,12 @@ Wireguard 项目的 Wintun 接口
 OpenVPN 的 Tap 接口  
 opengnb  
 
+https://github.com/UCL-CREST/doublefetch c语言静态漏洞挖掘函数  
+
 windows lpe
-
 CVE-2023-21752 https://github.com/Wh04m1001/CVE-2023-21752   PoC for arbitrary file delete vulnerability in Windows Backup service
-
 CVE-2023–21746  https://github.com/blackarrowsec/redteam-research/tree/master/LPE%20via%20StorSvc LPE via StorSvc
-
 CVE-2023-21768 https://github.com/chompie1337/Windows_LPE_AFD_CVE-2023-21768 Windows 11 
-
 CVE-2023-21823 https://github.com/Elizarfish/CVE-2023-21823 windows bitmap组件漏洞 poc应该是假的  
 CVE-2023-29336 https://github.com/m-cetin/CVE-2023-29336 Win32k Local Privilege  
 CVE-2023-28252 https://github.com/fortra/CVE-2023-28252 clfs.sys  
@@ -103,6 +101,7 @@ web
 Joomla 未授权访问漏洞 CVE-2023-23752
 Weblogic CVE-2023-21839 RCE  
 Weblogic CVE-2023-21931  无poc  
+weblogic https://github.com/MMarch7/weblogic_CVE-2023-21931_POC-EXP  
 CVE-2023-34192 Zimbra XSS To RCE  
 CVE-2023-28467 mybb1.8.33 email xss  
 CVE-2023-32315 https://github.com/Pari-Malam/CVE-2023-32315 openfire  
@@ -143,6 +142,7 @@ CVE-2023-34312  https://github.com/vi3t1/qq-tim-elevation Tencent QQ/TIM Local P
 CVE-2023-40031 https://github.com/webraybtl/CVE-2023-40031 notepad++堆缓冲区溢出漏洞  
 CVE-2023-26818 https://github.com/Zeyad-Azima/CVE-2023-26818 Telegram  
 CVE-2023-38545 https://github.com/imfht/CVE-2023-38545 curl 堆溢出 影响面积挺大  
+CVE-2023-34051 https://github.com/horizon3ai/CVE-2023-34051 VMware vRealize Log Insight  
 
 tips：  
 shellcode:
