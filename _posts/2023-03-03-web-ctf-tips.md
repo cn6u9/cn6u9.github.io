@@ -88,7 +88,7 @@ Exchange  and  outlook
 CVE-2023-21707 https://github.com/N1k0la-T/CVE-2023-21707 Microsoft Exchange Server Remote Code Execution Vulnerability  
 CVE-2023-23397 https://github.com/CKevens/CVE-2023-23397-POC/blob/main/CVE-2023-23397.py outlook 2019 auto get NetNTLM  
 CVE-2023-29357 https://github.com/Chocapikk/CVE-2023-29357 Microsoft SharePoint Server Elevation of Privilege Vulnerability  
-
+CVE-2023-36745 https://github.com/N1k0la-T/CVE-2023-36745  Microsoft Exchange Server Remote Code Execution Vulnerability 需要在内网，需要有帐号  
 域控  
 https://github.com/Amulab/advul  
 CVE-2020-1472  
