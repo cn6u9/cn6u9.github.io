@@ -136,6 +136,7 @@ CVE-2023-27997 FortiOS SSL-VPN buffer overflow vulnerability
 CVE-2023-21554-RCE https://github.com/zoemurmure/CVE-2023-21554-PoC   Windows MessageQueuing PoC  
 CVE-2023-2868  https://github.com/cfielding-r7/poc-cve-2023-2868 梭子鱼本地提权漏洞poc在本地  
 CVE-2023-3519 Citrix RCE  
+CVE-2023-4966 https://github.com/Chocapikk/CVE-2023-4966 Citrix Memory Leak Exploit  
 
 CVE-2023-20871  https://github.com/ChriSanders22/CVE-2023-20871-poc VMware Fusion Raw Disk local privilege escalation vulnerability  
 CVE-2023-34312  https://github.com/vi3t1/qq-tim-elevation Tencent QQ/TIM Local Privilege Elevation  
