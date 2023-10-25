@@ -358,10 +358,11 @@ PORT="21 22 53 80 81 82 83 84 85 86 87 88 89 161 389 3690 7788 5985 512 513 514 
 for PORT in $PORT; do
     if echo &>/dev/null > /dev/tcp/$HOST/$PORT; then
         echo "$PORT open"
-    else
-        echo "$PORT close"
+   #else
+        #echo "$PORT close"
     fi
 done
+
 
 ```
 
