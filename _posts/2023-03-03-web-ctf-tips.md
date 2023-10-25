@@ -354,7 +354,7 @@ else
 ```
 #!/bin/bash
 HOST=$1
-PORT="22 25 80 8080"
+PORT="21 22 53 80 81 82 83 84 85 86 87 88 89 161 389 3690 7788 5985 512 513 514 873 1521 1025 2222 2601 2604 3128 3389 5632 5900 10000 28017 50000 50070 50030 135 139 443 445 1433 3306 5432 6379 7001 8000 8080 8089 9000 9200 11211 27017"
 for PORT in $PORT; do
     if echo &>/dev/null > /dev/tcp/$HOST/$PORT; then
         echo "$PORT open"
@@ -365,70 +365,6 @@ done
 
 ```
 
-```
-#!/bin/bash
-
-	#Portas Mais Comuns
-	PortsComun="21 22 53 80 81 82 83 84 85 86 87 88 89 161 389 3690 7788 5985 512 513 514 873 1521 1025 2222 2601 2604 3128 3389 5632 5900 10000 28017 50000 50070 50030 135 139 443 445 1433 3306 5432 6379 7001 8000 8080 8089 9000 9200 11211 27017"
-	
-	#Recebe o 2º argumento 
-	PORTS=$2
-
-	scan(){
-		timeout 2 bash -c "echo > /dev/tcp/$1/$2" && echo "Port $2 is open" || echo ""
-	}
-
-	scan_list(){
-		for port in $2;
-		do
-		scan $1 $port
-		done	
-	}
-
-	scan_range(){
-		for ((port=$2; port <= $3; port++));
-		do
-		scan $1 $port
-		done
-	}
-
-	if [ $# == 0 ]; then #Não tem parametros
-
-
-		echo "bash Portscan.sh <host> <Port> or <Port1 Port2 Port3 ...> or <port-port x> or <TOPPORT> or <ALL>"
-
-	elif [ $# == 1 ]; then #Só  tem um dos parametros
-
-
-		echo "bash Portscan.sh <host> <Port> or <Port1 Port2 Port3 ...> or <port-port x> or <TOPPORT> or <ALL>"
-
-	elif [ $# == 2 ]; then #Tem todos os parametros, vamos ver qual é o tipo de scan
-
-		if [[ $2 == *"-"* ]]; then #Range de Portas 
-
-		Port_Start=$(echo "$2" | awk -F - '{print $1}')
-		Port_End=$(echo "$2" | awk -F - '{print $2}')
-
-		scan_range $1 $Port_Start $Port_End
-		
-		elif [ $2 == "TOPPORT" ]; then  #Pesquisa pelas portas mais usadas
-
-		scan_list $1 "$PortsComun"
-
-		elif [ $2 == "ALL" ]; then #Pesquisa por todas as portas
-
-		Port_Start="1"
-		Port_End="65535"		
-
-		scan_range $1 $Port_Start $Port_End
-
-		else
-		
-		scan_list $1 "$2"
-		fi
-	fi
-
-```
 
 
 # 小结
