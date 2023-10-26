@@ -57,6 +57,7 @@ CVE-2022-30190 https://github.com/komomon/CVE-2022-30190-follina-Office-MSDT-Fix
 CVE-2023-40477 https://github.com/cn6u9/cn6u9.github.io/blob/main/tools/CVE-2023-40477.sh winrar rce  
 CVE-2023-38831 https://github.com/Garck3h/cve-2023-38831 winrar rce  
 wps rce  https://github.com/ba0gu0/wps-rce WPS Office 2023 个人版 < 11.1.0.15120---WPS Office 2019 企业版 < 11.8.2.12085  
+CVE-2022-21974 https://github.com/0vercl0k/CVE-2022-21974 winword  
 
 
 linux lpe
@@ -127,6 +128,11 @@ ios Safari 17 CVE-2023-41993 https://github.com/po6ix/POC-for-CVE-2023-41993 iOS
 
 Database  
 CVE-2023-22074 https://github.com/emad-almousa/CVE-2023-22074 Oracle Database Server 19.3-19.20 and 21.3-21.11  
+
+vmware esxi and vcenter  
+cve-2022-31705 https://github.com/s0duku/cve-2022-31705 Test on windows vmware workstation 16.2.0, with guest os ubuntu server 22  
+CVE-2021-21974 https://github.com/Shadow0ps/CVE-2021-21974 VMWare ESXi RCE Exploit  
+
 
 other
 
