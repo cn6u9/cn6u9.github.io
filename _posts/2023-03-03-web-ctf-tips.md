@@ -374,7 +374,21 @@ done
 
 
 ```
+```
+#!/bin/bash
+PORT="21 22"
+for i in {1..255}; do
+    HOST="192.168.1.$i"
 
+    for PORT in $PORT; do
+        if echo &>/dev/null > /dev/tcp/$HOST/$PORT; then
+            echo "$HOST:$PORT open"
+        #else
+            #echo "$HOST:$PORT close"
+        fi
+    done
+done
 
+```
 
 # 小结
