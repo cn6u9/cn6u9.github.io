@@ -132,6 +132,7 @@ CVE-2023-22074 https://github.com/emad-almousa/CVE-2023-22074 Oracle Database Se
 vmware esxi and vcenter  
 cve-2022-31705 https://github.com/s0duku/cve-2022-31705 Test on windows vmware workstation 16.2.0, with guest os ubuntu server 22  
 CVE-2021-21974 https://github.com/Shadow0ps/CVE-2021-21974 VMWare ESXi RCE Exploit  
+cve-2022-31680 https://www.idappcom.co.uk/post/vmware-vcenter-server-code-execution-cve-2022-31680 有帐号之后才能提权  
 
 
 other
