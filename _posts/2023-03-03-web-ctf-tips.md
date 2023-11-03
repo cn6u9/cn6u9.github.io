@@ -22,6 +22,7 @@ opengnb
 
 https://github.com/UCL-CREST/doublefetch c语言静态漏洞挖掘函数  
 https://github.com/sha0coder/maripyli 使用python2，是php静态代码分析工具  
+https://github.com/synacktiv/php_filter_chains_oracle_exploit 有意思的漏洞  
 
 windows lpe
 CVE-2023-21752 https://github.com/Wh04m1001/CVE-2023-21752   PoC for arbitrary file delete vulnerability in Windows Backup service
