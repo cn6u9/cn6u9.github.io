@@ -60,6 +60,7 @@ CVE-2023-40477 https://github.com/cn6u9/cn6u9.github.io/blob/main/tools/CVE-2023
 CVE-2023-38831 https://github.com/Garck3h/cve-2023-38831 winrar rce  
 wps rce  https://github.com/ba0gu0/wps-rce WPS Office 2023 个人版 < 11.1.0.15120---WPS Office 2019 企业版 < 11.8.2.12085  
 CVE-2022-21974 https://github.com/0vercl0k/CVE-2022-21974 winword  
+CVE-2023-28288 https://www.exploit-db.com/exploits/51543 Microsoft SharePoint Enterprise Server 2016 - Spoofing  
 
 
 linux lpe
