@@ -87,7 +87,7 @@ CVE-2023-2640 https://github.com/luanoliveira350/GameOverlayFS OverlayFS Ubuntu 
 CVE-2023-32629 https://github.com/g1vi/CVE-2023-2640-CVE-2023-32629 Ubuntu 18.04 and 22.04 LTS  kernels 5.19.0 and 6.2.0  
 CVE-2023-4911 https://github.com/RickdeJager/CVE-2023-4911 Ubuntu 22.10  glibc 2.34 ld.so  
 CVE-2023-3269 
-
+CVE-2023-1521 https://github.com/rubbxalc/CVE-2023-1521 Linux the sccache client lpe  
 
 Exchange  and  outlook  and hyper-v  
 CVE-2023-21707 https://github.com/N1k0la-T/CVE-2023-21707 Microsoft Exchange Server Remote Code Execution Vulnerability  
@@ -119,6 +119,8 @@ Spring Framework 6.0.7 and 5.3.26 fix cve-2023-20860 and cve-2023-20861
 CVE-2023-34039 https://github.com/Cyb3rEnthusiast/CVE-2023-34039 VMware newest exploit  
 CVE-2023-41362 https://github.com/SorceryIE/CVE-2023-41362_MyBB_ACP_RCE MyBB_ACP_RCE  
 CVE-2023-22515 https://github.com/Chocapikk/CVE-2023-22515 Confluence Data Center  
+CVE-2023-39539 https://github.com/AdamWen230/CVE-2023-39539-PoC cacti 1.2.22 rce  
+CVE-2020-35701 https://asaf.me/2020/12/15/cacti-1-2-0-to-1-2-16-sql-injection/ cacti 1.2.14 sql to rce  
 
 
 IOT  
