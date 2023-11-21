@@ -124,7 +124,7 @@ CVE-2023-41362 https://github.com/SorceryIE/CVE-2023-41362_MyBB_ACP_RCE MyBB_ACP
 CVE-2023-22515 https://github.com/Chocapikk/CVE-2023-22515 Confluence Data Center  
 CVE-2023-39539 https://github.com/AdamWen230/CVE-2023-39539-PoC cacti 1.2.22 rce  
 CVE-2020-35701 https://asaf.me/2020/12/15/cacti-1-2-0-to-1-2-16-sql-injection/ cacti 1.2.14 sql to rce  
-
+cve-2023-47444 https://0xbro.red/disclosures/disclosed-vulnerabilities/opencart-cve-2023-47444/  OpenCart版本4.0.0.0至4.0.2.3中存在一个漏洞  
 
 IOT  
 CVE-2023-3519 https://github.com/getdrive/PoC/tree/main/2023/Citrix%20ADC%20RCE%20CVE-2023-3519 Citrix VPX 13.1-48.47  
