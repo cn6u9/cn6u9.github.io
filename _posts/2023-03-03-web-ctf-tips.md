@@ -149,6 +149,10 @@ CVE-2021-21974 https://github.com/Shadow0ps/CVE-2021-21974 VMWare ESXi RCE Explo
 cve-2022-31680 https://www.idappcom.co.uk/post/vmware-vcenter-server-code-execution-cve-2022-31680 有帐号之后才能提权  
 CVE-2023-36553 https://github.com/kenit7s/CVE-2023-36553-RCE Fortinet FortiSIEM版本 RCE  
 
+Macos and ios 
+CVE-2023-41991 macos   
+CVE-2023-41993 iphone_os  
+
 other
 
 CVE-2022-44268 https://github.com/agathanon/cve-2022-44268 ImageMagick
