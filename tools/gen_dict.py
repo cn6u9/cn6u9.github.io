@@ -117,8 +117,16 @@ weak_password = [ "123456", "password", "12345678", "qwerty", "123456789",
                  "joshua", "cheese", "amanda", "summer", "love",
                  "ashley", "6969", "nicole", "chelsea", "biteme",
                  "matthew", "access", "yankees", "987654321", "dallas",
-                 "austin", "thunder", "taylor", "matrix", "minecraft"
-                 "a", "qwert", "ab", "abc","1q2w3e4r", "abcd", "qwer", "qwe","aa", "woaini", "asdf","zxc" ]
+                 "austin", "thunder", "taylor", "matrix", "minecraft",
+                 "a", "qwert", "ab", "abc","1q2w3e4r", "abcd", "qwer", "qwe","aa", "woaini", "asdf","zxc" ,
+                 '!', '@', '#', '$', '%', '^', '&', '*', ',', '.', '?', '-' 
+                 '123', '234', '345', '456', '567', '678', '789', '890',
+                 '!@', '@#', '#$', '$%', '%^', '^&', '&*', '*(', '()', 
+                 '!@#', '@#$', '#$%', '$%^', '%^&', '^&*', '&*(', '*()', ')_+',
+                 '1!1', '2@2', '3#3', '4$4', '5%5', '6^6', '7&7', '8*8', '9(9', '0)0',
+                 '@2@', '#3#', '$4$', '%5%', '^6^', '&7&', '*8*', '(9(', 
+                 '!@!', '@#@', '!@#$%', '1234', '12345', '123456', '123!@#', 
+                 '!!!', '@@@', '###', '$$$', '%%%', '^^^', '&&&', '***', '(((', ')))', '---', '+++']
 
 if name:
     name_a = ''
@@ -377,5 +385,4 @@ if __name__ == "__main__":
         qq_and_weak(qq_number=qq_number)
         if name:
             qq_and_name(qq_number=qq_number,name=name,name_ab=name_ab)
-
 
