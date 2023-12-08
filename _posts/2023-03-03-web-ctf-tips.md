@@ -42,12 +42,14 @@ CVE-2023-29360 https://github.com/Nero22k/cve-2023-29360 Microsoft Streaming Ser
 CVE-2023-36802 https://github.com/chompie1337/Windows_MSKSSRV_LPE_CVE-2023-36802 Windows 11 22H2  
 CVE-2023-36723 https://github.com/Wh04m1001/CVE-2023-36723 Windows Container Manager Service Elevation of Privilege Vulnerability  
 CVE-2023-36025 https://github.com/DamnIt74/CVE-2023-36025 Windows Defendor SmartScreen Bypass POC Exploit Code  
+CVE-2023-36036 https://bbs.kanxue.com/thread-279771.htm 无poc，过几天更新 Windows Cloud Files Mini Filter Driver 权限提升  
 
 windows rce
 
 CVE-2022-34718 https://github.com/numencyber/Vulnerability_PoC/blob/main/CVE-2022-34718/poc.cpp  TCP/IP RCE Vulnerability  
 CVE-2023-28231 https://github.com/numencyber/Vulnerability_PoC/blob/main/CVE-2023-28231/CVE-2023-28231-DHCP-VUL-PoC.cpp  MICROSOFT WINDOWS SERVER 2008-2019 DHCP SERVER  
 CVE-2023-28231 https://github.com/glavstroy/CVE-2023-28231  MICROSOFT WINDOWS SERVER 2008-2019 DHCP SERVER   
+CVE-2023-38148 https://github.com/Chestnuts4/POC/blob/master/CVE-2023-38148-windows-ics-rce/CVE-2023-38148.c Internet Connection Sharing (ICS) RCE  
 
 word and pdf and rar and wps
 
