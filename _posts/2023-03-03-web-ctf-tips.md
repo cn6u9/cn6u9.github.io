@@ -25,7 +25,7 @@ https://github.com/UCL-CREST/doublefetch c语言静态漏洞挖掘函数
 https://github.com/sha0coder/maripyli 使用python2，是php静态代码分析工具  
 https://github.com/synacktiv/php_filter_chains_oracle_exploit 有意思的漏洞  
 
-windows lpe
+windows lpe  
 CVE-2023-21752 https://github.com/Wh04m1001/CVE-2023-21752   PoC for arbitrary file delete vulnerability in Windows Backup service
 CVE-2023–21746  https://github.com/blackarrowsec/redteam-research/tree/master/LPE%20via%20StorSvc LPE via StorSvc
 CVE-2023-21768 https://github.com/chompie1337/Windows_LPE_AFD_CVE-2023-21768 Windows 11 
@@ -44,14 +44,14 @@ CVE-2023-36723 https://github.com/Wh04m1001/CVE-2023-36723 Windows Container Man
 CVE-2023-36025 https://github.com/DamnIt74/CVE-2023-36025 Windows Defendor SmartScreen Bypass POC Exploit Code  
 CVE-2023-36036 https://bbs.kanxue.com/thread-279771.htm 无poc，过几天更新 Windows Cloud Files Mini Filter Driver 权限提升  
 
-windows rce
+windows rce  
 
 CVE-2022-34718 https://github.com/numencyber/Vulnerability_PoC/blob/main/CVE-2022-34718/poc.cpp  TCP/IP RCE Vulnerability  
 CVE-2023-28231 https://github.com/numencyber/Vulnerability_PoC/blob/main/CVE-2023-28231/CVE-2023-28231-DHCP-VUL-PoC.cpp  MICROSOFT WINDOWS SERVER 2008-2019 DHCP SERVER  
 CVE-2023-28231 https://github.com/glavstroy/CVE-2023-28231  MICROSOFT WINDOWS SERVER 2008-2019 DHCP SERVER   
 CVE-2023-38148 https://github.com/Chestnuts4/POC/blob/master/CVE-2023-38148-windows-ics-rce/CVE-2023-38148.c Internet Connection Sharing (ICS) RCE  
 
-word and pdf and rar and wps
+word and pdf and rar and wps  
 
 CVE_2023_21716 https://github.com/Xnuvers007/CVE-2023-21716    RTF Crash POC
 
@@ -69,7 +69,7 @@ CVE-2023-36563 无poc Microsoft WordPad Information Disclosure Vulnerability
 CVE-2023-21608 https://github.com/hacksysteam/CVE-2023-21608 Adobe Acrobat Reader CAgg UaF RCE Exploit  
 
 
-linux lpe
+linux lpe  
 
 CVE-2023-22809  https://github.com/n3m1dotsys/CVE-2023-22809-sudoedit-privesc   sudo 1.8.0 to 1.9.12p1
 
@@ -111,7 +111,7 @@ CVE-2021-42287
 CVE-2022-26923  
 CVE-2022-33679  
 
-web
+web  
 
 Joomla 未授权访问漏洞 CVE-2023-23752
 Weblogic CVE-2023-21839 RCE  
@@ -158,7 +158,7 @@ Macos and ios
 CVE-2023-41991 macos   
 CVE-2023-41993 iphone_os  
 
-other
+other  
 
 CVE-2022-44268 https://github.com/agathanon/cve-2022-44268 ImageMagick
 cve-2022-31705 https://github.com/s0duku/cve-2022-31705 windows vmware workstation 16.2.0
