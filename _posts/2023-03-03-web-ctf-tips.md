@@ -95,6 +95,7 @@ CVE-2023-4911 https://github.com/RickdeJager/CVE-2023-4911 Ubuntu 22.10  glibc 2
 CVE-2023-3269 
 CVE-2023-1521 https://github.com/rubbxalc/CVE-2023-1521 Linux the sccache client lpe  
 cve-2023-2598 https://github.com/ysanatomic/io_uring_LPE-CVE-2023-2598/blob/main/exploit.c Linux Kernel io_uring 拒绝服务漏洞  
+CVE-2023-50254 https://github.com/febinrev/deepin-linux_reader_RCE-exploit Deepin Linux的默认文档阅读器deepin-reader在版本6.0.7  
 
 Exchange  and chrome and  outlook  and hyper-v  
 CVE-2022-41082 https://github.com/balki97/OWASSRF-CVE-2022-41082-POC NotProxyShell OWASSRF Vul Effecting Microsoft Exchange 
