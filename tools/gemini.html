@@ -112,13 +112,8 @@
       }
 
       #api-key {
-        position: fixed;
-        top: 60px;
-        right: 10px;
-        padding: 5px;
-        border: 1px solid #555;
-        background-color: #333;
-        color: #fff;
+
+        display: none;
       }
 
       .user,
@@ -167,18 +162,22 @@
   <body>
     <!-- <button id="toggle-menu">Toggle Chat History</button> -->
     <button id="new-chat-button">Start New Chat</button>
-    <button id="toggle-api-key">Show/Hide API Key</button>
+    <button id="toggle-api-key" style="display: none;">Show/Hide API Key</button> 
     <div class="menu">
       <ul id="chat-list">
         <!-- List of chats will be displayed here -->
       </ul>
     </div>
-    <input
-      type="text"
-      id="api-key"
-      placeholder="Enter your API key..."
-      style="display: block"
-    />
+
+<input
+  type="text"
+  id="api-key"
+  placeholder="Enter your API key..."
+  style="display: block !important;"
+  value="AIzaSyAUKzhN3gp-6HVqnR13iEWlJ93lAj2Cl0I"
+/>
+
+
     <div class="chat-container">
       <div class="chat-area">
         <h1>Gemini Pro API Chat</h1>
