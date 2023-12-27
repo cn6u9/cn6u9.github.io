@@ -244,6 +244,7 @@
         const apiKey = getCookie("apiKey");
         if (apiKey) {
           document.getElementById("api-key").value = apiKey;
+          document.getElementById("api-key").style.display = "none";
         }
       }
 
@@ -357,7 +358,7 @@
 
         messageInput.value = "";
       }
-      document.getElementById("api-key").style.display = "none";
+      
 
       // Call this function to display the API key field if it's already saved
       window.onload = function () {
