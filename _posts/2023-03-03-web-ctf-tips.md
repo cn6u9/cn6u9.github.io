@@ -138,6 +138,7 @@ cve-2023-47444 https://0xbro.red/disclosures/disclosed-vulnerabilities/opencart-
 cve-2023-34034 https://github.com/hotblac/cve-2023-34034 Spring Security 路径匹配权限绕过漏洞  
 CVE-2023-25690 https://github.com/thanhlam-attt/CVE-2023-25690 Apache HTTP Server 存在请求走私漏洞  
 CVE-2023-50164 https://github.com/jakabakos/CVE-2023-50164-Apache-Struts-RCE Apache Struts path traversal to RCE vulnerability  
+CVE-2023-41892 https://github.com/Faelian/CraftCMS_CVE-2023-41892 CraftCMS Unauthenticated RCE  
 
 IOT  
 CVE-2023-3519 https://github.com/getdrive/PoC/tree/main/2023/Citrix%20ADC%20RCE%20CVE-2023-3519 Citrix VPX 13.1-48.47  
@@ -177,6 +178,8 @@ CVE-2023-21554-RCE https://github.com/zoemurmure/CVE-2023-21554-PoC   Windows Me
 CVE-2023-2868  https://github.com/cfielding-r7/poc-cve-2023-2868 梭子鱼本地提权漏洞poc在本地  
 CVE-2023-3519 Citrix RCE  
 CVE-2023-4966 https://github.com/Chocapikk/CVE-2023-4966 Citrix Memory Leak Exploit  
+CVE-2023-43177 https://github.com/the-emmons/CVE-2023-43177 CrushFTP <= 10.5.1 RCE  
+
 
 CVE-2023-20871  https://github.com/ChriSanders22/CVE-2023-20871-poc VMware Fusion Raw Disk local privilege escalation vulnerability  
 CVE-2023-34312  https://github.com/vi3t1/qq-tim-elevation Tencent QQ/TIM Local Privilege Elevation  
@@ -186,6 +189,7 @@ CVE-2023-38545 https://github.com/imfht/CVE-2023-38545 curl 堆溢出 影响面�
 CVE-2023-34051 https://github.com/horizon3ai/CVE-2023-34051 VMware vRealize Log Insight  
 CVE-2023-46747 https://github.com/AliBrTab/CVE-2023-46747-POC F5 BIG-IP unauthenticated remote code execution  
 CVE-2023-51385 https://github.com/FeatherStark/CVE-2023-51385 OpenSSH <9.6 命令注入漏洞  
+CVE-2023-51764 https://github.com/duy-31/CVE-2023-51764 Postfix SMTP Smuggling - Expect Script POC  
 
 
 # 小结
