@@ -62,7 +62,10 @@
         border-radius: 10px;
         max-width: 80%;
       }
+      .api-key {
 
+        display: none;
+      }
       .user {
         background-color: #007bff;
         color: white;
@@ -108,14 +111,18 @@
     </style>
   </head>
   <body>
-    <input
-      type="text"
-      id="api-key"
-      placeholder="Enter your API key..."
-      style="display: block"
-    />
+
+<input
+  type="text"
+  id="api-key"
+  placeholder="Enter your API key..."
+  style="display: block; visibility: visible;"
+  value="AIzaSyAUKzhN3gp-6HVqnR13iEWlJ93lAj2Cl0I"
+/>
+
+
     <button id="new-chat-button">Start New Chat</button>
-    <button id="toggle-api-key">Show/Hide API Key</button>
+     <button id="toggle-api-key" style="display: none;">Show/Hide API Key</button> 
     <div class="chat-container">
       <div id="chat-list">
         <!-- Chat list will be displayed here -->
@@ -351,6 +358,7 @@
 
         messageInput.value = "";
       }
+      document.getElementById("api-key").style.display = "none";
 
       // Call this function to display the API key field if it's already saved
       window.onload = function () {
