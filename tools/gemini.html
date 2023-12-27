@@ -1,718 +1,201 @@
 <!DOCTYPE html>
-<html lang="en">
-
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>zodiac, by faetalize</title>
-    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/f/f0/Google_Bard_logo.svg"
-        type="image/x-icon">
-
-    <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/styles/github-dark.css">
-    <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/highlight.min.js"></script>
-</head>
-
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,200;0,400;0,800;1,200;1,400;1,800&display=swap');
-
-    @import url('https://fonts.googleapis.com/css2?family=Product+Sans&family=Google+Sans+Display:ital@0;1&family=Google+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Google+Sans+Text:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Material+Symbols+Outlined&family=Space+Mono&display=swap');
-
-    @font-face {
-        font-family: 'Material Symbols Outlined';
-        font-style: normal;
-        font-weight: 400;
-        src: url(https://fonts.gstatic.com/s/materialsymbolsoutlined/v154/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDCvHOej.woff2) format('woff2');
-    }
-
-    .material-symbols-outlined {
-        font-family: 'Material Symbols Outlined';
-        font-weight: normal;
-        font-style: normal;
-        font-size: 1.5rem;
-        line-height: 1;
-        letter-spacing: normal;
-        text-transform: none;
-        display: inline-block;
-        white-space: nowrap;
-        word-wrap: normal;
-        direction: ltr;
-        -webkit-font-feature-settings: 'liga';
-        font-feature-settings: "liga";
-        -webkit-font-smoothing: antialiased;
-
-    }
-
-    body {
-        font-family: 'Noto Sans', sans-serif;
-
-        margin: 0;
-    }
-
-    p {
-        margin: 0;
-        margin-bottom: 0.5rem;
-        padding: 0;
-        font-size: 1rem;
-    }
-
-    h1,
-    h2,
-    h3,
-    ol,
-    ul {
-        margin: 0;
-    }
-
-    h1 {
-        margin-bottom: 0.5rem;
-    }
-
-    a {
-        color: #3b82f6;
-    }
-
-    input,
-    textarea,
-    select {
-        border: 1px solid;
-        padding: 0.5rem;
-        border-radius: 0.5rem;
-        border: none;
-        font-family: noto sans, sans-serif;
-        font-size: 1rem;
-    }
-
-    button:focus {
-        outline: none;
-    }
-
-    .form {
-        display: none;
-        opacity: 0;
-        flex-direction: column;
-        width: 32rem;
-        gap: 0.5rem;
-        flex-grow: 1;
-        justify-content: center;
-    }
-
-    .overlay {
-        flex-direction: column;
-        display: none;
-        position: fixed;
-        opacity: 0;
-        top: 0;
-        left: 0;
-        width: 100dvw;
-        height: 100dvh;
-        backdrop-filter: blur(2rem);
-        z-index: 2;
-        justify-content: flex-start;
-        align-items: center;
-    }
-
-    .backButton {
-        position: absolute;
-        top: 1rem;
-        left: 1rem;
-        border: none;
-        background-color: transparent;
-        font-size: 1.5rem;
-        font-weight: 600;
-        transition: all 0.2s;
-
-    }
-
-    #btn-hide-sidebar {
-        display: none;
-    }
-
-    .message-container {
-        display: flex;
-        flex-direction: column-reverse;
-        overflow-y: auto;
-        gap: 1rem;
-        padding-bottom: 2rem;
-        flex-grow: 1;
-    }
-
-    .message-box {
-        display: flex;
-        position: relative;
-    }
-
-    .message {
-
-        padding: 1rem;
-    }
-
-    .message-model {
-        border-radius: 1rem;
-    }
-
-    #messageInput {
-        height: 2.5rem;
-        box-sizing: border-box;
-        text-wrap: wrap;
-        resize: none;
-        width: 100%;
-        padding-right: 2rem;
-    }
-
-    #messageInput::-webkit-scrollbar {
-        height: 1rem;
-        width: 0.5rem;
-    }
-
-    .btn-textual {
-        background: transparent !important;
-        margin: 0;
-        padding: 0;
-        border: none;
-        transition: all 0.2s;
-        cursor: pointer;
-        font-size: inherit;
-    }
-
-
-
-    #btn-send {
-        position: absolute;
-        right: 0.5rem;
-        bottom: 0.5rem;
-        font-size: 1.5rem;
-    }
-
-    .btn-array {
-        display: flex;
-        flex-direction: row;
-        gap: 0.5rem;
-        margin-top: 0.5rem;
-    }
-
-    .btn-array button {
-        flex-grow: 1;
-    }
-
-    .personality-prompt {
-        display: none;
-    }
-
-    .prompt-field {
-        resize: vertical;
-        height: 7rem;
-    }
-
-    .container {
-        box-sizing: border-box;
-        display: flex;
-        gap: 0.5rem;
-        padding: 1rem;
-
-
-        width: 100dvw;
-        height: 100dvh;
-
-    }
-
-    .sidebar {
-        position: sticky;
-        top: 1rem;
-
-        display: flex;
-        flex-direction: column;
-        overflow-y: auto;
-        gap: 0.5rem;
-        padding: 1rem;
-        width: 25rem;
-        border-radius: 1rem;
-        scrollbar-width: thin;
-        height: calc(100dvh - 4rem);
-        z-index: 1;
-    }
-
-    .sidebar-section {
-        margin-bottom: 1rem;
-        display: flex;
-        flex-direction: column;
-        gap: 0.5rem;
-    }
-
-    #btn-show-sidebar {
-        display: none;
-    }
-
-    .header {
-        display: flex;
-
-        box-sizing: border-box;
-        align-items: center;
-        font-size: 2rem;
-        font-weight: 800;
-        gap: 0.5rem;
-        width: 100%;
-    }
-
-    .navbar {
-        position: relative;
-        display: flex;
-        flex-direction: row;
-        border-radius: 0.5rem;
-        justify-content: space-evenly;
-        margin-bottom: 1rem;
-        z-index: 0;
-    }
-
-    .navbar-tab {
-        width: 100%;
-        padding: 0.5rem;
-        text-align: center;
-
-        z-index: 2;
-        -webkit-tap-highlight-color: transparent;
-        cursor: pointer;
-
-    }
-
-
-
-    .navbar-tab-highlight {
-        padding: 0;
-        margin: 0;
-        position: absolute;
-        border-radius: 0.5rem;
-        transition: all 0.2s;
+<html>
+  <head>
+    <title>Gemini Pro API Chat</title>
+    <style>
+      html,
+      body {
         height: 100%;
-        z-index: 1;
-        /* glow */
-        box-shadow: 0 0 1rem 0.05rem #29292a3f;
-    }
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #333;
+        color: #fff;
+      }
 
-    #gemini-pro-branding {
-        font-family: Google Sans Display, sans-serif;
-        color: #7c8a9c;
-        font-size: 1rem;
-        font-weight: 400;
-    }
-
-    #gemin-pro-logo {
-        width: 2rem;
-        height: 2rem;
-    }
-
-    .credits {
-        margin-top: auto;
-        display: flex;
-        padding: 0rem 1rem 0 1rem;
-
-        font-size: 0.75rem;
-        color: #7c8a9c;
-
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    button {
-        border: none;
-        background-color: #3b82f6;
+      #toggle-menu,
+      #new-chat-button {
+        position: fixed;
+        bottom: 10px;
+        background-color: #007bff;
         color: white;
-        padding: 0.5rem;
-        border-radius: 0.5rem;
-        transition: all 0.2s;
-    }
-
-    #mainContent {
-        display: flex;
-        flex-direction: column;
-        padding: 2rem;
-        margin-left: auto;
-        margin-right: auto;
-        width: 32rem;
-        text-align: justify;
-    }
-
-    .card-personality {
-        box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        -webkit-box-sizing: border-box;
-        color: #e4e4e4;
-        background-color: black;
-        background-size: cover;
-        background-position: center;
-        position: relative;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: end;
-        padding: 1rem;
-        border-radius: 1rem;
-        height: 10rem;
-        -webkit-tap-highlight-color: transparent;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 5px;
         cursor: pointer;
-        text-shadow: 0 0 10px #000000, 0 0 5px #181818;
-    }
+        z-index: 1;
+      }
 
-    .edit:hover {
-        text-shadow: 0 0 10px #e4e4e4, 0 0 5px #dfdfdf;
-    }
+      #toggle-menu {
+        left: 10px;
+      }
 
+      #new-chat-button {
+        left: calc(10px + 0px);
+      }
 
-    .card-personality * {
-        /* unselectable */
-        -webkit-user-select: none;
-        /* Safari */
-        -moz-user-select: none;
-        /* Firefox */
-        -ms-user-select: none;
-        /* IE10+/Edge */
-        user-select: none;
-        /* Standard */
+      #message-input.disabled {
+        background-color: #555;
+      }
 
-    }
-
-    .card-personality input {
-        display: none;
-    }
-
-    .btn-edit-card {
-        /* top right corner */
+      #loading-indicator {
         position: absolute;
-        top: 1rem;
-        right: 1rem;
-        color: #e4e4e4;
-    }
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      #send-button {
+        background-color: #007bff;
+        color: white;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
 
-    .btn-share-card {
-        /* bottom right corner */
-        position: absolute;
-        top: 1rem;
-        right: 2.5rem;
-        font-size: 1rem;
-        color: #e4e4e4;
-    }
+      #toggle-api-key {
+        position: fixed;
+        top: 10px;
+        right: 10px;
+      }
 
-    #btn-hide-overlay {
-        padding: 2rem;
-    }
+      .chat-container {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: calc(100% - 520px);
+        margin-left: 260px;
+      }
 
+      .menu {
+        background-color: #444;
+        padding: 10px;
+        width: 200px;
+        height: 100%;
+        overflow-y: auto;
+        position: fixed;
+        left: 0;
+        top: 0;
+        display: block; /* Show by default */
+      }
 
+      .show-menu {
+        display: block;
+      }
 
+      .chat-area {
+        flex-grow: 1;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+      }
 
-    @media (max-width: 768px) {
-        body {
-            margin: 0;
-            padding: 0;
-        }
+      .chat-history {
+        flex-grow: 1;
+        overflow-y: auto;
+        background-color: #222;
+        margin-bottom: 10px;
+        border: 1px solid #555;
+      }
 
+      .chat-input {
+        display: flex;
+      }
 
-        .container {
-            padding: 0;
+      #message-input {
+        flex-grow: 1;
+        margin-right: 10px;
+        padding: 5px;
+        border: 1px solid #555;
+        background-color: #333;
+        color: #fff;
+      }
 
-        }
+      #api-key {
+        position: fixed;
+        top: 60px;
+        right: 10px;
+        padding: 5px;
+        border: 1px solid #555;
+        background-color: #333;
+        color: #fff;
+      }
 
-        .message-container {
-            padding-left: 1rem;
-            padding-right: 1rem;
-        }
+      .user,
+      .model {
+        padding: 5px;
+        margin-bottom: 5px;
+        border-radius: 5px;
+      }
 
-        .sidebar {
-            top: 0;
-            height: calc(100dvh - 2rem);
-            margin: 0;
-            width: calc(100dvw - 2rem);
-            position: fixed;
-            border-radius: 0;
-            display: none;
-        }
+      .user {
+        background-color: #9dbdff;
+        text-align: right;
+        color: #000;
+      }
 
-        .navbar {
-            position: relative;
-        }
+      .model {
+        background-color: #f2f2f2;
+        color: #000;
+      }
 
+      .menu ul {
+        list-style-type: none;
+        padding: 0;
+      }
 
-        #btn-hide-sidebar {
-            display: block;
-        }
+      .menu ul li {
+        padding: 10px;
+        cursor: pointer;
+        border-bottom: 1px solid #555;
+        background-color: #555;
+        color: #fff;
+        margin: 5px;
+        border-radius: 8px;
+        transition: background-color 0.3s;
+      }
 
-        #mainContent {
-            padding: 0;
-            margin: 0;
-            width: 100%;
-        }
+      .menu ul li:hover {
+        background-color: #666;
+      }
 
-        #mainContent .header {
-            padding: 2rem;
-        }
-
-        #messageInput {
-            border-radius: 0;
-        }
-
-        #btn-show-sidebar {
-            display: block;
-        }
-    }
-
-
-    /* Light theme styles */
-    @media (prefers-color-scheme: light) {
-        :focus {
-            outline: 1px solid #8f9eb3;
-        }
-
-        body {
-            background-color: #f0f6ff;
-            color: #0a0a0a;
-        }
-
-        a {
-            color: #444ed6;
-        }
-
-        .sidebar {
-            background-color: #d2e2f7;
-        }
-
-        .navbar {
-            background-color: rgb(176 205 246);
-        }
-
-        .navbar-tab {
-            color: #0a0a0a;
-        }
-
-        .navbar-tab-highlight {
-            background-color: #87b0ed;
-        }
-
-        .btn-textual:hover {
-            text-shadow: 0 0 10px #000000;
-        }
-
-        button {
-            background-color: #83b5f7;
-
-            color: #2b3d59;
-        }
-
-        button:hover {
-            background-color: rgb(63, 191, 255);
-        }
-
-
-        input,
-        textarea,
-        select {
-            background-color: #f0f6ff;
-            outline: 1px solid #8f9eb3;
-        }
-
-        input::placeholder,
-        textarea::placeholder {
-            color: #7c8a9c;
-        }
-
-        .message-model {
-            background-color: #d2e2f7;
-        }
-    }
-
-    /* Dark theme styles */
-    @media (prefers-color-scheme: dark) {
-        :root {
-            color-scheme: dark;
-        }
-
-        :focus {
-            outline: 1px solid #73859e;
-        }
-
-
-
-        body {
-            background-color: #151e24;
-            color: #e4e4e4;
-        }
-
-        a {
-            color: #92d9eb;
-        }
-
-
-
-        .sidebar {
-            background-color: #1a2733;
-        }
-
-        .navbar {
-            background-color: #00000047;
-        }
-
-        .navbar-tab {
-            color: #e4e4e4;
-        }
-
-        .navbar-tab-highlight {
-            background-color: #22486b;
-
-            box-shadow: 0 0 1rem 0.05rem #29292aac;
-        }
-
-        button {
-            background-color: #22486b;
-            color: #c9d3ee;
-        }
-
-        button:hover {
-            background-color: #31689c;
-        }
-
-        .btn-textual {
-            color: #e4e4e4;
-        }
-
-        .btn-textual:hover {
-            text-shadow: 0 0 10px #ffffff, 0 0 5px #dfdfdf;
-        }
-
-        .edit:hover {
-            text-shadow: 0 0 10px #ffffff, 0 0 5px #dfdfdf;
-            /* Change #00ff00 to the color you want */
-        }
-
-        input,
-        textarea,
-        select {
-            background-color: #283542;
-
-            color: #e4e4e4;
-            border: none;
-        }
-
-        input::placeholder,
-        textarea::placeholder {
-            color: #849caf;
-        }
-
-
-        .message-model {
-            background-color: #1a2733;
-        }
-    }
-</style>
-
-<body>
-    <div class="container">
-        <div class="sidebar">
-            <div class="header">
-                <button class="material-symbols-outlined btn-textual" id="btn-hide-sidebar">
-                    arrow_back_ios_new
-                </button>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/f/f0/Google_Bard_logo.svg" id="gemin-pro-logo">
-                <div id="title-div">
-                    <div id="zodiac-branding">zodiac </div>
-                    <div id="gemini-pro-branding">powered by Gemini Pro</div>
-                </div>
-            </div>
-            <div class="navbar">
-                <div class="navbar-tab">Personalities</div>
-                <div class="navbar-tab">Settings</div>
-                <div class="navbar-tab-highlight"></div>
-            </div>
-
-            <div class="sidebar-section" id="personalitySection">
-                <label class="card-personality"
-                    style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.fonearena.com/blog/wp-content/uploads/2023/12/Google-Gemini-AI-1024x577.jpg')">
-                    <input type="radio" name="personality" value="zodiac3" checked>
-                    <div>
-                        <h3 class="personality-title">zodiac</h3>
-                        <p class="personality-description">zodiac is a cheerful assistant, always ready to help you with
-                            your tasks.</p>
-                        <p class="personality-prompt">You are zodiac, a helpful assistant created by faetalize, built
-                            upon Google's Gemini Pro model. Gemini Pro is a new LLM (Large Language Model) release by
-                            Google on December 2023. Your purpose is being a helpful assistant to the user.</p>
-                    </div>
-                    <button class="btn-textual btn-edit-card material-symbols-outlined"
-                        id="btn-edit-personality-default">edit</button>
-                    <button class="btn-textual btn-share-card material-symbols-outlined"
-                        id="btn-share-personality-default">share</button>
-                </label>
-                <div class="btn-array" id="btn-array-personality-section">
-                    <button id="btn-add-personality">Add Personality</button>
-                    <button id="btn-import-personality">Import</button>
-                </div>
-            </div>
-
-            <div class="sidebar-section">
-                <input type="text" placeholder="Paste API key here" id="apiKeyInput" class="input-field"></input>
-                <h3>Generation Settings:</h3>
-                <label for="maxTokens">Max Output Tokens:</label>
-                <input type="number" id="maxTokens" class="input-field" min="1" max="4000" value="1000"></input>
-                <label for="safetySettings">Safety Settings:</label>
-                <select id="safetySettings" class="input-field">
-                    <option value="safe">Safe</option>
-                    <option value="moderate">Moderate</option>
-                    <option value="risky">Risky</option>
-                </select>
-            </div>
-
-            <div class="credits">
-                Made by fætalize
-                <a href="https://github.com/faetalize/zodiac">Source Code</a>
-            </div>
-        </div>
-
-        <div id="mainContent">
-            <div class="header">
-                <button class="material-symbols-outlined btn-textual" id="btn-show-sidebar">
-                    menu
-                </button>
-            </div>
-            <div class="message-container"></div>
-            <div class="message-box">
-                <textarea type="text" placeholder="Type your message here" id="messageInput"
-                    class="input-field"></textarea>
-                <button type="submit" class="btn-textual material-symbols-outlined" id="btn-send">send</button>
-            </div>
-        </div>
+      .content {
+        white-space: pre-wrap;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <button id="toggle-menu">Toggle Chat History</button> -->
+    <button id="new-chat-button">Start New Chat</button>
+    <button id="toggle-api-key">Show/Hide API Key</button>
+    <div class="menu">
+      <ul id="chat-list">
+        <!-- List of chats will be displayed here -->
+      </ul>
     </div>
-
-    <div class="overlay">
-        <div class="header">
-            <button class="btn-textual" id="btn-hide-overlay">BACK</button>
+    <input
+      type="text"
+      id="api-key"
+      placeholder="Enter your API key..."
+      style="display: block"
+    />
+    <div class="chat-container">
+      <div class="chat-area">
+        <h1>Gemini Pro API Chat</h1>
+        <div class="chat-history">
+          <!-- Chat history will be displayed here -->
         </div>
-
-        <div class="form" id="form-add-personality">
-            <h1>Add Personality</h1>
-            <label for="personalityNameInput">Personality Name:</label>
-            <input type="text" placeholder="Personality Name" id="personalityNameInput" class="input-field"></input>
-            <label for="personalityDescriptionInput">Personality Description:</label>
-            <textarea id="personalityDescriptionInput" placeholder="Personality Description"
-                class="prompt-field"></textarea>
-            <label for="personalityImageURLInput">Personality Image URL:</label>
-            <input type="text" placeholder="Personality Image URL" id="personalityImageURLInput"
-                class="input-field"></input>
-            <label for="personalityPromptInput">Prompt:</label>
-            <textarea id="personalityPromptInput" placeholder="Personality Prompt" class="prompt-field"></textarea>
-            <button id="btn-submit-personality">Add Personality</button>
+        <div class="chat-input">
+          <textarea
+            id="message-input"
+            placeholder="Type your message..."
+          ></textarea>
+          <div id="loading-indicator" style="display: none">
+            Loading please wait...
+          </div>
+          <button id="send-button">Send</button>
         </div>
-
-        <div class="form" id="form-edit-personality">
-            <h1>Edit Personality</h1>
-            <label for="personalityNameInput">Personality Name:</label>
-            <input type="text" placeholder="Personality Name" id="personalityNameInput" class="input-field"></input>
-            <label for="personalityDescriptionInput">Personality Description:</label>
-            <textarea id="personalityDescriptionInput" placeholder="Personality Description"
-                class="prompt-field"></textarea>
-            <label for="personalityImageURLInput">Personality Image URL:</label>
-            <input type="text" placeholder="Personality Image URL" id="personalityImageURLInput"
-                class="input-field"></input>
-            <label for="personalityPromptInput">Prompt:</label>
-            <textarea id="personalityPromptInput" placeholder="Personality Prompt" class="prompt-field"></textarea>
-            <button id="updatePersonality">Save</button>
-        </div>
+      </div>
     </div>
 
     <script type="importmap">
@@ -724,445 +207,221 @@
     </script>
 
     <script type="module">
-        import { marked } from "https://cdn.jsdelivr.net/npm/marked/lib/marked.esm.js";
-        import { GoogleGenerativeAI } from "@google/generative-ai";
-        import { HarmBlockThreshold, HarmCategory } from "@google/generative-ai";
+      import { marked } from "https://cdn.jsdelivr.net/npm/marked/lib/marked.esm.js";
+      import { GoogleGenerativeAI } from "@google/generative-ai";
 
-        const safetySettings = [
-
-            {
-                category: HarmCategory.HARM_CATEGORY_HARASSMENT,
-                threshold: HarmBlockThreshold.BLOCK_NONE,
-            },
-            {
-                category: HarmCategory.HARM_CATEGORY_HATE_SPEECH,
-                threshold: HarmBlockThreshold.BLOCK_NONE,
-            },
-            {
-                category: HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT,
-                threshold: HarmBlockThreshold.BLOCK_NONE,
-            },
-            {
-                category: HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT,
-                threshold: HarmBlockThreshold.BLOCK_NONE,
-            }
-        ];
-        const systemPrompt = "If needed, format your answer using markdown." +
-            "Today's date is" + new Date().toDateString() + "." +
-            "End of system prompt.";
-
-        //load api key from local storage into input field
-        const API_KEY = document.querySelector("#apiKeyInput");
-        const maxTokens = document.querySelector("#maxTokens");
-        API_KEY.value = localStorage.getItem("API_KEY");
-        maxTokens.value = localStorage.getItem("MAX_TOKENS");
-
-
-        //function to hide element smoothly then setting display none after the transition time elapsed
-        function hideElement(element) {
-            element.style.transition = 'opacity 0.2s';
-            element.style.opacity = '0';
-            setTimeout(function () {
-                element.style.display = 'none';
-            }, 200);
+      function setCookie(name, value, days) {
+        var expires = "";
+        if (days) {
+          var date = new Date();
+          date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
+          expires = "; expires=" + date.toUTCString();
         }
+        document.cookie = name + "=" + (value || "") + expires + "; path=/";
+      }
 
-        function showElement(element) {
-            // Wait for other transitions to complete (0.2s delay)
-            setTimeout(function () {
-                // Change display property
-                element.style.display = 'flex';
-                // Wait for next frame for display change to take effect
-                requestAnimationFrame(function () {
-                    // Start opacity transition
-                    element.style.transition = 'opacity 0.2s';
-                    element.style.opacity = '1';
-                });
-            }, 200);
+      function getCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(";");
+        for (var i = 0; i < ca.length; i++) {
+          var c = ca[i];
+          while (c.charAt(0) == " ") c = c.substring(1, c.length);
+          if (c.indexOf(nameEQ) == 0)
+            return c.substring(nameEQ.length, c.length);
         }
+        return null;
+      }
 
+      function generateGUID() {
+        return ([1e7] + -1e3 + -4e3 + -8e3 + -1e11).replace(/[018]/g, (c) =>
+          (
+            c ^
+            (crypto.getRandomValues(new Uint8Array(1))[0] & (15 >> (c / 4)))
+          ).toString(16)
+        );
+      }
 
-        const tabs = document.querySelectorAll(".navbar-tab");
-        const sidebarViews = document.querySelectorAll(".sidebar-section");
-        const highlight = document.querySelector(".navbar-tab-highlight");
-        highlight.style.width = `calc(100% / ${tabs.length})`;
+      function saveChat(chatId, chatHistory) {
+        let chats = JSON.parse(localStorage.getItem("chats")) || {};
+        chats[chatId] = chatHistory;
+        localStorage.setItem("chats", JSON.stringify(chats));
+        updateChatList();
+      }
 
-
-
-        let currentTab = undefined;
-        function navigateTo(tab) {
-            if (tab == tabs[currentTab]) {
-                return;
-            }
-            // set the highlight to match the size of the tab element
-
-
-            let tabIndex = [...tabs].indexOf(tab);
-            if (tabIndex < 0 || tabIndex >= sidebarViews.length) {
-                console.error("Invalid tab index: " + tabIndex);
-                return;
-            }
-
-            if (currentTab != undefined) {
-                hideElement(sidebarViews[currentTab]);
-            }
-            showElement(sidebarViews[tabIndex]);
-            currentTab = tabIndex;
-
-            highlight.style.left = `calc(100% / ${tabs.length} * ${tabIndex})`;
-
+      function loadChat(chatId) {
+        let chats = JSON.parse(localStorage.getItem("chats")) || {};
+        if (chats[chatId]) {
+          chatHistory = chats[chatId];
+          currentChatId = chatId;
+          updateChatHistory();
         }
+      }
 
-        tabs.forEach(element => {
-            element.addEventListener("click", () => {
-
-                navigateTo(element);
-            })
-        });
-
-        sidebarViews.forEach(view => {
-            hideElement(view);
-        });
-
-
-        navigateTo(tabs[0]);
-
-
-
-        const personalityCardsInnerInput = document.querySelectorAll(".card-personality input");
-        let personalityCards = document.querySelectorAll(".card-personality");
-        const formsOverlay = document.querySelector(".overlay");
-        const hideOverlayButton = document.querySelector("#btn-hide-overlay");
-        const addPersonalityForm = document.querySelector("#form-add-personality");
-        const addPersonalityButton = document.querySelector("#btn-add-personality");
-        const editDefaultPersonalityForm = document.querySelector("#form-edit-personality");
-        const editDefaultPersonalityButton = document.querySelector("#btn-edit-personality-default");
-        const submitNewPersonalityButton = document.querySelector("#btn-submit-personality");
-        const updatePersonalityButton = document.querySelector("#updatePersonality");
-
-        const sendMessageButton = document.querySelector("#btn-send");
-
-
-        function darkenBg(element) {
-
-            let elementBackgroundImageURL = element.style.backgroundImage.match(/url\((.*?)\)/)[1].replace(/('|")/g, '');
-            element.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('${elementBackgroundImageURL}')`;
-        }
-
-
-        function lightenBg(element) {
-
-            let elementBackgroundImageURL = element.style.backgroundImage.match(/url\((.*?)\)/)[1].replace(/('|")/g, '');
-            element.style.backgroundImage = `url('${elementBackgroundImageURL}')`;
-        }
-
-
-        function sharePersonality(personality) {
-            //export personality to json
-            const personalityJSON = {
-                name: personality.querySelector(".personality-title").innerText,
-                description: personality.querySelector(".personality-description").innerText,
-                prompt: personality.querySelector(".personality-prompt").innerText,
-                //base64 encode image
-                image: personality.style.backgroundImage.match(/url\((.*?)\)/)[1].replace(/('|")/g, '')
-            }
-            const personalityJSONString = JSON.stringify(personalityJSON);
-            //download
-            const element = document.createElement('a');
-            element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(personalityJSONString));
-            element.setAttribute('download', `${personalityJSON.name}.json`);
-            element.style.display = 'none';
-            document.body.appendChild(element);
-            element.click();
-            document.body.removeChild(element);
-
-
-        }
-
-        //handle share button click
-        personalityCards.forEach(card => {
-            const shareButton = card.querySelector(".btn-share-card");
-            shareButton.addEventListener("click", () => {
-                sharePersonality(card);
-            })
-        });
-
-        const importPersonalityButton = document.querySelector("#btn-import-personality");
-        importPersonalityButton.addEventListener("click", () => {
-            const fileInput = document.createElement('input');
-            fileInput.type = 'file';
-            fileInput.addEventListener('change', () => {
-                const file = fileInput.files[0];
-                const reader = new FileReader();
-                reader.onload = function (e) {
-                    const personalityJSON = JSON.parse(e.target.result);
-                    insertPersonality(personalityJSON);
-                };
-                reader.readAsText(file);
-            });
-            fileInput.click();
-        });
-
-        //handle radio input check change
-        personalityCardsInnerInput.forEach(input => {
-            input.addEventListener("change", () => {
-                // Darken all cards
-                personalityCards.forEach(card => {
-                    const cardBackgroundImageURL = card.style.backgroundImage.match(/url\((.*?)\)/)[1].replace(/('|")/g, '');
-                    card.style.outline = "0px solid rgb(150 203 236)";
-                    darkenBg(card);
-                })
-
-                // Lighten selected card
-                input.parentElement.style.outline = "3px solid rgb(150 203 236)";
-                lightenBg(input.parentElement);
-            })
-            // Set initial outline
-            if (input.checked) {
-                lightenBg(input.parentElement);
-                input.parentElement.style.outline = "3px solid rgb(150 203 236)";
-            }
-        })
-
-        function showAddPersonalityForm() {
-            showElement(formsOverlay);
-            showElement(addPersonalityForm);
-        }
-
-        function showEditPersonalityForm() {
-            showElement(formsOverlay);
-            showElement(editDefaultPersonalityForm);
-        }
-
-        function closeOverlay() {
-            hideElement(formsOverlay);
-            hideElement(addPersonalityForm);
-            hideElement(editDefaultPersonalityForm);
-        }
-
-
-        function insertPersonality(personalityJSON){
-            const personalitySection = document.querySelector("#personalitySection");
-            const personalitySectionActions = document.querySelector("#btn-array-personality-section");
-
-            const personalityCard = document.createElement("label");
-            personalityCard.classList.add("card-personality");
-            personalityCard.style.backgroundImage = `url('${personalityJSON.image}')`;
-            personalityCard.innerHTML = `
-            <input type="radio" name="personality" value="${personalityJSON.name}">
-            <div>
-                <h3 class="personality-title">${personalityJSON.name}</h3>
-                <p class="personality-description">${personalityJSON.description}</p>
-                <p class="personality-prompt">${personalityJSON.prompt}</p>
-            </div>
-            <button class="btn-textual btn-edit-card material-symbols-outlined" id="btn-edit-personality-${personalityJSON.name}">edit</button>
-            <button class="btn-textual btn-share-card material-symbols-outlined" id="btn-share-personality-${personalityJSON.name}">share</button>
-            `;
-
-            //insert personality card before the button array
-            personalitySection.insertBefore(personalityCard, personalitySectionActions);
-
-            darkenBg(personalityCard);
-
-            personalityCards = document.querySelectorAll(".card-personality");
-            //add input event listener
-            personalityCard.querySelector("input").addEventListener("change", () => {
-                // Darken all cards
-                personalityCards.forEach(card => {
-                    const cardBackgroundImageURL = card.style.backgroundImage.match(/url\((.*?)\)/)[1].replace(/('|")/g, '');
-                    card.style.outline = "0px solid rgb(150 203 236)";
-                    darkenBg(card);
-                })
-
-                // Lighten selected card
-                personalityCard.style.outline = "3px solid rgb(150 203 236)";
-                lightenBg(personalityCard);
-            })
-
-            const sharebtn = personalityCard.querySelector(".btn-share-card");
-            sharebtn.addEventListener("click", () => {
-                sharePersonality(personalityCard);
+        function updateChatList() {
+            const chatList = document.getElementById("chat-list");
+            chatList.innerHTML = "";
+            let chats = JSON.parse(localStorage.getItem("chats")) || {};
+            Object.keys(chats).forEach((chatId) => {
+                // Filter and concatenate only user messages
+                const chatPreview = chats[chatId]
+                    .filter(m => m.role === "user")
+                    .map(m => m.parts)
+                    .join(" ")
+                    .substring(0, 50) + "..."; // Truncate to 50 characters
+                const listItem = document.createElement("li");
+                listItem.textContent = `Chat: ${chatPreview}`;
+                listItem.onclick = () => loadChat(chatId);
+                chatList.appendChild(listItem);
             });
         }
 
-        function submitNewPersonality() {
-            const personalityName = document.querySelector("#form-add-personality #personalityNameInput");
-            const personalityDescription = document.querySelector("#form-add-personality #personalityDescriptionInput");
-            const personalityImageURL = document.querySelector("#form-add-personality #personalityImageURLInput");
-            const personalityPrompt = document.querySelector("#form-add-personality #personalityPromptInput");
-            const personalitySection = document.querySelector("#personalitySection");
+      function startNewChat() {
+        currentChatId = generateGUID(); // Assign new GUID
+        chatHistory = [];
+        updateChatHistory();
+      }
 
+      function updateChatHistory() {
+        const chatHistoryContainer = document.querySelector(".chat-history");
+        chatHistoryContainer.innerHTML = "";
 
-            if (personalityName.value == "") {
-                alert("Please enter a personality name");
-                return;
-            }
-            if (personalityPrompt.value == "") {
-                alert("Please enter a personality prompt");
-                return;
-            }
-
-            //to json
-            const personalityJSON = {
-                name: personalityName.value,
-                description: personalityDescription.value,
-                prompt: personalityPrompt.value,
-                image: personalityImageURL.value
-            }
-            insertPersonality(personalityJSON);
-            closeOverlay();
+        for (const message of chatHistory) {
+          const messageElement = document.createElement("div");
+          messageElement.classList.add(message.role);
+          messageElement.innerHTML = message.parts; // Render markdown properly
+          chatHistoryContainer.appendChild(messageElement);
         }
 
-        async function run() {
-            const msg = document.querySelector("#messageInput");
-            const msgText = msg.value;
-            const messageContainer = document.querySelector(".message-container");
-            const maxTokens = document.querySelector("#maxTokens");
-            const API_KEY = document.querySelector("#apiKeyInput");
-            const selectedPersonalityTitle = document.querySelector("input[name='personality']:checked + div .personality-title").innerText;
-            const selectedPersonalityDescription = document.querySelector("input[name='personality']:checked + div .personality-description").innerText;
-            const selectedPersonalityPrompt = document.querySelector("input[name='personality']:checked + div .personality-prompt").innerText;
+        chatHistoryContainer.scrollTop = chatHistoryContainer.scrollHeight;
+      }
 
+      function loadApiKey() {
+        const apiKey = getCookie("apiKey");
+        if (apiKey) {
+          document.getElementById("api-key").value = apiKey;
+        }
+      }
 
-            //chat history
-            const chatHistory = [];
-            //get chat history from message container
-            const messageElements = messageContainer.querySelectorAll(".message");
-            messageElements.forEach(element => {
-                const messageroleapi = element.querySelector(".message-role-api").innerText;
-                const messagetext = element.querySelector(".message-text").innerText;
-                chatHistory.push({
-                    role: messageroleapi,
-                    parts: [{ text: messagetext }]
-                })
-            })
-            //reverse order of chat history
-            chatHistory.reverse();
+      function saveApiKey(apiKey) {
+        setCookie("apiKey", apiKey, 30); // Save for 30 days
+      }
 
-            //
-            const toneExamples = [];
+      let chat = null;
+      let chatHistory = [];
+      let currentChatId = Date.now().toString(); // Initial chat ID
 
+      loadApiKey();
+      updateChatList();
+      loadChat(currentChatId); // Load the latest chat or start a new one
 
-            if (API_KEY.value == "") {
-                alert("Please enter an API key");
-                return;
-            }
+      document
+        .getElementById("new-chat-button")
+        .addEventListener("click", startNewChat);
 
-            const generationConfig = {
-                maxOutputTokens: maxTokens.value,
-                temperature: 0.9
-            };
-            const genAI = new GoogleGenerativeAI(API_KEY.value);
+    //   document
+    //     .getElementById("toggle-menu")
+    //     .addEventListener("click", function () {
+    //       document.querySelector(".menu").classList.toggle("show-menu");
+    //     });
+
+      document
+        .getElementById("toggle-api-key")
+        .addEventListener("click", function () {
+          let apiKeyInput = document.getElementById("api-key");
+          apiKeyInput.style.display =
+            apiKeyInput.style.display === "none" ? "block" : "none";
+        });
+
+      document
+        .getElementById("message-input")
+        .addEventListener("keydown", function (event) {
+          if (event.key === "Enter" && !event.shiftKey) {
+            event.preventDefault();
+            sendMessage();
+          }
+        });
+
+      const sendButton = document.getElementById("send-button");
+      sendButton.addEventListener("click", sendMessage);
+
+      async function sendMessage() {
+        const apiKeyInput = document.getElementById("api-key");
+        const apiKey = apiKeyInput.value.trim();
+        if (apiKey === "") {
+          alert("Please enter your API key.");
+          return;
+        }
+
+        saveApiKey(apiKey);
+
+        const genAI = new GoogleGenerativeAI(apiKey);
+
+        const messageInput = document.getElementById("message-input");
+        const loadingIndicator = document.getElementById("loading-indicator");
+        const message = messageInput.value.trim();
+        if (message === "") return;
+
+        // Disable message input and show loading indicator
+        messageInput.classList.add("disabled");
+        messageInput.disabled = true;
+        loadingIndicator.style.display = "block";
+
+        try {
+          const userMessage = { role: "user", parts: message };
+
+          if (!chat) {
             const model = genAI.getGenerativeModel({ model: "gemini-pro" });
-            const chat = model.startChat({
-                generationConfig, safetySettings,
-                history: [
-                    {
-                        role: "user",
-                        parts: [{ text: `Personality Name: ${selectedPersonalityTitle}, Personality Description: ${selectedPersonalityDescription}, Personality Prompt: ${selectedPersonalityPrompt}. ${systemPrompt}` }]
-                    },
-                    {
-                        role: "model",
-                        parts: [{ text: `Okay. From now on, I shall play the role of ${selectedPersonalityTitle}. Your prompt and described personality will be used for the rest of the conversation.` }]
-                    },
-                    ...toneExamples,
-                    ...chatHistory
-                ]
-            })
+            // Include the entire chat history as context only when initializing the chat
+            chat = model.startChat({
+              history: chatHistory,
+              generationConfig: { maxOutputTokens: 1000 },
+            });
+          }
 
+          chatHistory.push(userMessage);
+          updateChatHistory();
 
+          if (!currentChatId) {
+            currentChatId = generateGUID();
+          }
 
-            msg.value = "";
-            //create new message div for the user's message then append to message container's top
-            const newMessage = document.createElement("div");
-            newMessage.classList.add("message");
-            newMessage.innerHTML = `
-            <h3 class="message-role">You:</h3>
-            <div class="message-role-api" style="display: none;">user</div>
-            <p class="message-text">${msgText}</p>
-            `;
-            messageContainer.insertBefore(newMessage, messageContainer.firstChild);
+          // Subsequent messages do not include the entire history
+          try {
+            const result = await chat.sendMessage(message);
+            const responseText = marked(result.response.text());
 
-            const result = await chat.sendMessageStream(msgText);
+            const modelMessage = { role: "model", parts: responseText };
+            chatHistory.push(modelMessage);
 
-            //create new message div for the model's reply then append to message container's top
-            const newReply = document.createElement("div");
-            newReply.classList.add("message");
-            newReply.classList.add("message-model");
-            newReply.innerHTML = `
-            <h3 class="message-role">${selectedPersonalityTitle}:</h3>
-            <div class="message-role-api" style="display: none;">model</div>
-            <p class="message-text">`;
+            updateChatHistory();
+            saveChat(currentChatId, chatHistory);
+          } catch (error) {
+            console.error("Error sending message:", error);
+          }
 
-            //get the p element inside the message div
-            const replyText = newReply.querySelector(".message-text");
-
-
-            messageContainer.insertBefore(newReply, messageContainer.firstChild);
-
-            let rawText = "";
-            for await (const chunk of result.stream) {
-                console.log("hello");
-                rawText += chunk.text();
-                replyText.innerHTML = marked(rawText);
-                void replyText.offsetHeight; // Force reflow
-                hljs.highlightAll();
-            }
-
-            //save api key to local storage
-            localStorage.setItem("API_KEY", API_KEY.value);
-            localStorage.setItem("MAX_TOKENS",maxTokens.value);
-
+          // After receiving the response
+          messageInput.classList.remove("disabled");
+          messageInput.disabled = false;
+          loadingIndicator.style.display = "none";
+        } catch (error) {
+          console.error("Error sending message:", error);
+          messageInput.classList.remove("disabled");
+          messageInput.disabled = false;
+          loadingIndicator.style.display = "none";
         }
 
+        messageInput.value = "";
+      }
 
-        const messageInput = document.querySelector("#messageInput");
-
-        //if more than one line, set height to scrollheight, and revert upon delete
-        messageInput.addEventListener("input", () => {
-            if (messageInput.value.split("\n").length == 1) {
-                messageInput.style.height = "2.5rem";
-            }
-            else {
-                messageInput.style.height = "";
-                messageInput.style.height = messageInput.scrollHeight + "px";
-            }
-        })
-
-
-        const sidebarDismissButton = document.querySelector("#btn-hide-sidebar");
-        sidebarDismissButton.addEventListener("click", () => {
-            hideElement(document.querySelector(".sidebar"));
-        })
-
-        const showSidebarButton = document.querySelector("#btn-show-sidebar");
-        showSidebarButton.addEventListener("click", () => {
-            showElement(document.querySelector(".sidebar"));
-        })
-
-
-        //unhide sidebar if width > 768px (event hander)
-        window.addEventListener("resize", () => {
-            if (window.innerWidth > 768) {
-                showElement(document.querySelector(".sidebar"));
-            }
-        })
-
-
-        hideOverlayButton.addEventListener("click", closeOverlay);
-
-        addPersonalityButton.addEventListener("click", showAddPersonalityForm);
-
-        editDefaultPersonalityButton.addEventListener("click", showEditPersonalityForm);
-
-        submitNewPersonalityButton.addEventListener("click", submitNewPersonality);
-
-        sendMessageButton.addEventListener("click", run);
-
-
-        // ...
+      // Call this function to display the API key field if it's already saved
+      window.onload = function () {
+        loadApiKey();
+        const apiKey = getCookie("apiKey");
+        if (apiKey) {
+          document.getElementById("toggle-api-key").click();
+        }
+        startNewChat();
+      };
     </script>
-
-</body>
-
+  </body>
 </html>
