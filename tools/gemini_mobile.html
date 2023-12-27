@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gemini Pro API Chat</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        font-family: "Arial", sans-serif;
+        background-color: #111;
+        color: #fff;
+      }
+
+      /* Global button styling */
+      button {
+        background-color: #007bff;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        font-size: 16px;
+        outline: none;
+      }
+
+      /* Input field styling */
+      input[type="text"],
+      textarea {
+        width: calc(100% - 48px); /* Adjust width with padding and button */
+        padding: 10px 20px;
+        margin: 10px 0;
+        border: none;
+        border-radius: 20px;
+        background-color: #333;
+        color: #fff;
+        font-size: 16px;
+        outline: none;
+      }
+
+      /* Container for chat and input */
+      .chat-container {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+      }
+
+      /* Chat history area */
+      .chat-history {
+        flex-grow: 1;
+        padding: 10px;
+        overflow-y: auto;
+        background-color: #000; /* Darker background for chat area */
+      }
+
+      /* User and model message styling */
+      .user,
+      .model {
+        padding: 10px;
+        margin: 5px 0;
+        border-radius: 10px;
+        max-width: 80%;
+      }
+
+      .user {
+        background-color: #007bff;
+        color: white;
+        align-self: flex-end; /* Align to right */
+      }
+
+      .model {
+        background-color: #222; /* Slightly lighter than background for visibility */
+        color: #fff;
+        align-self: flex-start; /* Align to left */
+      }
+
+      /* Chat input area styling */
+      .chat-input {
+        display: flex;
+        flex-shrink: 0;
+        padding: 10px;
+        background: #222;
+      }
+
+      #chat-list {
+        max-height: 100px; /* Set a suitable max-height */
+        overflow-y: auto; /* Enable vertical scroll */
+        padding: 10px; /* Optional: for better spacing */
+      }
+
+      /* Button inside chat input area */
+      #send-button {
+        margin-left: 10px;
+      }
+
+      /* Media queries for responsiveness */
+      @media only screen and (max-width: 768px) {
+        .chat-container {
+          margin-left: 0;
+        }
+
+        input[type="text"],
+        textarea {
+          width: calc(100% - 68px); /* Adjust for smaller screens */
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <input
+      type="text"
+      id="api-key"
+      placeholder="Enter your API key..."
+      style="display: block"
+    />
+    <button id="new-chat-button">Start New Chat</button>
+    <button id="toggle-api-key">Show/Hide API Key</button>
+    <div class="chat-container">
+      <div id="chat-list">
+        <!-- Chat list will be displayed here -->
+      </div>
+      <div class="chat-history">
+        <!-- Chat history will be displayed here -->
+      </div>
+      <div class="chat-input">
+        <textarea
+          id="message-input"
+          placeholder="Type your message..."
+        ></textarea>
+        <button id="send-button">Send</button>
+      </div>
+    </div>
+
+    <script type="importmap">
+      {
+        "imports": {
+          "@google/generative-ai": "https://esm.run/@google/generative-ai"
+        }
+      }
+    </script>
+
+    <script type="module">
+      import { marked } from "https://cdn.jsdelivr.net/npm/marked/lib/marked.esm.js";
+      import { GoogleGenerativeAI } from "@google/generative-ai";
+
+      function setCookie(name, value, days) {
+        var expires = "";
+        if (days) {
+          var date = new Date();
+          date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
+          expires = "; expires=" + date.toUTCString();
+        }
+        document.cookie = name + "=" + (value || "") + expires + "; path=/";
+      }
+
+      function getCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(";");
+        for (var i = 0; i < ca.length; i++) {
+          var c = ca[i];
+          while (c.charAt(0) == " ") c = c.substring(1, c.length);
+          if (c.indexOf(nameEQ) == 0)
+            return c.substring(nameEQ.length, c.length);
+        }
+        return null;
+      }
+
+      function generateGUID() {
+        return ([1e7] + -1e3 + -4e3 + -8e3 + -1e11).replace(/[018]/g, (c) =>
+          (
+            c ^
+            (crypto.getRandomValues(new Uint8Array(1))[0] & (15 >> (c / 4)))
+          ).toString(16)
+        );
+      }
+
+      function saveChat(chatId, chatHistory) {
+        let chats = JSON.parse(localStorage.getItem("chats")) || {};
+        chats[chatId] = chatHistory;
+        localStorage.setItem("chats", JSON.stringify(chats));
+        updateChatList();
+      }
+
+      function loadChat(chatId) {
+        let chats = JSON.parse(localStorage.getItem("chats")) || {};
+        if (chats[chatId]) {
+          chatHistory = chats[chatId];
+          currentChatId = chatId;
+          updateChatHistory();
+        }
+      }
+
+      function updateChatList() {
+        const chatList = document.getElementById("chat-list");
+        chatList.innerHTML = "";
+        let chats = JSON.parse(localStorage.getItem("chats")) || {};
+
+        // Reverse the order of chat keys
+        Object.keys(chats)
+          .reverse()
+          .forEach((chatId) => {
+            // Filter and concatenate only user messages
+            const chatPreview =
+              chats[chatId]
+                .filter((m) => m.role === "user")
+                .map((m) => m.parts)
+                .join(" ")
+                .substring(0, 50) + "..."; // Truncate to 50 characters
+            const listItem = document.createElement("li");
+            listItem.textContent = `Chat: ${chatPreview}`;
+            listItem.onclick = () => loadChat(chatId);
+            chatList.appendChild(listItem);
+          });
+      }
+
+      function startNewChat() {
+        currentChatId = generateGUID(); // Assign new GUID
+        chatHistory = [];
+        updateChatHistory();
+      }
+
+      function updateChatHistory() {
+        const chatHistoryContainer = document.querySelector(".chat-history");
+        chatHistoryContainer.innerHTML = "";
+
+        for (const message of chatHistory) {
+          const messageElement = document.createElement("div");
+          messageElement.classList.add(message.role);
+          messageElement.innerHTML = message.parts; // Render markdown properly
+          chatHistoryContainer.appendChild(messageElement);
+        }
+
+        chatHistoryContainer.scrollTop = chatHistoryContainer.scrollHeight;
+      }
+
+      function loadApiKey() {
+        const apiKey = getCookie("apiKey");
+        if (apiKey) {
+          document.getElementById("api-key").value = apiKey;
+        }
+      }
+
+      function saveApiKey(apiKey) {
+        setCookie("apiKey", apiKey, 30); // Save for 30 days
+      }
+
+      let chat = null;
+      let chatHistory = [];
+      let currentChatId = Date.now().toString(); // Initial chat ID
+
+      loadApiKey();
+      updateChatList();
+      loadChat(currentChatId); // Load the latest chat or start a new one
+
+      document
+        .getElementById("new-chat-button")
+        .addEventListener("click", startNewChat);
+
+      //   document
+      //     .getElementById("toggle-menu")
+      //     .addEventListener("click", function () {
+      //       document.querySelector(".menu").classList.toggle("show-menu");
+      //     });
+
+      document
+        .getElementById("toggle-api-key")
+        .addEventListener("click", function () {
+          let apiKeyInput = document.getElementById("api-key");
+          apiKeyInput.style.display =
+            apiKeyInput.style.display === "none" ? "block" : "none";
+        });
+
+      document
+        .getElementById("message-input")
+        .addEventListener("keydown", function (event) {
+          if (event.key === "Enter" && !event.shiftKey) {
+            event.preventDefault();
+            sendMessage();
+          }
+        });
+
+      const sendButton = document.getElementById("send-button");
+      sendButton.addEventListener("click", sendMessage);
+
+      async function sendMessage() {
+        const apiKeyInput = document.getElementById("api-key");
+        const apiKey = apiKeyInput.value.trim();
+        if (apiKey === "") {
+          alert("Please enter your API key.");
+          return;
+        }
+
+        saveApiKey(apiKey);
+
+        const genAI = new GoogleGenerativeAI(apiKey);
+
+        const messageInput = document.getElementById("message-input");
+        const loadingIndicator = document.getElementById("loading-indicator");
+        const message = messageInput.value.trim();
+        if (message === "") return;
+
+        // Disable message input and show loading indicator
+        messageInput.classList.add("disabled");
+        messageInput.disabled = true;
+        //loadingIndicator.style.display = "block";
+
+        try {
+          const userMessage = { role: "user", parts: message };
+
+          if (!chat) {
+            const model = genAI.getGenerativeModel({ model: "gemini-pro" });
+            // Include the entire chat history as context only when initializing the chat
+            chat = model.startChat({
+              history: chatHistory,
+              generationConfig: { maxOutputTokens: 1000 },
+            });
+          }
+
+          chatHistory.push(userMessage);
+          updateChatHistory();
+
+          if (!currentChatId) {
+            currentChatId = generateGUID();
+          }
+
+          // Subsequent messages do not include the entire history
+          try {
+            const result = await chat.sendMessage(message);
+            const responseText = marked(result.response.text());
+
+            const modelMessage = { role: "model", parts: responseText };
+            chatHistory.push(modelMessage);
+
+            updateChatHistory();
+            saveChat(currentChatId, chatHistory);
+          } catch (error) {
+            console.error("Error sending message:", error);
+          }
+
+          // After receiving the response
+          messageInput.classList.remove("disabled");
+          messageInput.disabled = false;
+          //loadingIndicator.style.display = "none";
+        } catch (error) {
+          console.error("Error sending message:", error);
+          messageInput.classList.remove("disabled");
+          messageInput.disabled = false;
+          //loadingIndicator.style.display = "none";
+        }
+
+        messageInput.value = "";
+      }
+
+      // Call this function to display the API key field if it's already saved
+      window.onload = function () {
+        loadApiKey();
+        const apiKey = getCookie("apiKey");
+        if (apiKey) {
+          document.getElementById("toggle-api-key").click();
+        }
+        startNewChat();
+      };
+    </script>
+  </body>
+</html>
