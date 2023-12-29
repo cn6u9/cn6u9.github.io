@@ -99,7 +99,7 @@ CVE-2023-1521 https://github.com/rubbxalc/CVE-2023-1521 Linux the sccache client
 cve-2023-2598 https://github.com/ysanatomic/io_uring_LPE-CVE-2023-2598/blob/main/exploit.c Linux Kernel io_uring 拒绝服务漏洞  
 CVE-2023-50254 https://github.com/febinrev/deepin-linux_reader_RCE-exploit Deepin Linux的默认文档阅读器deepin-reader在版本6.0.7  
 
-Exchange  and chrome and  outlook  and hyper-v  
+Exchange  and chrome and  outlook  and hyper-v  and word and ppt  
 CVE-2022-41082 https://github.com/balki97/OWASSRF-CVE-2022-41082-POC NotProxyShell OWASSRF Vul Effecting Microsoft Exchange 
 
 CVE-2023-21707 https://github.com/N1k0la-T/CVE-2023-21707 Microsoft Exchange Server Remote Code Execution Vulnerability  
@@ -109,6 +109,7 @@ CVE-2023-36745 https://github.com/N1k0la-T/CVE-2023-36745  Microsoft Exchange Se
 CVE-2023-32031 https://github.com/Avento/CVE-2023-32031 CVE-2023-32031 MS Exchange PowerShell backend RCE  
 CVE-2023-36427 https://github.com/tandasat/CVE-2023-36427 Windows Hyper-V 特权提升漏洞  
 cve-2023-4357 https://github.com/xcanwin/CVE-2023-4357-Chrome-LFI Chrome任意文件读取漏洞POC  
+CVE-2023-24955 https://github.com/former-farmer/CVE-2023-24955-PoC Microsoft SharePoint 2019  
 
 域控  
 https://github.com/Amulab/advul  
