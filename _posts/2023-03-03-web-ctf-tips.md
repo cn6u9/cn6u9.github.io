@@ -46,6 +46,7 @@ CVE-2023-36036 https://bbs.kanxue.com/thread-279771.htm 无poc，过几天更新
 CVE-2023-41772 https://github.com/R41N3RZUF477/CVE-2023-41772 Win32k Elevation of Privilege Vulnerability  
 CVE-2023-36424 https://ssd-disclosure.com/ssd-advisory-windows-kernel-pool-clfs-sys-corruption-privilege-escalation/ Windows systems running 64-bit clfs.sys with version 10.0.22621.1555  
 CVE-2023-28229 https://github.com/Y3A/CVE-2023-28229 Windows CNG KeyIso RPC EoP/SBX  
+CVE-2023-36003 https://github.com/m417z/CVE-2023-36003-POC Microsoft XAML Diagnostics Elevation of Privilege Vulnerability  
 
 
 windows rce  
