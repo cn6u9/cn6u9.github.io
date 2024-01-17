@@ -142,6 +142,7 @@ cve-2023-34034 https://github.com/hotblac/cve-2023-34034 Spring Security 路径�
 CVE-2023-25690 https://github.com/thanhlam-attt/CVE-2023-25690 Apache HTTP Server 存在请求走私漏洞  
 CVE-2023-50164 https://github.com/jakabakos/CVE-2023-50164-Apache-Struts-RCE Apache Struts path traversal to RCE vulnerability  
 CVE-2023-41892 https://github.com/Faelian/CraftCMS_CVE-2023-41892 CraftCMS Unauthenticated RCE  
+CVE-2023-22527 https://github.com/Avento/CVE-2023-22527_Confluence_RCE Confluence Data Center and Confluence Server rce  
 
 IOT  
 CVE-2023-3519 https://github.com/getdrive/PoC/tree/main/2023/Citrix%20ADC%20RCE%20CVE-2023-3519 Citrix VPX 13.1-48.47  
