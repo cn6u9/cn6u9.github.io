@@ -100,6 +100,7 @@ CVE-2023-3269
 CVE-2023-1521 https://github.com/rubbxalc/CVE-2023-1521 Linux the sccache client lpe  
 cve-2023-2598 https://github.com/ysanatomic/io_uring_LPE-CVE-2023-2598/blob/main/exploit.c Linux Kernel io_uring 拒绝服务漏洞  
 CVE-2023-50254 https://github.com/febinrev/deepin-linux_reader_RCE-exploit Deepin Linux的默认文档阅读器deepin-reader在版本6.0.7  
+CVE-2023-6546 https://github.com/torvalds/linux/commit/3c4f8333b582487a2d1e02171f1465531cde53e3 Linux Kernel GSM Multiplexing Race Condition Local Privilege Escalation  
 
 Exchange  and chrome and  outlook  and hyper-v  and word and ppt  
 CVE-2022-41082 https://github.com/balki97/OWASSRF-CVE-2022-41082-POC NotProxyShell OWASSRF Vul Effecting Microsoft Exchange 
