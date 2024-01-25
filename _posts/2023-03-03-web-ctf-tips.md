@@ -115,6 +115,7 @@ CVE-2023-32031 https://github.com/Avento/CVE-2023-32031 CVE-2023-32031 MS Exchan
 CVE-2023-36427 https://github.com/tandasat/CVE-2023-36427 Windows Hyper-V 特权提升漏洞  
 cve-2023-4357 https://github.com/xcanwin/CVE-2023-4357-Chrome-LFI Chrome任意文件读取漏洞POC  
 CVE-2023-24955 https://github.com/former-farmer/CVE-2023-24955-PoC Microsoft SharePoint 2019  
+CVE_2023_3420 https://github.com/paulsery/CVE_2023_3420 CVE_2023_3420  Google Chrome V8 114.0.5735.198之前版本存在堆损坏安全漏洞  
 
 域控  
 https://github.com/Amulab/advul  
