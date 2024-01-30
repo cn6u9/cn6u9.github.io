@@ -148,6 +148,7 @@ CVE-2023-50164 https://github.com/jakabakos/CVE-2023-50164-Apache-Struts-RCE Apa
 CVE-2023-41892 https://github.com/Faelian/CraftCMS_CVE-2023-41892 CraftCMS Unauthenticated RCE  
 CVE-2023-22527 https://github.com/Avento/CVE-2023-22527_Confluence_RCE Confluence Data Center and Confluence Server rce  
 CVE-2024-23897 https://github.com/CKevens/CVE-2024-23897 Jenkins File Leak / RCE  
+CVE-2023-39362 https://github.com/m3ssap0/cacti-rce-snmp-options-vulnerable-application Cacti v1.2.24 authenticated command injection 需要登录  
 
 IOT  
 CVE-2023-3519 https://github.com/getdrive/PoC/tree/main/2023/Citrix%20ADC%20RCE%20CVE-2023-3519 Citrix VPX 13.1-48.47  
