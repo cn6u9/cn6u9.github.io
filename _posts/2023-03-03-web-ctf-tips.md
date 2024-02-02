@@ -171,11 +171,12 @@ Oracle  and weblogic
 CVE-2023-22074 https://github.com/emad-almousa/CVE-2023-22074 Oracle Database Server 19.3-19.20 and 21.3-21.11  
 CVE-2022-21445 https://github.com/StevenMeow/CVE-2022-21445 Oracle ADF Faces 反序列化RCE  
 
-vmware esxi and vcenter and Fortinet  
+vmware esxi and vcenter and Fortinet and docker  
 cve-2022-31705 https://github.com/s0duku/cve-2022-31705 Test on windows vmware workstation 16.2.0, with guest os ubuntu server 22  
 CVE-2021-21974 https://github.com/Shadow0ps/CVE-2021-21974 VMWare ESXi RCE Exploit  
 cve-2022-31680 https://www.idappcom.co.uk/post/vmware-vcenter-server-code-execution-cve-2022-31680 有帐号之后才能提权  
 CVE-2023-36553 https://github.com/kenit7s/CVE-2023-36553-RCE Fortinet FortiSIEM版本 RCE  
+CVE-2024-21626 https://github.com/Wall1e/CVE-2024-21626-POC ocker server:20.10.17 && runc version 1.1.2 逃逸漏洞  
 
 Macos and ios 
 CVE-2023-41991 macos   
