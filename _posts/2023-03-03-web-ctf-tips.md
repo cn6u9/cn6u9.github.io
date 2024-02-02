@@ -127,8 +127,8 @@ CVE-2022-33679
 
 web  
 
-Joomla 未授权访问漏洞 CVE-2023-23752
-Weblogic CVE-2023-21839 RCE  
+Joomla 未授权访问漏洞 CVE-2023-23752  
+Weblogic CVE-2023-21839 https://github.com/GlassyAmadeus/CVE-2024-20931  
 Weblogic CVE-2023-21931  无poc  
 weblogic https://github.com/MMarch7/weblogic_CVE-2023-21931_POC-EXP  
 CVE-2023-34192 Zimbra XSS To RCE  
