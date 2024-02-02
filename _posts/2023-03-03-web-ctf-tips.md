@@ -170,6 +170,7 @@ CVE-2022-21445 https://github.com/StevenMeow/CVE-2022-21445 Oracle ADF Faces 反
 Weblogic CVE-2023-21839 https://github.com/GlassyAmadeus/CVE-2024-20931  
 Weblogic CVE-2023-21931  无poc  
 weblogic https://github.com/MMarch7/weblogic_CVE-2023-21931_POC-EXP  
+CVE-2023-35042 https://isc.sans.edu/diary/Geoserver+Attack+Details+More+Cryptominers+against+Unconfigured+WebApps/29936/ GeoServer 2 远程代码执行漏洞  
 
 vmware esxi and vcenter and Fortinet and docker  
 cve-2022-31705 https://github.com/s0duku/cve-2022-31705 Test on windows vmware workstation 16.2.0, with guest os ubuntu server 22  
