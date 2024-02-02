@@ -128,9 +128,6 @@ CVE-2022-33679
 web  
 
 Joomla 未授权访问漏洞 CVE-2023-23752  
-Weblogic CVE-2023-21839 https://github.com/GlassyAmadeus/CVE-2024-20931  
-Weblogic CVE-2023-21931  无poc  
-weblogic https://github.com/MMarch7/weblogic_CVE-2023-21931_POC-EXP  
 CVE-2023-34192 Zimbra XSS To RCE  
 CVE-2023-28467 mybb1.8.33 email xss  
 CVE-2023-32315 https://github.com/Pari-Malam/CVE-2023-32315 openfire  
@@ -167,9 +164,12 @@ chrome CVE-2023-4762 https://github.com/sherlocksecurity/CVE-2023-4762-Code-Revi
 ios Safari 17 CVE-2023-41993 https://github.com/po6ix/POC-for-CVE-2023-41993 iOS 16.7 and iPadOS 16.7, macOS Sonoma 14  
 cve-2024-0517 https://blog.exodusintel.com/2024/01/19/google-chrome-v8-cve-2024-0517-out-of-bounds-write-code-execution/  
 
-Oracle  and weblogic  
+Oracle  and weblogic and geoserver  
 CVE-2023-22074 https://github.com/emad-almousa/CVE-2023-22074 Oracle Database Server 19.3-19.20 and 21.3-21.11  
 CVE-2022-21445 https://github.com/StevenMeow/CVE-2022-21445 Oracle ADF Faces 反序列化RCE  
+Weblogic CVE-2023-21839 https://github.com/GlassyAmadeus/CVE-2024-20931  
+Weblogic CVE-2023-21931  无poc  
+weblogic https://github.com/MMarch7/weblogic_CVE-2023-21931_POC-EXP  
 
 vmware esxi and vcenter and Fortinet and docker  
 cve-2022-31705 https://github.com/s0duku/cve-2022-31705 Test on windows vmware workstation 16.2.0, with guest os ubuntu server 22  
