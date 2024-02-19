@@ -117,6 +117,8 @@ CVE-2023-36427 https://github.com/tandasat/CVE-2023-36427 Windows Hyper-V 特权
 cve-2023-4357 https://github.com/xcanwin/CVE-2023-4357-Chrome-LFI Chrome任意文件读取漏洞POC  
 CVE-2023-24955 https://github.com/former-farmer/CVE-2023-24955-PoC Microsoft SharePoint 2019  
 CVE_2023_3420 https://github.com/paulsery/CVE_2023_3420 CVE_2023_3420  Google Chrome V8 114.0.5735.198之前版本存在堆损坏安全漏洞  
+CVE-2024-21413 https://github.com/xaitax/CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability Microsoft Outlook Remote Code Execution Vulnerability PoC  
+
 
 域控  
 https://github.com/Amulab/advul  
@@ -148,6 +150,7 @@ CVE-2023-22527 https://github.com/Avento/CVE-2023-22527_Confluence_RCE Confluenc
 CVE-2024-23897 https://github.com/CKevens/CVE-2024-23897 Jenkins File Leak / RCE  
 CVE-2023-39362 https://github.com/m3ssap0/cacti-rce-snmp-options-vulnerable-application Cacti v1.2.24 authenticated command injection 需要登录  
 CVE-2023-41892 https://github.com/diegaccio/Craft-CMS-Exploit Craft CMS Versions between 4.0.0-RC1 - 4.4.14  
+CVE-2024-23897 https://github.com/godylockz/CVE-2024-23897 file-read access on a Jenkins server <= version 2.441  
 
 
 IOT  
