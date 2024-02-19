@@ -48,7 +48,7 @@ CVE-2023-36424 https://ssd-disclosure.com/ssd-advisory-windows-kernel-pool-clfs-
 CVE-2023-28229 https://github.com/Y3A/CVE-2023-28229 Windows CNG KeyIso RPC EoP/SBX  
 CVE-2023-36003 https://github.com/m417z/CVE-2023-36003-POC Microsoft XAML Diagnostics Elevation of Privilege Vulnerability  
 CVE-2024-20698 https://github.com/RomanRybachek/CVE-2024-20698 Windows Kernel Elevation of Privilege Vulnerability  
-
+CVE-2024-20666 https://github.com/nnotwen/Script-For-CVE-2024-20666 BitLocker vulnerabilit win10 win11 windows2022  
 
 windows rce  
 
@@ -167,13 +167,16 @@ chrome CVE-2023-4762 https://github.com/sherlocksecurity/CVE-2023-4762-Code-Revi
 ios Safari 17 CVE-2023-41993 https://github.com/po6ix/POC-for-CVE-2023-41993 iOS 16.7 and iPadOS 16.7, macOS Sonoma 14  
 cve-2024-0517 https://blog.exodusintel.com/2024/01/19/google-chrome-v8-cve-2024-0517-out-of-bounds-write-code-execution/  
 
-Oracle  and weblogic and geoserver  
+Oracle  and weblogic and geoserver and Ivanti  
 CVE-2023-22074 https://github.com/emad-almousa/CVE-2023-22074 Oracle Database Server 19.3-19.20 and 21.3-21.11  
 CVE-2022-21445 https://github.com/StevenMeow/CVE-2022-21445 Oracle ADF Faces 反序列化RCE  
 Weblogic CVE-2023-21839 https://github.com/GlassyAmadeus/CVE-2024-20931  
 Weblogic CVE-2023-21931  无poc  
 weblogic https://github.com/MMarch7/weblogic_CVE-2023-21931_POC-EXP  
 CVE-2023-35042 https://isc.sans.edu/diary/Geoserver+Attack+Details+More+Cryptominers+against+Unconfigured+WebApps/29936/ GeoServer 2 远程代码执行漏洞  
+CVE-2024-20931 https://github.com/labesterOct/CVE-2024-20931 Weblogic T3\IIOP protocol A new attack  
+CVE-2024-21893 https://github.com/h4x0r-dz/CVE-2024-21893.py Ivanti Policy Secure (9.x, 22.x)  
+
 
 vmware esxi and vcenter and Fortinet and docker  
 cve-2022-31705 https://github.com/s0duku/cve-2022-31705 Test on windows vmware workstation 16.2.0, with guest os ubuntu server 22  
