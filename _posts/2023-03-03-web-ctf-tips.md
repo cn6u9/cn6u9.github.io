@@ -23,7 +23,7 @@ opengnb
 
 https://github.com/UCL-CREST/doublefetch c语言静态漏洞挖掘函数  
 https://github.com/sha0coder/maripyli 使用python2，是php静态代码分析工具  
-https://github.com/synacktiv/php_filter_chains_oracle_exploit 有意思的漏洞  
+
 
 windows lpe  
 CVE-2023-21752 https://github.com/Wh04m1001/CVE-2023-21752   PoC for arbitrary file delete vulnerability in Windows Backup service
@@ -55,7 +55,7 @@ windows rce
 CVE-2022-34718 https://github.com/numencyber/Vulnerability_PoC/blob/main/CVE-2022-34718/poc.cpp  TCP/IP RCE Vulnerability  
 CVE-2023-28231 https://github.com/numencyber/Vulnerability_PoC/blob/main/CVE-2023-28231/CVE-2023-28231-DHCP-VUL-PoC.cpp  MICROSOFT WINDOWS SERVER 2008-2019 DHCP SERVER  
 CVE-2023-28231 https://github.com/glavstroy/CVE-2023-28231  MICROSOFT WINDOWS SERVER 2008-2019 DHCP SERVER   
-CVE-2023-38148 https://github.com/Chestnuts4/POC/blob/master/CVE-2023-38148-windows-ics-rce/CVE-2023-38148.c Internet Connection Sharing (ICS) RCE  
+CVE-2023-38148 https://github.com/Chestnuts4/POC/blob/master/CVE-https://github.com/synacktiv/php_filter_chains_oracle_exploit 有意思的漏洞  2023-38148-windows-ics-rce/CVE-2023-38148.c Internet Connection Sharing (ICS) RCE  
 
 word and pdf and rar and wps  
 
@@ -188,6 +188,11 @@ CVE-2024-21626 https://github.com/Wall1e/CVE-2024-21626-POC ocker server:20.10.1
 Macos and ios 
 CVE-2023-41991 macos   
 CVE-2023-41993 iphone_os  
+
+php  
+https://github.com/synacktiv/php_filter_chains_oracle_exploit 有意思的漏洞  
+cve-2023-3824 https://github.com/php/php-src/security/advisories/GHSA-jqcx-ccgc-xwhv phar_dir_read()overflow  
+
 
 other  
 
