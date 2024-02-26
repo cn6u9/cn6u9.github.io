@@ -151,6 +151,7 @@ CVE-2024-23897 https://github.com/CKevens/CVE-2024-23897 Jenkins File Leak / RCE
 CVE-2023-39362 https://github.com/m3ssap0/cacti-rce-snmp-options-vulnerable-application Cacti v1.2.24 authenticated command injection 需要登录  
 CVE-2023-41892 https://github.com/diegaccio/Craft-CMS-Exploit Craft CMS Versions between 4.0.0-RC1 - 4.4.14  
 CVE-2024-23897 https://github.com/godylockz/CVE-2024-23897 file-read access on a Jenkins server <= version 2.441  
+CVE-2024-22234 https://github.com/shellfeel/CVE-2024-22243-CVE-2024-22234 Spring Security 6.1.7之前的6.1.x版本和6.2.2之前的6.2.x  
 
 
 IOT  
