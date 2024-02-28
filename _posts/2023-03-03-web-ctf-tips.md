@@ -185,6 +185,7 @@ CVE-2021-21974 https://github.com/Shadow0ps/CVE-2021-21974 VMWare ESXi RCE Explo
 cve-2022-31680 https://www.idappcom.co.uk/post/vmware-vcenter-server-code-execution-cve-2022-31680 有帐号之后才能提权  
 CVE-2023-36553 https://github.com/kenit7s/CVE-2023-36553-RCE Fortinet FortiSIEM版本 RCE  
 CVE-2024-21626 https://github.com/Wall1e/CVE-2024-21626-POC ocker server:20.10.17 && runc version 1.1.2 逃逸漏洞  
+CVE-2024-21762 https://github.com/Gh71m/CVE-2024-21762-POC?tab=readme-ov-file FortiProxy 1.07-7.40执行未授权的代码或命令  
 
 Macos and ios 
 CVE-2023-41991 macos   
