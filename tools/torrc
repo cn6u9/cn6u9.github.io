@@ -1,0 +1,39 @@
+
+
+#如果想要排除某些国家/地区的节点，如中国，香港可以添加
+ExcludeNodes {cn},{mo},{hk}
+StrictNodes 1
+
+SocksPort 9050
+#指定是有tw，可以换tw为us，hk等
+ExitNodes {tw}
+StrictNodes 1
+
+MaxCircuitDirtiness 900
+
+
+#下面是跨机共享代理，去掉前面#号即可开启
+#SocksPort 0.0.0.0:9050
+#下面是前置代理，去掉前面#号即可开启
+#HTTPSProxy 127.0.0.1:8787
+#Socks5Proxy 127.0.0.1:1080 
+#下面数字改为0，关闭自带网桥连接，开启前置代理
+#UseBridges 1    
+DataDirectory ../Data
+GeoIPFile ../Data/geoip
+GeoIPv6File ../Data/geoip6
+#下面日志路径，打开后终端不会显示连接日志
+#Log notice file ../Data/tor.log 
+
+AvoidDiskWrites 1
+#下面是排除邪恶国家节点，去掉前面#号即可开启
+#ExcludeExitNodes {cn},{hk},{mo},{sg},{th},{pk},{by},{ru},{ir},{vn},{ph},{my},{cu}
+#ExcludeNodes {cn},{hk},{mo},{sg},{th},{pk},{by},{ru},{ir},{vn},{ph},{my},{cu}
+
+
+#CookieAuthentication 1
+#DormantCanceledByStartup 1
+ClientTransportPlugin meek_lite,obfs2,obfs3,obfs4,scramblesuit exec Tor\PluggableTransports\lyrebird.exe
+ClientTransportPlugin snowflake exec Tor\PluggableTransports\snowflake-client.exe
+ClientTransportPlugin webtunnel exec Tor\PluggableTransports\webtunnel-client.exe
+ClientTransportPlugin conjure exec Tor\PluggableTransports\conjure-client.exe -registerURL https://registration.refraction.network/api
