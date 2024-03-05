@@ -167,6 +167,7 @@ chrome CVE-2023-4863 https://github.com/mistymntncop/CVE-2023-4863 WebP in Googl
 chrome CVE-2023-4762 https://github.com/sherlocksecurity/CVE-2023-4762-Code-Review Google Chrome prior to 116.0.5845.179  
 ios Safari 17 CVE-2023-41993 https://github.com/po6ix/POC-for-CVE-2023-41993 iOS 16.7 and iPadOS 16.7, macOS Sonoma 14  
 cve-2024-0517 https://blog.exodusintel.com/2024/01/19/google-chrome-v8-cve-2024-0517-out-of-bounds-write-code-execution/  
+CVE-2024-0519 https://github.com/JohnHormond/CVE-2024-0519-Chrome-exploit Google Chrome V8 < 120.0.6099.224  
 
 Oracle  and weblogic and geoserver and Ivanti  
 CVE-2023-22074 https://github.com/emad-almousa/CVE-2023-22074 Oracle Database Server 19.3-19.20 and 21.3-21.11  
