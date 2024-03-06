@@ -49,6 +49,7 @@ CVE-2023-28229 https://github.com/Y3A/CVE-2023-28229 Windows CNG KeyIso RPC EoP/
 CVE-2023-36003 https://github.com/m417z/CVE-2023-36003-POC Microsoft XAML Diagnostics Elevation of Privilege Vulnerability  
 CVE-2024-20698 https://github.com/RomanRybachek/CVE-2024-20698 Windows Kernel Elevation of Privilege Vulnerability  
 CVE-2024-20666 https://github.com/nnotwen/Script-For-CVE-2024-20666 BitLocker vulnerabilit win10 win11 windows2022  
+CVE-2024-21338 https://github.com/gogobuster/CVE-2024-21338-POC lpe Windows 10 1703 (RS2/15063) Windows 11 23H2  
 
 windows rce  
 
