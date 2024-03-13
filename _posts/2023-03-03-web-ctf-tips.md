@@ -57,6 +57,7 @@ CVE-2022-34718 https://github.com/numencyber/Vulnerability_PoC/blob/main/CVE-202
 CVE-2023-28231 https://github.com/numencyber/Vulnerability_PoC/blob/main/CVE-2023-28231/CVE-2023-28231-DHCP-VUL-PoC.cpp  MICROSOFT WINDOWS SERVER 2008-2019 DHCP SERVER  
 CVE-2023-28231 https://github.com/glavstroy/CVE-2023-28231  MICROSOFT WINDOWS SERVER 2008-2019 DHCP SERVER   
 CVE-2023-38148 https://github.com/Chestnuts4/POC/blob/master/CVE-https://github.com/synacktiv/php_filter_chains_oracle_exploit 有意思的漏洞  2023-38148-windows-ics-rce/CVE-2023-38148.c Internet Connection Sharing (ICS) RCE  
+CVE-2024-20696 https://github.com/clearbluejar/CVE-2024-20696 Windows Libarchive 远程代码执行漏洞  
 
 word and pdf and rar and wps  
 
@@ -119,6 +120,7 @@ cve-2023-4357 https://github.com/xcanwin/CVE-2023-4357-Chrome-LFI Chrome任意�
 CVE-2023-24955 https://github.com/former-farmer/CVE-2023-24955-PoC Microsoft SharePoint 2019  
 CVE_2023_3420 https://github.com/paulsery/CVE_2023_3420 CVE_2023_3420  Google Chrome V8 114.0.5735.198之前版本存在堆损坏安全漏洞  
 CVE-2024-21413 https://github.com/xaitax/CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability Microsoft Outlook Remote Code Execution Vulnerability PoC  
+https://github.com/JohnHormond/CVE-2024-21378 Microsoft Outlook 远程代码执行漏洞  
 
 
 域控  
