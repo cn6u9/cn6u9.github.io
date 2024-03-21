@@ -107,7 +107,7 @@ CVE-2023-6546 https://github.com/torvalds/linux/commit/3c4f8333b582487a2d1e02171
 cve-2023-5345 https://avd.aliyun.com/detail?id=AVD-2023-5345 无poc Linux 内核的 fs/smb/client 组件中的释放后使用  
 CVE-2023-6246 无poc GNU C库的__vsyslog_internal()函数中的存在堆基缓冲区溢出漏洞，lpe 影响挺大  
 
-Exchange  and chrome and  outlook  and hyper-v  and word and ppt  
+Exchange  and  outlook  and hyper-v  and word and ppt  
 CVE-2022-41082 https://github.com/balki97/OWASSRF-CVE-2022-41082-POC NotProxyShell OWASSRF Vul Effecting Microsoft Exchange 
 
 CVE-2023-21707 https://github.com/N1k0la-T/CVE-2023-21707 Microsoft Exchange Server Remote Code Execution Vulnerability  
@@ -116,9 +116,7 @@ CVE-2023-29357 https://github.com/Chocapikk/CVE-2023-29357 Microsoft SharePoint 
 CVE-2023-36745 https://github.com/N1k0la-T/CVE-2023-36745  Microsoft Exchange Server Remote Code Execution Vulnerability 需要在内网，需要有帐号  
 CVE-2023-32031 https://github.com/Avento/CVE-2023-32031 CVE-2023-32031 MS Exchange PowerShell backend RCE  
 CVE-2023-36427 https://github.com/tandasat/CVE-2023-36427 Windows Hyper-V 特权提升漏洞  
-cve-2023-4357 https://github.com/xcanwin/CVE-2023-4357-Chrome-LFI Chrome任意文件读取漏洞POC  
 CVE-2023-24955 https://github.com/former-farmer/CVE-2023-24955-PoC Microsoft SharePoint 2019  
-CVE_2023_3420 https://github.com/paulsery/CVE_2023_3420 CVE_2023_3420  Google Chrome V8 114.0.5735.198之前版本存在堆损坏安全漏洞  
 CVE-2024-21413 https://github.com/xaitax/CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability Microsoft Outlook Remote Code Execution Vulnerability PoC  
 https://github.com/JohnHormond/CVE-2024-21378 Microsoft Outlook 远程代码执行漏洞  
 
@@ -172,6 +170,8 @@ chrome CVE-2023-4762 https://github.com/sherlocksecurity/CVE-2023-4762-Code-Revi
 ios Safari 17 CVE-2023-41993 https://github.com/po6ix/POC-for-CVE-2023-41993 iOS 16.7 and iPadOS 16.7, macOS Sonoma 14  
 cve-2024-0517 https://blog.exodusintel.com/2024/01/19/google-chrome-v8-cve-2024-0517-out-of-bounds-write-code-execution/  
 CVE-2024-0519 https://github.com/JohnHormond/CVE-2024-0519-Chrome-exploit Google Chrome V8 < 120.0.6099.224  
+CVE_2023_3420 https://github.com/paulsery/CVE_2023_3420 CVE_2023_3420  Google Chrome V8 114.0.5735.198之前版本存在堆损坏安全漏洞  
+cve-2023-4357 https://github.com/xcanwin/CVE-2023-4357-Chrome-LFI Chrome任意文件读取漏洞POC  
 
 Oracle  and weblogic and geoserver and Ivanti  
 CVE-2023-22074 https://github.com/emad-almousa/CVE-2023-22074 Oracle Database Server 19.3-19.20 and 21.3-21.11  
