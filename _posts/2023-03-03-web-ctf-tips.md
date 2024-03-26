@@ -203,6 +203,8 @@ cve-2023-3824 https://github.com/php/php-src/security/advisories/GHSA-jqcx-ccgc-
 
 nas  
 CVE-2023-47218 https://github.com/passwa11/CVE-2023-47218 qnap rce  
+CVE-2023-39296 https://ssd-disclosure.com/ssd-advisory-qnap-qts5-usr-lib-libqcloud-so-json-parsing-leads-to-rce/  qnap rce  
+
 
 
 other  
