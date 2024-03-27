@@ -107,6 +107,8 @@ CVE-2023-6546 https://github.com/torvalds/linux/commit/3c4f8333b582487a2d1e02171
 cve-2023-5345 https://avd.aliyun.com/detail?id=AVD-2023-5345 无poc Linux 内核的 fs/smb/client 组件中的释放后使用  
 CVE-2023-6246 无poc GNU C库的__vsyslog_internal()函数中的存在堆基缓冲区溢出漏洞，lpe 影响挺大  
 
+CVE-2024-1086 https://github.com/Notselwyn/CVE-2024-1086 Linux kernels between v5.14 and v6.6, including Debian, Ubuntu, and KernelCTF  
+
 Exchange  and  outlook  and hyper-v  and word and ppt  
 CVE-2022-41082 https://github.com/balki97/OWASSRF-CVE-2022-41082-POC NotProxyShell OWASSRF Vul Effecting Microsoft Exchange 
 
