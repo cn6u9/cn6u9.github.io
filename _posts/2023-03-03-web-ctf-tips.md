@@ -107,7 +107,7 @@ CVE-2023-6546 https://github.com/torvalds/linux/commit/3c4f8333b582487a2d1e02171
 cve-2023-5345 https://avd.aliyun.com/detail?id=AVD-2023-5345 无poc Linux 内核的 fs/smb/client 组件中的释放后使用  
 CVE-2023-6246 无poc GNU C库的__vsyslog_internal()函数中的存在堆基缓冲区溢出漏洞，lpe 影响挺大  
 https://github.com/vusec/ghostrace Linux kernel v5.15.83 for Speculative Concurrent Use-After-Free (SCUAF) gadgets  
-CVE-2024-1086 https://github.com/Notselwyn/CVE-2024-1086 Linux kernels between v5.14 and v6.6, including Debian, Ubuntu, and KernelCTF  
+CVE-2024-1086 https://github.com/Notselwyn/CVE-2024-1086 Linux kernel v5.14 and v6.6, including Debian, Ubuntu, and KernelCTF  
 CVE-2024-0582 https://github.com/ysanatomic/io_uring_LPE-CVE-2024-0582 linux内核通过缓冲区环 mmap 的页面释放后  
 CVE-2024-28085 https://github.com/skyler-ferrante/CVE-2024-28085 linux标准软件包 util-linux <2.40 setid 提权漏洞  
 
