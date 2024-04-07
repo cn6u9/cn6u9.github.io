@@ -239,6 +239,7 @@ CVE-2023-34051 https://github.com/horizon3ai/CVE-2023-34051 VMware vRealize Log 
 CVE-2023-46747 https://github.com/AliBrTab/CVE-2023-46747-POC F5 BIG-IP unauthenticated remote code execution  
 CVE-2023-51385 https://github.com/FeatherStark/CVE-2023-51385 OpenSSH <9.6 命令注入漏洞  
 CVE-2023-51764 https://github.com/duy-31/CVE-2023-51764 Postfix SMTP Smuggling - Expect Script POC  
+cve-2024-3116 https://ayoubmokhtar.com/post/remote_code_execution_pgadmin_8.4-cve-2024-3116/ pgAdmin - PostgreSQL Tools (<=8.4)  
 
 
 # 小结
