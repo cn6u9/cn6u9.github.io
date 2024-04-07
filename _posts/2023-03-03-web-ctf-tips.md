@@ -202,6 +202,7 @@ CVE-2024-21762 https://github.com/Gh71m/CVE-2024-21762-POC?tab=readme-ov-file Fo
 Macos and ios 
 CVE-2023-41991 macos   
 CVE-2023-41993 iphone_os  
+CVE-2024-25733 https://github.com/hackintoanetwork/ARC-Browser-Address-Bar-Spoofing-PoC ARC Browser Address Bar Spoofing  
 
 php  
 https://github.com/synacktiv/php_filter_chains_oracle_exploit 有意思的漏洞  
