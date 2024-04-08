@@ -50,6 +50,7 @@ CVE-2023-36003 https://github.com/m417z/CVE-2023-36003-POC Microsoft XAML Diagno
 CVE-2024-20698 https://github.com/RomanRybachek/CVE-2024-20698 Windows Kernel Elevation of Privilege Vulnerability  
 CVE-2024-20666 https://github.com/nnotwen/Script-For-CVE-2024-20666 BitLocker vulnerabilit win10 win11 windows2022  
 CVE-2024-21338 https://github.com/gogobuster/CVE-2024-21338-POC lpe Windows 10 1703 (RS2/15063) Windows 11 23H2  
+CVE-2024-21306 https://github.com/d4rks1d33/C-PoC-for-CVE-2024-21306 Microsoft Bluetooth Driver Spoofing Vulnerability  
 
 windows rce  
 
