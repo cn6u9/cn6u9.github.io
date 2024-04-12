@@ -166,6 +166,7 @@ CVE-2023-3519 https://github.com/getdrive/PoC/tree/main/2023/Citrix%20ADC%20RCE%
 https://ssd-disclosure.com/ssd-advisory-zyxel-vpn-series-pre-auth-remote-command-execution/  Zyxel VPN firewall VPN50, VPN100, VPN300, VPN500, VPN1000  
 CVE-2024-27497 https://www.seebug.org/vuldb/ssvid-99816 linksys e2000 bug  
 CVE-2024-3273 https://github.com/Chocapikk/CVE-2024-3273 d-link nas rce 8w台  
+CVE-2024-29269 https://github.com/YongYe-Security/CVE-2024-29269 Telesquare TLR-2005KSH_RCE for kr  
 
 
 Browser  
