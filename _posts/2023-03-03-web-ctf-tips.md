@@ -17,8 +17,7 @@ author: cn6u9
 [shenji.py](https://github.com/cn6u9/cn6u9.github.io/blob/main/tools/shenji.py)  
 [手工调试php输出](https://github.com/cn6u9/cn6u9.github.io/blob/main/tools/debug.php)  
 
-Wireguard 项目的 Wintun 接口  
-OpenVPN 的 Tap 接口  
+
 opengnb  
 
 https://github.com/UCL-CREST/doublefetch c语言静态漏洞挖掘函数  
