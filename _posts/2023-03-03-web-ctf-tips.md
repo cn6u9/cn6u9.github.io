@@ -196,13 +196,15 @@ CVE-2024-20931 https://github.com/labesterOct/CVE-2024-20931 Weblogic T3\IIOP pr
 CVE-2024-21893 https://github.com/h4x0r-dz/CVE-2024-21893.py Ivanti Policy Secure (9.x, 22.x)  
 
 
-vmware esxi and vcenter and Fortinet and docker  
+vmware esxi and vcenter and Fortinet and VirtualBox and docker  
 cve-2022-31705 https://github.com/s0duku/cve-2022-31705 Test on windows vmware workstation 16.2.0, with guest os ubuntu server 22  
 CVE-2021-21974 https://github.com/Shadow0ps/CVE-2021-21974 VMWare ESXi RCE Exploit  
 cve-2022-31680 https://www.idappcom.co.uk/post/vmware-vcenter-server-code-execution-cve-2022-31680 有帐号之后才能提权  
 CVE-2023-36553 https://github.com/kenit7s/CVE-2023-36553-RCE Fortinet FortiSIEM版本 RCE  
 CVE-2024-21626 https://github.com/Wall1e/CVE-2024-21626-POC ocker server:20.10.17 && runc version 1.1.2 逃逸漏洞  
 CVE-2024-21762 https://github.com/Gh71m/CVE-2024-21762-POC?tab=readme-ov-file FortiProxy 1.07-7.40执行未授权的代码或命令  
+CVE-2024-21111 https://github.com/mansk1es/CVE-2024-21111 Oracle VirtualBox Prior to 7.0.16 lpe  
+
 
 Macos and ios 
 CVE-2023-41991 macos   
