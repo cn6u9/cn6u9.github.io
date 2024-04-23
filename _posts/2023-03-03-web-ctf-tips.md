@@ -183,6 +183,7 @@ CVE-2024-0519 https://github.com/JohnHormond/CVE-2024-0519-Chrome-exploit Google
 CVE_2023_3420 https://github.com/paulsery/CVE_2023_3420 CVE_2023_3420  Google Chrome V8 114.0.5735.198之前版本存在堆损坏安全漏洞  
 cve-2023-4357 https://github.com/xcanwin/CVE-2023-4357-Chrome-LFI Chrome任意文件读取漏洞POC  
 CVE-2024-21388 https://github.com/d0rb/CVE-2024-21388 Microsoft Edge (Chromium-based) Elevation of Privilege Vulnerability  
+CVE-2024-3159 https://bbs.kanxue.com/thread-281484.htm Chromium: CVE-2024-3159 Out of bounds memory access in V8  
 
 Oracle  and weblogic and geoserver and Ivanti  
 CVE-2023-22074 https://github.com/emad-almousa/CVE-2023-22074 Oracle Database Server 19.3-19.20 and 21.3-21.11  
