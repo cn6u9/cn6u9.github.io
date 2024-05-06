@@ -52,6 +52,8 @@ CVE-2024-21338 https://github.com/gogobuster/CVE-2024-21338-POC lpe Windows 10 1
 CVE-2024-21306 https://github.com/d4rks1d33/C-PoC-for-CVE-2024-21306 Microsoft Bluetooth Driver Spoofing Vulnerability  
 CVE-2024-26218 https://github.com/exploits-forsale/CVE-2024-26218 Windows 内核特权提升漏洞  
 CVE-2024-21345 https://github.com/exploits-forsale/CVE-2024-21345 Windows 内核特权提升漏洞  
+CVE-2024-29988 https://github.com/Sploitus/CVE-2024-29988-exploit Exploit for Microsoft SmartScreen malicious execution  
+
 
 windows rce  
 
@@ -66,10 +68,8 @@ cve-2024-1874 https://github.com/php/php-src/security/advisories/GHSA-pc52-254m-
 
 word and pdf and rar and wps  
 
-CVE_2023_21716 https://github.com/Xnuvers007/CVE-2023-21716    RTF Crash POC
-
-cve-2023-23397 https://github.com/sqrtZeroKnowledge/CVE-2023-23397_EXPLOIT_0DAY  microsoft-outlook-elevation-of-privilege-vulnerability
-
+CVE_2023_21716 https://github.com/Xnuvers007/CVE-2023-21716    RTF Crash POC  
+cve-2023-23397 https://github.com/sqrtZeroKnowledge/CVE-2023-23397_EXPLOIT_0DAY  microsoft-outlook-elevation-of-privilege-vulnerability  
 CVE-2023-27363 https://github.com/webraybtl/CVE-2023-27363 福昕Foxit PDF远程代码执行漏洞  
 CVE-2023-36884 Office and Windows HTML Remote Code Execution Vulnerability  
 CVE-2022-30190 https://github.com/komomon/CVE-2022-30190-follina-Office-MSDT-Fixed Microsoft Office MSDT  
@@ -166,12 +166,15 @@ CVE-2024-23897 https://github.com/godylockz/CVE-2024-23897 file-read access on a
 CVE-2024-22234 https://github.com/shellfeel/CVE-2024-22243-CVE-2024-22234 Spring Security 6.1.7之前的6.1.x版本和6.2.2之前的6.2.x  
 
 
-IOT and Router and nas  
+Critical and IOT and Router and nas and Cisco  
 CVE-2023-3519 https://github.com/getdrive/PoC/tree/main/2023/Citrix%20ADC%20RCE%20CVE-2023-3519 Citrix VPX 13.1-48.47  
 https://ssd-disclosure.com/ssd-advisory-zyxel-vpn-series-pre-auth-remote-command-execution/  Zyxel VPN firewall VPN50, VPN100, VPN300, VPN500, VPN1000  
 CVE-2024-27497 https://www.seebug.org/vuldb/ssvid-99816 linksys e2000 bug  
 CVE-2024-3273 https://github.com/Chocapikk/CVE-2024-3273 d-link nas rce 8w台  
 CVE-2024-29269 https://github.com/YongYe-Security/CVE-2024-29269 Telesquare TLR-2005KSH_RCE for kr  
+CVE-2024-20359 https://github.com/Garvard-Agency/CVE-2024-20359-CiscoASA-FTD-exploit CVE-2024-20359-CiscoASA-FTD-exploit 
+CVE-2024-26304 https://github.com/Roud-Roud-Agency/CVE-2024-26304-RCE-exploits Critical RCE Vulnerabilities in HPE  
+
 
 
 Browser  
@@ -198,6 +201,7 @@ CVE-2023-35042 https://isc.sans.edu/diary/Geoserver+Attack+Details+More+Cryptomi
 CVE-2023-25157 https://github.com/7imbitz/CVE-2023-25157-checker geoserver sql inject  
 CVE-2024-20931 https://github.com/labesterOct/CVE-2024-20931 Weblogic T3\IIOP protocol A new attack  
 CVE-2024-21893 https://github.com/h4x0r-dz/CVE-2024-21893.py Ivanti Policy Secure (9.x, 22.x)  
+CVE-2024-21006 https://github.com/momika233/CVE-2024-21006 Oracle WebLogic Server 12.2.1.4.0 and 14.1.1.0.0  
 
 
 vmware esxi and vcenter and Fortinet and VirtualBox and docker  
