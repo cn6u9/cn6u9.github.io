@@ -190,6 +190,8 @@ CVE_2023_3420 https://github.com/paulsery/CVE_2023_3420 CVE_2023_3420  Google Ch
 cve-2023-4357 https://github.com/xcanwin/CVE-2023-4357-Chrome-LFI Chrome任意文件读取漏洞POC  
 CVE-2024-21388 https://github.com/d0rb/CVE-2024-21388 Microsoft Edge (Chromium-based) Elevation of Privilege Vulnerability  
 CVE-2024-3159 https://bbs.kanxue.com/thread-281484.htm Chromium: CVE-2024-3159 Out of bounds memory access in V8  
+CVE-2024-4761 https://github.com/michredteam/CVE-2024-4761 124.0.6367.207/.208 for Mac and Windows and 124.0.6367.207之前版本  
+
 
 Oracle  and weblogic and geoserver and Ivanti  
 CVE-2023-22074 https://github.com/emad-almousa/CVE-2023-22074 Oracle Database Server 19.3-19.20 and 21.3-21.11  
@@ -218,6 +220,8 @@ Macos and ios
 CVE-2023-41991 macos   
 CVE-2023-41993 iphone_os  
 CVE-2024-25733 https://github.com/hackintoanetwork/ARC-Browser-Address-Bar-Spoofing-PoC ARC Browser Address Bar Spoofing  
+CVE-2024-27804 https://github.com/R00tkitSMM/CVE-2024-27804 ios 17.5本地提权  
+
 
 php  
 https://github.com/synacktiv/php_filter_chains_oracle_exploit 有意思的漏洞  
