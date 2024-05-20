@@ -182,6 +182,7 @@ CVE-2024-26304 https://github.com/Roud-Roud-Agency/CVE-2024-26304-RCE-exploits C
 Browser  
 
 chrome cvc-2023-2033 无poc  
+CVE-2023-4427 https://github.com/tianstcht/CVE-2023-4427 chrome version: 117.0.5938.62 in linux from v8ctf  
 chrome CVE-2023-3079 https://github.com/mistymntncop/CVE-2023-3079    
 chrome CVE-2023-4863 https://github.com/mistymntncop/CVE-2023-4863 WebP in Google Chrome prior to 116.0.5845.187  
 chrome CVE-2023-4762 https://github.com/sherlocksecurity/CVE-2023-4762-Code-Review Google Chrome prior to 116.0.5845.179  
@@ -193,6 +194,7 @@ cve-2023-4357 https://github.com/xcanwin/CVE-2023-4357-Chrome-LFI Chrome任意�
 CVE-2024-21388 https://github.com/d0rb/CVE-2024-21388 Microsoft Edge (Chromium-based) Elevation of Privilege Vulnerability  
 CVE-2024-3159 https://bbs.kanxue.com/thread-281484.htm Chromium: CVE-2024-3159 Out of bounds memory access in V8  
 CVE-2024-4761 https://github.com/michredteam/CVE-2024-4761 124.0.6367.207/.208 for Mac and Windows and 124.0.6367.207之前版本  
+
 
 
 Oracle  and weblogic and geoserver and Ivanti  
