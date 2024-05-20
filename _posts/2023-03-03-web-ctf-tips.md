@@ -168,7 +168,7 @@ CVE-2024-23897 https://github.com/godylockz/CVE-2024-23897 file-read access on a
 CVE-2024-22234 https://github.com/shellfeel/CVE-2024-22243-CVE-2024-22234 Spring Security 6.1.7之前的6.1.x版本和6.2.2之前的6.2.x  
 
 
-Critical and IOT and Router and nas and Cisco  
+Critical and IOT and Router and nas and Cisco and qnap  
 CVE-2023-3519 https://github.com/getdrive/PoC/tree/main/2023/Citrix%20ADC%20RCE%20CVE-2023-3519 Citrix VPX 13.1-48.47  
 https://ssd-disclosure.com/ssd-advisory-zyxel-vpn-series-pre-auth-remote-command-execution/  Zyxel VPN firewall VPN50, VPN100, VPN300, VPN500, VPN1000  
 CVE-2024-27497 https://www.seebug.org/vuldb/ssvid-99816 linksys e2000 bug  
@@ -176,7 +176,7 @@ CVE-2024-3273 https://github.com/Chocapikk/CVE-2024-3273 d-link nas rce 8w台
 CVE-2024-29269 https://github.com/YongYe-Security/CVE-2024-29269 Telesquare TLR-2005KSH_RCE for kr  
 CVE-2024-20359 https://github.com/Garvard-Agency/CVE-2024-20359-CiscoASA-FTD-exploit CVE-2024-20359-CiscoASA-FTD-exploit 
 CVE-2024-26304 https://github.com/Roud-Roud-Agency/CVE-2024-26304-RCE-exploits Critical RCE Vulnerabilities in HPE  
-
+CVE-2024-27130 https://github.com/watchtowrlabs/CVE-2024-27130/ stack overflow vulnerability to obtain RCE  
 
 
 Browser  
