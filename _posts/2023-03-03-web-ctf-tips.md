@@ -236,6 +236,7 @@ CVE-2023-47218 https://github.com/passwa11/CVE-2023-47218 qnap rce
 CVE-2023-39296 https://ssd-disclosure.com/ssd-advisory-qnap-qts5-usr-lib-libqcloud-so-json-parsing-leads-to-rce/  qnap rce  
 CVE-2021-28797 https://ssd-disclosure.com/ssd-advisory-qnap-pre-auth-cgi_find_parameter-rce/  qnap rce  
 CVE-2024-27130 https://github.com/watchtowrlabs/CVE-2024-27130/ qnap stack overflow vulnerability to obtain RCE  
+qnap rce  
 CVE-2023-50361 Unsafe use of sprintf in getQpkgDir invoked from userConfig.cgi leads to stack buffer overflow and thus RCE  
 CVE-2023-50362Unsafe use of SQLite functions accessible via parameter addPersonalSmtp to userConfig.cgi leads to stack buffer overflow and thus RCE  
 CVE-2023-50364 Heap overflow via long directory name when file listing is viewed by get_dirs function of privWizard.cgi leads to RCE  
