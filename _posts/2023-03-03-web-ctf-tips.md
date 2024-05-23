@@ -166,6 +166,7 @@ CVE-2024-29895 https://github.com/Stuub/CVE-2024-29895-CactiRCE-PoC
 CVE-2023-41892 https://github.com/diegaccio/Craft-CMS-Exploit Craft CMS Versions between 4.0.0-RC1 - 4.4.14  
 CVE-2024-23897 https://github.com/godylockz/CVE-2024-23897 file-read access on a Jenkins server <= version 2.441  
 CVE-2024-22234 https://github.com/shellfeel/CVE-2024-22243-CVE-2024-22234 Spring Security 6.1.7之前的6.1.x版本和6.2.2之前的6.2.x  
+CVE-2024-21683 https://github.com/absholi7ly/-CVE-2024-21683-RCE-in-Confluence-Data-Center-and-Server Confluence需要帐号密码   
 
 
 Critical and IOT and Router and nas and Cisco  
@@ -274,6 +275,7 @@ CVE-2023-51385 https://github.com/FeatherStark/CVE-2023-51385 OpenSSH <9.6 命�
 CVE-2023-51764 https://github.com/duy-31/CVE-2023-51764 Postfix SMTP Smuggling - Expect Script POC  
 cve-2024-3116 https://ayoubmokhtar.com/post/remote_code_execution_pgadmin_8.4-cve-2024-3116/ pgAdmin - PostgreSQL Tools (<=8.4)  
 CVE-2024-24576 https://github.com/frostb1ten/CVE-2024-24576-PoC Rust flaw enables Windows command injection attacks  
+CVE-2024-32459 https://github.com/absholi7ly/FreeRDP-Out-of-Bounds-Read-CVE-2024-32459- FreeRDP 3.5.0 或 2.11.6 之前版本的客户端和服务器存在越界读漏洞  
 
 
 # 小结
