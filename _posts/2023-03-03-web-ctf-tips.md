@@ -195,6 +195,7 @@ cve-2023-4357 https://github.com/xcanwin/CVE-2023-4357-Chrome-LFI Chrome任意�
 CVE-2024-21388 https://github.com/d0rb/CVE-2024-21388 Microsoft Edge (Chromium-based) Elevation of Privilege Vulnerability  
 CVE-2024-3159 https://bbs.kanxue.com/thread-281484.htm Chromium: CVE-2024-3159 Out of bounds memory access in V8  
 CVE-2024-4761 https://github.com/michredteam/CVE-2024-4761 124.0.6367.207/.208 for Mac and Windows and 124.0.6367.207之前版本  
+CVE-2024-30056 https://github.com/absholi7ly/Microsoft-Edge-Information-Disclosure Microsoft Edge信息泄漏  
 
 
 
