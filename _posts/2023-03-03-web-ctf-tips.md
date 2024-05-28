@@ -246,6 +246,8 @@ CVE-2024-27127 A double-free in utilRequest.cgi via the delete_share function
 CVE-2024-27128 Stack overflow in check_email function, reachable via the share_file and send_share_mail actions of utilRequest.cgi (possibly others) leads to RCE  
 CVE-2024-27129 Unsafe use of strcpy in get_tree function of utilRequest.cgi leads to static buffer overflow and thus RCE  
 CVE-2024-27130 Unsafe use of strcpy in No_Support_ACL accessible by get_file_size function of share.cgi leads to stack buffer overflow and thus RCE  
+CVE-2024-32766 https://github.com/3W1nd4r/CVE-2024-32766-RCE  无poc qnap RCE  
+
 
 
 
