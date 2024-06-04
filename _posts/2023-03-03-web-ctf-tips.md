@@ -249,6 +249,8 @@ CVE-2024-27130 Unsafe use of strcpy in No_Support_ACL accessible by get_file_siz
 CVE-2024-32766 https://github.com/3W1nd4r/CVE-2024-32766-RCE  无poc qnap RCE  
 
 
+apache  
+CVE-2024-32113 https://github.com/Mr-xn/CVE-2024-32113 Apache OFBIZ Path traversal leading to RCE EXP  
 
 
 
