@@ -251,6 +251,7 @@ CVE-2024-32766 https://github.com/3W1nd4r/CVE-2024-32766-RCE  无poc qnap RCE
 
 apache  
 CVE-2024-32113 https://github.com/Mr-xn/CVE-2024-32113 Apache OFBIZ Path traversal leading to RCE EXP  
+CVE-2024-27348 https://github.com/Zeyad-Azima/CVE-2024-27348 Apache HugeGraph Server RCE  
 
 
 
