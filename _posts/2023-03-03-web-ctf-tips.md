@@ -118,7 +118,7 @@ CVE-2024-28085 https://github.com/skyler-ferrante/CVE-2024-28085 linux标准软�
 CVE-2024-2961 https://github.com/mattaperkins/FIX-CVE-2024-2961 glibc 安全漏洞The iconv() function in the GNU C Library versions 2.39  
 
 
-Exchange  and  outlook  and hyper-v  and word and ppt  
+Exchange  and  outlook  and hyper-v  and word and ppt and SharePoint  
 CVE-2022-41082 https://github.com/balki97/OWASSRF-CVE-2022-41082-POC NotProxyShell OWASSRF Vul Effecting Microsoft Exchange 
 
 CVE-2023-21707 https://github.com/N1k0la-T/CVE-2023-21707 Microsoft Exchange Server Remote Code Execution Vulnerability  
@@ -130,6 +130,7 @@ CVE-2023-36427 https://github.com/tandasat/CVE-2023-36427 Windows Hyper-V 特权
 CVE-2023-24955 https://github.com/former-farmer/CVE-2023-24955-PoC Microsoft SharePoint 2019  
 CVE-2024-21413 https://github.com/xaitax/CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability Microsoft Outlook RCE PoC  
 https://github.com/JohnHormond/CVE-2024-21378 Microsoft Outlook 远程代码执行漏洞  
+CVE-2024-30043 https://github.com/W01fh4cker/CVE-2024-30043-XXE Microsoft Sharepoint Server 2019(16.0.10409.20027)  
 
 
 域控  
