@@ -53,6 +53,7 @@ CVE-2024-21306 https://github.com/d4rks1d33/C-PoC-for-CVE-2024-21306 Microsoft B
 CVE-2024-26218 https://github.com/exploits-forsale/CVE-2024-26218 Windows 内核特权提升漏洞  
 CVE-2024-21345 https://github.com/exploits-forsale/CVE-2024-21345 Windows 内核特权提升漏洞  
 CVE-2024-29988 https://github.com/Sploitus/CVE-2024-29988-exploit Exploit for Microsoft SmartScreen malicious execution  
+CVE-2024-26229 https://github.com/varwara/CVE-2024-26229 Windows CSC Service Elevation of Privilege Vulnerability  
 
 
 windows rce  
