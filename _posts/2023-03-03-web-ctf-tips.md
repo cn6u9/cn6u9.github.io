@@ -212,6 +212,7 @@ CVE-2023-35042 https://isc.sans.edu/diary/Geoserver+Attack+Details+More+Cryptomi
 CVE-2023-25157 https://github.com/7imbitz/CVE-2023-25157-checker geoserver sql inject  
 CVE-2024-20931 https://github.com/labesterOct/CVE-2024-20931 Weblogic T3\IIOP protocol A new attack  
 CVE-2024-21893 https://github.com/h4x0r-dz/CVE-2024-21893.py Ivanti Policy Secure (9.x, 22.x)  
+CVE-2024-29824 https://github.com/horizon3ai/CVE-2024-29824 Ivanti EPM SQL Injection RCE  
 CVE-2024-21006 https://github.com/momika233/CVE-2024-21006 Oracle WebLogic Server 12.2.1.4.0 and 14.1.1.0.0  
 
 
