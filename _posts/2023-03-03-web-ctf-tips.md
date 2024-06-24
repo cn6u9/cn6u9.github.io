@@ -32,6 +32,8 @@ CVE-2023-21823 https://github.com/Elizarfish/CVE-2023-21823 windows bitmap组件
 CVE-2023-29336 https://github.com/m-cetin/CVE-2023-29336 Win32k Local Privilege  
 CVE-2023-28252 https://github.com/fortra/CVE-2023-28252 clfs.sys  
 CVE-2022-44666 https://github.com/j00sean/CVE-2022-44666 Microsoft Windows Contacts  
+CVE-2023-24871 https://github.com/ynwarcs/CVE-2023-24871 Windows Bluetooth 服务远程代码执行漏洞  
+CVE-2023-23388 https://github.com/ynwarcs/CVE-2023-23388 Windows Bluetooth 驱动程序特权提升漏洞  
 CVE-2023-36899 https://github.com/d0rb/CVE-2023-36899 ASP.NET Elevation of Cookieless IIS Auth Bypass & App Pool Privesc  
 CVE-2023-36874 https://github.com/d0rb/CVE-2023-36874 Windows Error Reporting Service lpe  
 CVE-2023-36900 https://github.com/RomanRybachek/CVE-2023-36900 Windows Common Log File System Driver Elevation of Privilege Vulnerability  
@@ -107,6 +109,7 @@ CVE-2023-35829 https://github.com/ChriSanders22/CVE-2023-35829-poc Linux kernel 
 CVE-2023-2640 https://github.com/luanoliveira350/GameOverlayFS OverlayFS Ubuntu 20.04 with kernel 5.4.0  
 CVE-2023-32629 https://github.com/g1vi/CVE-2023-2640-CVE-2023-32629 Ubuntu 18.04 and 22.04 LTS  kernels 5.19.0 and 6.2.0  
 CVE-2023-4911 https://github.com/RickdeJager/CVE-2023-4911 Ubuntu 22.10  glibc 2.34 ld.so  
+cve-2023-4813 https://github.com/tnishiox/cve-2023-4813 gaih_inet() 中潜在的释放后使用  
 CVE-2023-3269 
 CVE-2023-1521 https://github.com/rubbxalc/CVE-2023-1521 Linux the sccache client lpe  
 cve-2023-2598 https://github.com/ysanatomic/io_uring_LPE-CVE-2023-2598/blob/main/exploit.c Linux Kernel io_uring 拒绝服务漏洞  
@@ -275,7 +278,7 @@ CVE-2023-2868  https://github.com/cfielding-r7/poc-cve-2023-2868 梭子鱼本地
 CVE-2023-3519 Citrix RCE  
 CVE-2023-4966 https://github.com/Chocapikk/CVE-2023-4966 Citrix Memory Leak Exploit  
 CVE-2023-43177 https://github.com/the-emmons/CVE-2023-43177 CrushFTP <= 10.5.1 RCE  
-
+CVE-2023-20598 https://github.com/H4rk3nz0/CVE-2023-20598-PDFWKRNL AMD Radeon 安全漏洞  
 
 CVE-2023-20871  https://github.com/ChriSanders22/CVE-2023-20871-poc VMware Fusion Raw Disk local privilege escalation vulnerability  
 CVE-2023-34312  https://github.com/vi3t1/qq-tim-elevation Tencent QQ/TIM Local Privilege Elevation  
@@ -289,6 +292,7 @@ CVE-2023-51764 https://github.com/duy-31/CVE-2023-51764 Postfix SMTP Smuggling -
 cve-2024-3116 https://ayoubmokhtar.com/post/remote_code_execution_pgadmin_8.4-cve-2024-3116/ pgAdmin - PostgreSQL Tools (<=8.4)  
 CVE-2024-24576 https://github.com/frostb1ten/CVE-2024-24576-PoC Rust flaw enables Windows command injection attacks  
 CVE-2024-32459 https://github.com/absholi7ly/FreeRDP-Out-of-Bounds-Read-CVE-2024-32459- FreeRDP 3.5.0 或 2.11.6 之前版本的客户端和服务器存在越界读漏洞  
+
 
 
 # 小结
