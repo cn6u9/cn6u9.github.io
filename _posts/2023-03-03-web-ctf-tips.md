@@ -57,6 +57,7 @@ CVE-2024-21345 https://github.com/exploits-forsale/CVE-2024-21345 Windows 内核
 CVE-2024-29988 https://github.com/Sploitus/CVE-2024-29988-exploit Exploit for Microsoft SmartScreen malicious execution  
 CVE-2024-26229 https://github.com/varwara/CVE-2024-26229 Windows CSC Service Elevation of Privilege Vulnerability  
 CVE-2024-30088 https://github.com/tykawaii98/CVE-2024-30088 Windows Kernel Elevation of Privilege Vulnerability  
+CVE-2024-37726 https://github.com/carsonchan12345/CVE-2024-37726-MSI-Center-Local-Privilege-Escalation MSI Center LPE  
 
 
 windows rce  
