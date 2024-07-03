@@ -186,6 +186,7 @@ CVE-2024-27497 https://www.seebug.org/vuldb/ssvid-99816 linksys e2000 bug
 CVE-2024-3273 https://github.com/Chocapikk/CVE-2024-3273 d-link nas rce 8w台  
 CVE-2024-29269 https://github.com/YongYe-Security/CVE-2024-29269 Telesquare TLR-2005KSH_RCE for kr  
 CVE-2024-20359 https://github.com/Garvard-Agency/CVE-2024-20359-CiscoASA-FTD-exploit CVE-2024-20359-CiscoASA-FTD-exploit  
+CVE-2024-20356 https://github.com/nettitude/CVE-2024-20356 Cisco Integrated Management Controller 操作系统命令注入漏洞  
 CVE-2024-26304 https://github.com/Roud-Roud-Agency/CVE-2024-26304-RCE-exploits Critical RCE Vulnerabilities in HPE  
 CVE-2024-29973 https://github.com/bigb0x/CVE-2024-29973 Zyxel NAS542 操作系统命令注入漏洞  
 CVE-2024-29975 https://mp.weixin.qq.com/s/hs8PJOIw7DFyzv5fCUKwlw 包含了CVE-2024-29972-NsaRescueAngel 后门账户CVE-2024-29976 – 权限提升和信息泄露漏洞CVE-2024-29973 – Python 代码注入漏洞  
