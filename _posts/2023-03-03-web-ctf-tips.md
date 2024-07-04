@@ -124,6 +124,7 @@ CVE-2024-1086 https://github.com/Notselwyn/CVE-2024-1086 Linux kernel v5.14 and 
 CVE-2024-0582 https://github.com/ysanatomic/io_uring_LPE-CVE-2024-0582 linux内核通过缓冲区环 mmap 的页面释放后  
 CVE-2024-28085 https://github.com/skyler-ferrante/CVE-2024-28085 linux标准软件包 util-linux <2.40 setid 提权漏洞  
 CVE-2024-2961 https://github.com/mattaperkins/FIX-CVE-2024-2961 glibc 安全漏洞The iconv() function in the GNU C Library versions 2.39  
+CVE-2024-2961 https://github.com/m4p1e/php-exploit/blob/master/CVE-2024-2961/exp.py roundcube邮件服务器利用方式  
 CVE-2024-0193 https://github.com/google/security-research/tree/master/pocs/linux/kernelctf/CVE-2024-0193_cos/ netfilter uaf lpe  
 
 
