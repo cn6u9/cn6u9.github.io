@@ -248,6 +248,7 @@ CVE-2024-27815 https://github.com/jprx/CVE-2024-27815 tvOS 17.5, visionOS 1.2, i
 php  
 https://github.com/synacktiv/php_filter_chains_oracle_exploit 有意思的漏洞  
 cve-2023-3824 https://github.com/php/php-src/security/advisories/GHSA-jqcx-ccgc-xwhv phar_dir_read()overflow  
+CVE-2023-3824 https://github.com/m4p1e/php-exploit/tree/master/CVE-2023-3824  
 
 qnap and nas  
 CVE-2023-47218 https://github.com/passwa11/CVE-2023-47218 qnap rce  
