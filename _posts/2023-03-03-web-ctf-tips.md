@@ -221,6 +221,7 @@ Weblogic CVE-2023-21931  无poc
 weblogic https://github.com/MMarch7/weblogic_CVE-2023-21931_POC-EXP  
 CVE-2023-35042 https://isc.sans.edu/diary/Geoserver+Attack+Details+More+Cryptominers+against+Unconfigured+WebApps/29936/ GeoServer 2 远程代码执行漏洞  
 CVE-2023-25157 https://github.com/7imbitz/CVE-2023-25157-checker geoserver sql inject  
+cve-2024-36401 https://github.com/bigb0x/CVE-2024-36401/blob/main/cve-2024-36401.py geoserver rce  
 CVE-2024-20931 https://github.com/labesterOct/CVE-2024-20931 Weblogic T3\IIOP protocol A new attack  
 CVE-2024-21893 https://github.com/h4x0r-dz/CVE-2024-21893.py Ivanti Policy Secure (9.x, 22.x)  
 CVE-2024-29824 https://github.com/horizon3ai/CVE-2024-29824 Ivanti EPM SQL Injection RCE  
