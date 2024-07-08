@@ -210,6 +210,8 @@ CVE-2024-21388 https://github.com/d0rb/CVE-2024-21388 Microsoft Edge (Chromium-b
 CVE-2024-3159 https://bbs.kanxue.com/thread-281484.htm Chromium: CVE-2024-3159 Out of bounds memory access in V8  
 CVE-2024-4761 https://github.com/michredteam/CVE-2024-4761 124.0.6367.207/.208 for Mac and Windows and 124.0.6367.207之前版本  
 CVE-2024-30056 https://github.com/absholi7ly/Microsoft-Edge-Information-Disclosure Microsoft Edge信息泄漏  
+CVE-2024-29943CVE-2024-29943 https://github.com/bjrjk/CVE-2024-29943 firefox rce  
+
 
 
 
@@ -237,6 +239,9 @@ CVE-2024-21626 https://github.com/Wall1e/CVE-2024-21626-POC ocker server:20.10.1
 CVE-2024-21762 https://github.com/Gh71m/CVE-2024-21762-POC?tab=readme-ov-file FortiProxy 1.07-7.40执行未授权的代码或命令  
 CVE-2024-21111 https://github.com/mansk1es/CVE-2024-21111 Oracle VirtualBox Prior to 7.0.16 lpe  
 CVE-2024-21754 https://github.com/CyberSecuritist/CVE-2024-21754-Forti-RCE FortiOS and FortiProxy Password Hashing Vulnerability to RCE无poc  
+CVE-2024-37081 https://github.com/mbadanoiu/CVE-2024-37081 VMware vCenter Server LPE  
+CVE-2024-22275 https://github.com/mbadanoiu/CVE-2024-22275 VMware vCenter Server File Read  
+
 
 
 Macos and ios 
