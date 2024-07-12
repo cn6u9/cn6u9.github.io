@@ -87,6 +87,7 @@ CVE-2022-21974 https://github.com/0vercl0k/CVE-2022-21974 winword
 CVE-2023-28288 https://www.exploit-db.com/exploits/51543 Microsoft SharePoint Enterprise Server 2016 - Spoofing  
 CVE-2023-36563 无poc Microsoft WordPad Information Disclosure Vulnerability  
 CVE-2023-21608 https://github.com/hacksysteam/CVE-2023-21608 Adobe Acrobat Reader CAgg UaF RCE Exploit  
+CVE-2024-4367 https://github.com/Zombie-Kaiser/cve-2024-4367-PoC-fixed PDF.js是由Mozilla维护的基于JavaScript的PDF查看器  
 
 
 linux lpe  
