@@ -243,6 +243,7 @@ CVE-2024-21111 https://github.com/mansk1es/CVE-2024-21111 Oracle VirtualBox Prio
 CVE-2024-21754 https://github.com/CyberSecuritist/CVE-2024-21754-Forti-RCE FortiOS and FortiProxy Password Hashing Vulnerability to RCE无poc  
 CVE-2024-37081 https://github.com/mbadanoiu/CVE-2024-37081 VMware vCenter Server LPE  
 CVE-2024-22275 https://github.com/mbadanoiu/CVE-2024-22275 VMware vCenter Server File Read  
+CVE-2024-22274 https://github.com/l0n3m4n/CVE-2024-22274-RCE VMware vCenter Server Authenticated RCE  
 
 
 
