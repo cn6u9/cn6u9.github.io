@@ -130,7 +130,7 @@ CVE-2024-2961 https://github.com/m4p1e/php-exploit/blob/master/CVE-2024-2961/exp
 CVE-2024-0193 https://github.com/google/security-research/tree/master/pocs/linux/kernelctf/CVE-2024-0193_cos/ netfilter uaf lpe  
 
 
-Exchange  and  outlook  and hyper-v  and word and ppt and SharePoint and BitLocker  
+Exchange  and  outlook  and hyper-v  and word and ppt and SharePoint  
 CVE-2022-41082 https://github.com/balki97/OWASSRF-CVE-2022-41082-POC NotProxyShell OWASSRF Vul Effecting Microsoft Exchange 
 
 CVE-2023-21707 https://github.com/N1k0la-T/CVE-2023-21707 Microsoft Exchange Server Remote Code Execution Vulnerability  
@@ -143,7 +143,7 @@ CVE-2023-24955 https://github.com/former-farmer/CVE-2023-24955-PoC Microsoft Sha
 CVE-2024-21413 https://github.com/xaitax/CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability Microsoft Outlook RCE PoC  
 CVE-2024-21378 https://github.com/JohnHormond/CVE-2024-21378 Microsoft Outlook 远程代码执行漏洞  
 CVE-2024-30043 https://github.com/W01fh4cker/CVE-2024-30043-XXE Microsoft Sharepoint Server 2019(16.0.10409.20027)  
-CVE-2024-20666 https://github.com/HYZ3K/CVE-2024-20666 BitLocker 安全功能绕过漏洞  
+
 
 
 域控  
