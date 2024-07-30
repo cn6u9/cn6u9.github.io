@@ -179,6 +179,7 @@ CVE-2023-39362 https://github.com/m3ssap0/cacti-rce-snmp-options-vulnerable-appl
 CVE-2024-29895 https://github.com/Stuub/CVE-2024-29895-CactiRCE-PoC  
 CVE-2023-41892 https://github.com/diegaccio/Craft-CMS-Exploit Craft CMS Versions between 4.0.0-RC1 - 4.4.14  
 CVE-2024-23897 https://github.com/godylockz/CVE-2024-23897 file-read access on a Jenkins server <= version 2.441  
+CVE-2024-34144 https://github.com/MXWXZ/CVE-2024-34144 Jenkins 脚本安全插件存在涉及精心设计的构造函数体的沙箱绕过漏洞  
 CVE-2024-22234 https://github.com/shellfeel/CVE-2024-22243-CVE-2024-22234 Spring Security 6.1.7之前的6.1.x版本和6.2.2之前的6.2.x  
 CVE-2024-21683 https://github.com/absholi7ly/-CVE-2024-21683-RCE-in-Confluence-Data-Center-and-Server Confluence需要帐号密码  
 CVE-2024-34102 https://github.com/bigb0x/CVE-2024-34102 Adobe Commerce/Magento estimate-shipping-methods XXE漏洞  
@@ -195,6 +196,9 @@ CVE-2024-20356 https://github.com/nettitude/CVE-2024-20356 Cisco Integrated Mana
 CVE-2024-26304 https://github.com/Roud-Roud-Agency/CVE-2024-26304-RCE-exploits Critical RCE Vulnerabilities in HPE  
 CVE-2024-29973 https://github.com/bigb0x/CVE-2024-29973 Zyxel NAS542 操作系统命令注入漏洞  
 CVE-2024-29975 https://mp.weixin.qq.com/s/hs8PJOIw7DFyzv5fCUKwlw 包含了CVE-2024-29972-NsaRescueAngel 后门账户CVE-2024-29976 – 权限提升和信息泄露漏洞CVE-2024-29973 – Python 代码注入漏洞  
+
+mail and exim  
+CVE-2024-39929 https://github.com/michael-david-fry/CVE-2024-39929 Exim through 4.97.1 misparses a multiline RFC 2231 header filename  
 
 
 Browser  
