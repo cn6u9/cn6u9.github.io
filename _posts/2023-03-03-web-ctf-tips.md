@@ -58,6 +58,8 @@ CVE-2024-26229 https://github.com/varwara/CVE-2024-26229 Windows CSC Service Ele
 CVE-2024-30088 https://github.com/tykawaii98/CVE-2024-30088 Windows Kernel Elevation of Privilege Vulnerability  
 CVE-2024-37726 https://github.com/carsonchan12345/CVE-2024-37726-MSI-Center-Local-Privilege-Escalation MSI Center LPE  
 CVE-2024-38041 https://github.com/varwara/CVE-2024-38041 Windows appid.sys内核信息泄露漏洞  
+CVE-2024-38100 https://github.com/advisories/GHSA-6g5f-975p-ff7r Windows File Explorer Elevation of Privilege Vulnerability  
+
 
 
 windows rce  
