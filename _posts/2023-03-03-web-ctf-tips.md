@@ -58,7 +58,7 @@ CVE-2024-26229 https://github.com/varwara/CVE-2024-26229 Windows CSC Service Ele
 CVE-2024-30088 https://github.com/tykawaii98/CVE-2024-30088 Windows Kernel Elevation of Privilege Vulnerability  
 CVE-2024-37726 https://github.com/carsonchan12345/CVE-2024-37726-MSI-Center-Local-Privilege-Escalation MSI Center LPE  
 CVE-2024-38041 https://github.com/varwara/CVE-2024-38041 Windows appid.sys内核信息泄露漏洞  
-CVE-2024-38100 https://github.com/advisories/GHSA-6g5f-975p-ff7r Windows File Explorer Elevation of Privilege Vulnerability  
+CVE-2024-38100 https://github.com/Florian-Hoth/CVE-2024-38100-RCE-POC Windows File Explorer Elevation of Privilege Vulnerability  
 
 
 
@@ -252,6 +252,10 @@ CVE-2024-21754 https://github.com/CyberSecuritist/CVE-2024-21754-Forti-RCE Forti
 CVE-2024-37081 https://github.com/mbadanoiu/CVE-2024-37081 VMware vCenter Server LPE  
 CVE-2024-22275 https://github.com/mbadanoiu/CVE-2024-22275 VMware vCenter Server File Read  
 CVE-2024-22274 https://github.com/l0n3m4n/CVE-2024-22274-RCE VMware vCenter Server Authenticated RCE  
+CVE-2024-37085 https://github.com/Florian-Hoth/CVE-2024-37085-RCE-POC VMware ESXi RCE Vulnerability  
+CVE-2024-6222 https://github.com/Florian-Hoth/CVE-2024-6222 Docker Extension/Dashboard RCE Vulnerability  
+
+
 
 
 
