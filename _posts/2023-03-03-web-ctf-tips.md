@@ -70,6 +70,7 @@ CVE-2023-28231 https://github.com/glavstroy/CVE-2023-28231  MICROSOFT WINDOWS SE
 CVE-2023-38148 https://github.com/Chestnuts4/POC/blob/master/CVE-https://github.com/synacktiv/php_filter_chains_oracle_exploit 有意思的漏洞  2023-38148-windows-ics-rce/CVE-2023-38148.c Internet Connection Sharing (ICS) RCE  
 CVE-2024-20696 https://github.com/clearbluejar/CVE-2024-20696 Windows Libarchive 远程代码执行漏洞  
 CVE-2024-30078 https://github.com/kvx07/CVE_2024_30078_A_POC Windows Wi-Fi Driver Remote Code Execution Vulnerability  
+CVE-2024-38077 https://github.com/CloudCrowSec001/CVE-2024-38077-POC/blob/main/CVE-2024-38077-poc.py Windows 远程桌面授权服务远程代码执行漏洞  
 
 php  
 cve-2024-1874 https://github.com/php/php-src/security/advisories/GHSA-pc52-254m-w9w7 PHP直到8.1.27/8.2.17/8.3.4WINDOWS PROC_OPEN 权限升级  
