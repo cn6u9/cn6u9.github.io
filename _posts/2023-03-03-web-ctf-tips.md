@@ -174,7 +174,6 @@ CVE-2023-25690 https://github.com/thanhlam-attt/CVE-2023-25690 Apache HTTP Serve
 CVE-2023-50164 https://github.com/jakabakos/CVE-2023-50164-Apache-Struts-RCE Apache Struts path traversal to RCE vulnerability  
 CVE-2023-41892 https://github.com/Faelian/CraftCMS_CVE-2023-41892 CraftCMS Unauthenticated RCE  
 CVE-2023-22527 https://github.com/Avento/CVE-2023-22527_Confluence_RCE Confluence Data Center and Confluence Server rce  
-CVE-2024-23897 https://github.com/CKevens/CVE-2024-23897 Jenkins File Leak / RCE  
 CVE-2023-39362 https://github.com/m3ssap0/cacti-rce-snmp-options-vulnerable-application Cacti v1.2.24 authenticated command injection 需要登录  
 无cve https://github.com/Cacti/cacti/security/advisories/GHSA-7cmj-g5qc-pj88 cacti漏洞点位置  
 CVE-2024-29895 https://github.com/Stuub/CVE-2024-29895-CactiRCE-PoC  
@@ -182,7 +181,6 @@ CVE-2023-41892 https://github.com/diegaccio/Craft-CMS-Exploit Craft CMS Versions
 CVE-2024-23897 https://github.com/godylockz/CVE-2024-23897 file-read access on a Jenkins server <= version 2.441  
 CVE-2024-34144 https://github.com/MXWXZ/CVE-2024-34144 Jenkins 脚本安全插件存在涉及精心设计的构造函数体的沙箱绕过漏洞  
 CVE-2024-43044 https://github.com/HwMex0/CVE-2024-43044 Jenkins agent connections 文件读取漏洞  
-CVE-2024-23897 https://github.com/i-100-user/CVE-2024-25897 Jenkins CLI 任意文件读取漏洞  
 CVE-2024-22234 https://github.com/shellfeel/CVE-2024-22243-CVE-2024-22234 Spring Security 6.1.7之前的6.1.x版本和6.2.2之前的6.2.x  
 CVE-2024-21683 https://github.com/absholi7ly/-CVE-2024-21683-RCE-in-Confluence-Data-Center-and-Server Confluence需要帐号密码  
 CVE-2024-34102 https://github.com/bigb0x/CVE-2024-34102 Adobe Commerce/Magento estimate-shipping-methods XXE漏洞  
