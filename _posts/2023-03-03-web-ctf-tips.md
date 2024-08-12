@@ -59,6 +59,7 @@ CVE-2024-30088 https://github.com/tykawaii98/CVE-2024-30088 Windows Kernel Eleva
 CVE-2024-37726 https://github.com/carsonchan12345/CVE-2024-37726-MSI-Center-Local-Privilege-Escalation MSI Center LPE  
 CVE-2024-38041 https://github.com/varwara/CVE-2024-38041 Windows appid.sys内核信息泄露漏洞  
 CVE-2024-38100 https://github.com/Florian-Hoth/CVE-2024-38100-RCE-POC Windows File Explorer Elevation of Privilege Vulnerability  
+CVE-2024-26230 https://github.com/kiwids0220/CVE-2024-26230 Windows Telephony Server Elevation of Privilege Vulnerability  
 
 
 
