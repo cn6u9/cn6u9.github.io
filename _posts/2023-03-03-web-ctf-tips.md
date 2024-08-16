@@ -73,6 +73,7 @@ CVE-2023-38148 https://github.com/Chestnuts4/POC/blob/master/CVE-https://github.
 CVE-2024-20696 https://github.com/clearbluejar/CVE-2024-20696 Windows Libarchive 远程代码执行漏洞  
 CVE-2024-30078 https://github.com/kvx07/CVE_2024_30078_A_POC Windows Wi-Fi Driver Remote Code Execution Vulnerability  
 CVE-2024-38077 https://github.com/CloudCrowSec001/CVE-2024-38077-POC/blob/main/CVE-2024-38077-poc.py Windows 远程桌面授权服务远程代码执行漏洞  
+CVE-2024-38063　https://github.com/diegoalbuquerque/CVE-2024-38063　Windows TCP/IP 远程执行代码漏洞  
 
 php  
 cve-2024-1874 https://github.com/php/php-src/security/advisories/GHSA-pc52-254m-w9w7 PHP直到8.1.27/8.2.17/8.3.4WINDOWS PROC_OPEN 权限升级  
