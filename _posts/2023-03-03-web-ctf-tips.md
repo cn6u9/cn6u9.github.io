@@ -172,15 +172,16 @@ CVE-2023-41362 https://github.com/SorceryIE/CVE-2023-41362_MyBB_ACP_RCE MyBB_ACP
 CVE-2023-22515 https://github.com/Chocapikk/CVE-2023-22515 Confluence Data Center  
 CVE-2023-39539 https://github.com/AdamWen230/CVE-2023-39539-PoC cacti 1.2.22 rce  
 CVE-2020-35701 https://asaf.me/2020/12/15/cacti-1-2-0-to-1-2-16-sql-injection/ cacti 1.2.14 sql to rce  
-cve-2023-47444 https://0xbro.red/disclosures/disclosed-vulnerabilities/opencart-cve-2023-47444/  OpenCart版本4.0.0.0至4.0.2.3中存在一个漏洞  
+cve-2023-47444 https://0xbro.red/disclosures/disclosed-vulnerabilities/opencart-cve-2023-47444/  OpenCart版本4.0.0.0至4.0.2.3存在个漏洞  
 cve-2023-34034 https://github.com/hotblac/cve-2023-34034 Spring Security 路径匹配权限绕过漏洞  
 CVE-2023-25690 https://github.com/thanhlam-attt/CVE-2023-25690 Apache HTTP Server 存在请求走私漏洞  
 CVE-2023-50164 https://github.com/jakabakos/CVE-2023-50164-Apache-Struts-RCE Apache Struts path traversal to RCE vulnerability  
 CVE-2023-41892 https://github.com/Faelian/CraftCMS_CVE-2023-41892 CraftCMS Unauthenticated RCE  
 CVE-2023-22527 https://github.com/Avento/CVE-2023-22527_Confluence_RCE Confluence Data Center and Confluence Server rce  
-CVE-2023-39362 https://github.com/m3ssap0/cacti-rce-snmp-options-vulnerable-application Cacti v1.2.24 authenticated command injection 需要登录  
+CVE-2023-39362 https://github.com/m3ssap0/cacti-rce-snmp-options-vulnerable-application Cacti v1.2.24 auth cmd inject 需要登录  
 无cve https://github.com/Cacti/cacti/security/advisories/GHSA-7cmj-g5qc-pj88 cacti漏洞点位置  
 CVE-2024-29895 https://github.com/Stuub/CVE-2024-29895-CactiRCE-PoC  
+CVE-2024-25641 https://github.com/5ma1l/CVE-2024-25641 RCE for Cacti 1.2.26  
 CVE-2023-41892 https://github.com/diegaccio/Craft-CMS-Exploit Craft CMS Versions between 4.0.0-RC1 - 4.4.14  
 CVE-2024-23897 https://github.com/godylockz/CVE-2024-23897 file-read access on a Jenkins server <= version 2.441  
 CVE-2024-34144 https://github.com/MXWXZ/CVE-2024-34144 Jenkins 脚本安全插件存在涉及精心设计的构造函数体的沙箱绕过漏洞  
