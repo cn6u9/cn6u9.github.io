@@ -61,6 +61,7 @@ CVE-2024-38041 https://github.com/varwara/CVE-2024-38041 Windows appid.sys内核
 CVE-2024-38100 https://github.com/Florian-Hoth/CVE-2024-38100-RCE-POC Windows File Explorer Elevation of Privilege Vulnerability  
 CVE-2024-26230 https://github.com/kiwids0220/CVE-2024-26230 Windows Telephony启用电话服务器特权提升漏洞  
 CVE-2024-6768 https://github.com/fortra/CVE-2024-6768 CLFS.sys服务拒绝（DoS）漏洞  
+CVE-2024-38080 https://github.com/pwndorei/CVE-2024-38080 Windows Hyper-V 特权提升漏洞  
 
 
 
@@ -133,6 +134,9 @@ CVE-2024-28085 https://github.com/skyler-ferrante/CVE-2024-28085 linux标准软�
 CVE-2024-2961 https://github.com/mattaperkins/FIX-CVE-2024-2961 glibc 安全漏洞The iconv() function in the GNU C Library versions 2.39  
 CVE-2024-2961 https://github.com/m4p1e/php-exploit/blob/master/CVE-2024-2961/exp.py roundcube邮件服务器利用方式  
 CVE-2024-0193 https://github.com/google/security-research/tree/master/pocs/linux/kernelctf/CVE-2024-0193_cos/ netfilter uaf lpe  
+CVE-2024-44946　https://github.com/Abdurahmon3236/CVE-2024-44946　linux kcm_uaf_poc lpe  
+CVE-2024-42642 https://github.com/VL4DR/CVE-2024-42642/tree/main ssd磁盘提权漏洞　　
+
 
 
 Exchange  and  outlook  and hyper-v  and word and ppt and SharePoint  
