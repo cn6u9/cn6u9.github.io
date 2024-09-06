@@ -193,6 +193,7 @@ CVE-2024-43044 https://github.com/HwMex0/CVE-2024-43044 Jenkins agent connection
 CVE-2024-22234 https://github.com/shellfeel/CVE-2024-22243-CVE-2024-22234 Spring Security 6.1.7之前的6.1.x版本和6.2.2之前的6.2.x  
 CVE-2024-21683 https://github.com/absholi7ly/-CVE-2024-21683-RCE-in-Confluence-Data-Center-and-Server Confluence需要帐号密码  
 CVE-2024-34102 https://github.com/bigb0x/CVE-2024-34102 Adobe Commerce/Magento estimate-shipping-methods XXE漏洞  
+CVE-2024-44902 https://github.com/fru1ts/CVE-2024-44902 Thinkphp v6.1.3 to v8.0.4反序列化　　
 
 
 Critical and IOT and Router and nas and Cisco  
