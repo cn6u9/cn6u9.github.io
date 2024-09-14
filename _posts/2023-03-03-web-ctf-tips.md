@@ -249,6 +249,7 @@ cve-2024-36401 https://github.com/bigb0x/CVE-2024-36401/blob/main/cve-2024-36401
 CVE-2024-20931 https://github.com/labesterOct/CVE-2024-20931 Weblogic T3\IIOP protocol A new attack  
 CVE-2024-21893 https://github.com/h4x0r-dz/CVE-2024-21893.py Ivanti Policy Secure (9.x, 22.x)  
 CVE-2024-29824 https://github.com/horizon3ai/CVE-2024-29824 Ivanti EPM SQL Injection RCE  
+CVE-2024-29847 https://github.com/horizon3ai/CVE-2024-29847 Ivanti 存在反序列化漏洞  
 CVE-2024-21006 https://github.com/momika233/CVE-2024-21006 Oracle WebLogic Server 12.2.1.4.0 and 14.1.1.0.0  
 
 
