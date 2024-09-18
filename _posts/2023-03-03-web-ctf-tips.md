@@ -79,6 +79,7 @@ CVE-2024-38063　https://github.com/diegoalbuquerque/CVE-2024-38063　Windows TC
 php  
 cve-2024-1874 https://github.com/php/php-src/security/advisories/GHSA-pc52-254m-w9w7 PHP直到8.1.27/8.2.17/8.3.4WINDOWS PROC_OPEN 权限升级  
 CVE-2020-7071 https://github.com/php/php-src/security/advisories/GHSA-w8qr-v226-r27w Filter bypass in filter_var 7.327-8.37  
+CVE-2024-5458 https://github.com/justmexD8/CVE-2024-5458-POC filter_var (FILTER_VALIDATE_URL) 中的过滤器绕过  
 
 word and pdf and rar and wps  
 
