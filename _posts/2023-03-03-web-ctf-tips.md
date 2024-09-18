@@ -153,7 +153,7 @@ CVE-2023-24955 https://github.com/former-farmer/CVE-2023-24955-PoC Microsoft Sha
 CVE-2024-21413 https://github.com/xaitax/CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability Microsoft Outlook RCE PoC  
 CVE-2024-21378 https://github.com/JohnHormond/CVE-2024-21378 Microsoft Outlook 远程代码执行漏洞  
 CVE-2024-30043 https://github.com/W01fh4cker/CVE-2024-30043-XXE Microsoft Sharepoint Server 2019(16.0.10409.20027)  
-
+CVE-2024-38127 https://github.com/pwndorei/CVE-2024-38127 Windows Hyper-V 特权提升漏洞  
 
 
 域控  
