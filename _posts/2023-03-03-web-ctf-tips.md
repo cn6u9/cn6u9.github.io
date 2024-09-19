@@ -63,6 +63,7 @@ CVE-2024-26230 https://github.com/kiwids0220/CVE-2024-26230 Windows Telephony启
 CVE-2024-6768 https://github.com/fortra/CVE-2024-6768 CLFS.sys服务拒绝（DoS）漏洞  
 CVE-2024-38080 https://github.com/pwndorei/CVE-2024-38080 Windows Hyper-V 特权提升漏洞  
 CVE-2024-30051 https://github.com/fortra/CVE-2024-30051 Windows DWM Core Library lpe  
+CVE-2024-45383 https://github.com/SpiralBL0CK/CVE-2024-45383 Microsoft High Definition Audio Bus Driver 安全漏洞  
 
 
 windows rce  
