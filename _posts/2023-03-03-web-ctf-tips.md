@@ -172,6 +172,7 @@ CVE-2023-28467 mybb1.8.33 email xss
 CVE-2023-32315 https://github.com/Pari-Malam/CVE-2023-32315 openfire  
 CVE-2023-29489 https://github.com/ViperM4sk/cpanel-xss-177 cPanel 11.102.0.x-11.109.9999.116 xss  
 CVE-2023-25135 https://github.com/getdrive/PoC/tree/main/2023/vbulletin vbulletin.version:<=5.6.9 rce  
+
 Spring Framework 6.0.7 and 5.3.26 fix cve-2023-20860 and cve-2023-20861  
 CVE-2023-34039 https://github.com/Cyb3rEnthusiast/CVE-2023-34039 VMware newest exploit  
 CVE-2023-41362 https://github.com/SorceryIE/CVE-2023-41362_MyBB_ACP_RCE MyBB_ACP_RCE  
@@ -193,6 +194,7 @@ CVE-2024-23897 https://github.com/godylockz/CVE-2024-23897 file-read access on a
 CVE-2024-34144 https://github.com/MXWXZ/CVE-2024-34144 Jenkins 脚本安全插件存在涉及精心设计的构造函数体的沙箱绕过漏洞  
 CVE-2024-43044 https://github.com/HwMex0/CVE-2024-43044 Jenkins agent connections 文件读取漏洞  
 CVE-2024-22234 https://github.com/shellfeel/CVE-2024-22243-CVE-2024-22234 Spring Security 6.1.7之前的6.1.x版本和6.2.2之前的6.2.x  
+CVE-2024-38816 https://github.com/weliveby/cve-2024-38816-demo/tree/master Spring Framework 特定条件下目录遍历漏洞  
 CVE-2024-21683 https://github.com/absholi7ly/-CVE-2024-21683-RCE-in-Confluence-Data-Center-and-Server Confluence需要帐号密码  
 CVE-2024-34102 https://github.com/bigb0x/CVE-2024-34102 Adobe Commerce/Magento estimate-shipping-methods XXE漏洞  
 CVE-2024-44902 https://github.com/fru1ts/CVE-2024-44902 Thinkphp v6.1.3 to v8.0.4反序列化　　
