@@ -82,7 +82,7 @@ cve-2024-1874 https://github.com/php/php-src/security/advisories/GHSA-pc52-254m-
 CVE-2020-7071 https://github.com/php/php-src/security/advisories/GHSA-w8qr-v226-r27w Filter bypass in filter_var 7.327-8.37  
 CVE-2024-5458 https://github.com/justmexD8/CVE-2024-5458-POC filter_var (FILTER_VALIDATE_URL) 中的过滤器绕过  
 
-word and pdf and rar and wps  
+office and word and pdf and rar and wps  
 
 CVE_2023_21716 https://github.com/Xnuvers007/CVE-2023-21716    RTF Crash POC  
 cve-2023-23397 https://github.com/sqrtZeroKnowledge/CVE-2023-23397_EXPLOIT_0DAY  microsoft-outlook-elevation-of-privilege-vulnerability  
@@ -97,6 +97,7 @@ CVE-2023-28288 https://www.exploit-db.com/exploits/51543 Microsoft SharePoint En
 CVE-2023-36563 无poc Microsoft WordPad Information Disclosure Vulnerability  
 CVE-2023-21608 https://github.com/hacksysteam/CVE-2023-21608 Adobe Acrobat Reader CAgg UaF RCE Exploit  
 CVE-2024-4367 https://github.com/Zombie-Kaiser/cve-2024-4367-PoC-fixed PDF.js是由Mozilla维护的基于JavaScript的PDF查看器  
+CVE-2024-38200 https://github.com/passtheticket/CVE-2024-38200 Microsoft Office 欺骗漏洞  
 
 
 linux lpe  
