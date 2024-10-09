@@ -61,10 +61,13 @@ CVE-2024-38041 https://github.com/varwara/CVE-2024-38041 Windows appid.sys内核
 CVE-2024-38100 https://github.com/Florian-Hoth/CVE-2024-38100-RCE-POC Windows File Explorer Elevation of Privilege Vulnerability  
 CVE-2024-26230 https://github.com/kiwids0220/CVE-2024-26230 Windows Telephony启用电话服务器特权提升漏洞  
 CVE-2024-6768 https://github.com/fortra/CVE-2024-6768 CLFS.sys服务拒绝（DoS）漏洞  
+CVE-2024-26160 https://github.com/0x00Alchemist/CVE-2024-26160 cldflt.sys 信息泄漏　　
 CVE-2024-38080 https://github.com/pwndorei/CVE-2024-38080 Windows Hyper-V 特权提升漏洞  
 CVE-2024-30051 https://github.com/fortra/CVE-2024-30051 Windows DWM Core Library lpe  
 CVE-2024-45383 https://github.com/SpiralBL0CK/CVE-2024-45383 Microsoft High Definition Audio Bus Driver 安全漏洞  
 CVE-2024-38144 https://github.com/Dor00tkit/CVE-2024-38144 windows Kernel Streaming WOW Thunk 服务驱动程序特权提升漏洞  
+CVE-2024-29050 https://github.com/Akrachli/CVE-2024-29050 Windows' cryptographic services  
+
 
 
 windows rce  
@@ -205,7 +208,7 @@ CVE-2024-44902 https://github.com/fru1ts/CVE-2024-44902 Thinkphp v6.1.3 to v8.0.
 CVE-2024-45519 https://github.com/Chocapikk/CVE-2024-45519 Zimbra RCE  
 
 
-Critical and IOT and Router and nas and Cisco  
+Critical and IOT and Router and nas and Cisco and teamview  
 CVE-2023-3519 https://github.com/getdrive/PoC/tree/main/2023/Citrix%20ADC%20RCE%20CVE-2023-3519 Citrix VPX 13.1-48.47  
 https://ssd-disclosure.com/ssd-advisory-zyxel-vpn-series-pre-auth-remote-command-execution/  Zyxel VPN firewall VPN50, VPN100, VPN300, VPN500, VPN1000  
 CVE-2024-27497 https://www.seebug.org/vuldb/ssvid-99816 linksys e2000 bug  
@@ -217,6 +220,8 @@ CVE-2024-26304 https://github.com/Roud-Roud-Agency/CVE-2024-26304-RCE-exploits C
 CVE-2024-29973 https://github.com/bigb0x/CVE-2024-29973 Zyxel NAS542 操作系统命令注入漏洞  
 CVE-2024-29975 https://mp.weixin.qq.com/s/hs8PJOIw7DFyzv5fCUKwlw 包含了CVE-2024-29972-NsaRescueAngel 后门账户CVE-2024-29976 – 权限提升和信息泄露漏洞CVE-2024-29973 – Python 代码注入漏洞  
 CVE-2024-7357 https://github.com/BeaCox/IoT_vuln/tree/main/D-Link/DIR-600/soapcgi_main_injection D-Link DIR-600 soap.cgi soapcgi_main os 命令注入  
+CVE-2024-7479 & CVE-2024-7481 https://github.com/PeterGabaldon/CVE-2024-7479_CVE-2024-7481 TeamViewer User to lpe  
+
 
 mail and exim  
 CVE-2024-39929 https://github.com/michael-david-fry/CVE-2024-39929 Exim through 4.97.1 misparses a multiline RFC 2231 header filename  
