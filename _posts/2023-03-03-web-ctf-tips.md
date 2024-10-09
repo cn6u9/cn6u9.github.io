@@ -191,6 +191,7 @@ CVE-2023-39362 https://github.com/m3ssap0/cacti-rce-snmp-options-vulnerable-appl
 无cve https://github.com/Cacti/cacti/security/advisories/GHSA-7cmj-g5qc-pj88 cacti漏洞点位置  
 CVE-2024-29895 https://github.com/Stuub/CVE-2024-29895-CactiRCE-PoC  
 CVE-2024-25641 https://github.com/5ma1l/CVE-2024-25641 RCE for Cacti 1.2.26  
+CVE-2024-43363 https://github.com/p33d/CVE-2024-43363 通过 Cacti 中的日志中毒执行远程代码  
 CVE-2023-41892 https://github.com/diegaccio/Craft-CMS-Exploit Craft CMS Versions between 4.0.0-RC1 - 4.4.14  
 CVE-2024-23897 https://github.com/godylockz/CVE-2024-23897 file-read access on a Jenkins server <= version 2.441  
 CVE-2024-34144 https://github.com/MXWXZ/CVE-2024-34144 Jenkins 脚本安全插件存在涉及精心设计的构造函数体的沙箱绕过漏洞  
@@ -256,6 +257,8 @@ CVE-2024-20931 https://github.com/labesterOct/CVE-2024-20931 Weblogic T3\IIOP pr
 CVE-2024-21893 https://github.com/h4x0r-dz/CVE-2024-21893.py Ivanti Policy Secure (9.x, 22.x)  
 CVE-2024-29824 https://github.com/horizon3ai/CVE-2024-29824 Ivanti EPM SQL Injection RCE  
 CVE-2024-29847 https://github.com/horizon3ai/CVE-2024-29847 Ivanti 存在反序列化漏洞  
+CVE_2024_22024 https://github.com/tequilasunsh1ne/ivanti_CVE_2024_22024 Ivanti Pulse Connect Secure VPN XXE 漏洞还有CVE_2024_8190　　
+
 CVE-2024-21006 https://github.com/momika233/CVE-2024-21006 Oracle WebLogic Server 12.2.1.4.0 and 14.1.1.0.0  
 
 
