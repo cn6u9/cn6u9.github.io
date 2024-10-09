@@ -96,6 +96,7 @@ CVE-2022-30190 https://github.com/komomon/CVE-2022-30190-follina-Office-MSDT-Fix
 CVE-2023-40477 https://github.com/cn6u9/cn6u9.github.io/blob/main/tools/CVE-2023-40477.sh winrar rce  
 CVE-2023-38831 https://github.com/Garck3h/cve-2023-38831 winrar rce  
 wps rce  https://github.com/ba0gu0/wps-rce WPS Office 2023 个人版 < 11.1.0.15120---WPS Office 2019 企业版 < 11.8.2.12085  
+CVE-2024-7262 https://www.4hou.com/posts/5MWx WPS Office从路径穿越到远程代码执行漏洞  
 CVE-2022-21974 https://github.com/0vercl0k/CVE-2022-21974 winword  
 CVE-2023-28288 https://www.exploit-db.com/exploits/51543 Microsoft SharePoint Enterprise Server 2016 - Spoofing  
 CVE-2023-36563 无poc Microsoft WordPad Information Disclosure Vulnerability  
