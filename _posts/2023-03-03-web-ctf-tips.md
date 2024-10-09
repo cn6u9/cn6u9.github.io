@@ -140,6 +140,7 @@ CVE-2024-2961 https://github.com/m4p1e/php-exploit/blob/master/CVE-2024-2961/exp
 CVE-2024-0193 https://github.com/google/security-research/tree/master/pocs/linux/kernelctf/CVE-2024-0193_cos/ netfilter uaf lpe  
 CVE-2024-44946　https://github.com/Abdurahmon3236/CVE-2024-44946　linux kcm_uaf_poc lpe  
 CVE-2024-42642 https://github.com/VL4DR/CVE-2024-42642/tree/main ssd磁盘提权漏洞　　
+CVE-2024-47176 https://github.com/lkarlslund/jugular CUPS 远程命令执行漏洞  
 
 
 
