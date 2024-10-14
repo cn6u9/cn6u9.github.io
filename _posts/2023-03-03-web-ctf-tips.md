@@ -67,6 +67,7 @@ CVE-2024-30051 https://github.com/fortra/CVE-2024-30051 Windows DWM Core Library
 CVE-2024-45383 https://github.com/SpiralBL0CK/CVE-2024-45383 Microsoft High Definition Audio Bus Driver 安全漏洞  
 CVE-2024-38144 https://github.com/Dor00tkit/CVE-2024-38144 windows Kernel Streaming WOW Thunk 服务驱动程序特权提升漏洞  
 CVE-2024-29050 https://github.com/Akrachli/CVE-2024-29050 Windows' cryptographic services  
+CVE-2024-35250 https://github.com/varwara/CVE-2024-35250 Windows 内核模式驱动程序特权提升漏洞ks.sys  
 
 
 
