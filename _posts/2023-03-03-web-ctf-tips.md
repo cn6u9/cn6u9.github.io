@@ -247,6 +247,7 @@ CVE-2024-3159 https://bbs.kanxue.com/thread-281484.htm Chromium: CVE-2024-3159 O
 CVE-2024-4761 https://github.com/michredteam/CVE-2024-4761 124.0.6367.207/.208 for Mac and Windows and 124.0.6367.207之前版本  
 CVE-2024-30056 https://github.com/absholi7ly/Microsoft-Edge-Information-Disclosure Microsoft Edge信息泄漏  
 CVE-2024-29943CVE-2024-29943 https://github.com/bjrjk/CVE-2024-29943 firefox rce  
+CVE-2024-9680 https://github.com/tdonaworth/Firefox-CVE-2024-9680 firefox 引用重释放漏洞  
 CVE_2024_3833 https://github.com/github/securitylab/tree/main/SecurityExploits/Chrome/v8/CVE_2024_3833 Chrome version 123.0.6312.58 on Ubuntu 22.04  
 CVE-2024-2887 https://github.com/rycbar77/CVE-2024-2887 chrome claim V8CTF M123  
 CVE-2024-1939 https://github.com/rycbar77/CVE-2024-1939  claim V8CTF M122  
