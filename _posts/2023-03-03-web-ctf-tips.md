@@ -68,6 +68,7 @@ CVE-2024-45383 https://github.com/SpiralBL0CK/CVE-2024-45383 Microsoft High Defi
 CVE-2024-38144 https://github.com/Dor00tkit/CVE-2024-38144 windows Kernel Streaming WOW Thunk 服务驱动程序特权提升漏洞  
 CVE-2024-29050 https://github.com/Akrachli/CVE-2024-29050 Windows' cryptographic services  
 CVE-2024-35250 https://github.com/varwara/CVE-2024-35250 Windows 内核模式驱动程序特权提升漏洞ks.sys  
+CVE-2024-30090 https://github.com/Dor00tkit/CVE-2024-30090 Microsoft 流式处理服务特权提升漏洞  
 
 
 
