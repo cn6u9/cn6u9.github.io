@@ -144,6 +144,7 @@ CVE-2024-0582 https://github.com/ysanatomic/io_uring_LPE-CVE-2024-0582 linux内�
 CVE-2024-28085 https://github.com/skyler-ferrante/CVE-2024-28085 linux标准软件包 util-linux <2.40 setid 提权漏洞  
 CVE-2024-2961 https://github.com/mattaperkins/FIX-CVE-2024-2961 glibc 安全漏洞The iconv() function in the GNU C Library versions 2.39  
 CVE-2024-2961 https://github.com/m4p1e/php-exploit/blob/master/CVE-2024-2961/exp.py roundcube邮件服务器利用方式  
+CVE-2024-37383 https://github.com/bartfroklage/CVE-2024-37383-POC Roundcube Webmail before 1.5.7 and 1.6.x before 1.6.7 allows XSS via SVG  
 CVE-2024-0193 https://github.com/google/security-research/tree/master/pocs/linux/kernelctf/CVE-2024-0193_cos/ netfilter uaf lpe  
 CVE-2024-44946　https://github.com/Abdurahmon3236/CVE-2024-44946　linux kcm_uaf_poc lpe  
 CVE-2024-42642 https://github.com/VL4DR/CVE-2024-42642/tree/main ssd磁盘提权漏洞　　
