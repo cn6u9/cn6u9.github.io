@@ -255,7 +255,7 @@ CVE_2024_3833 https://github.com/github/securitylab/tree/main/SecurityExploits/C
 CVE-2024-2887 https://github.com/rycbar77/CVE-2024-2887 chrome claim V8CTF M123  
 CVE-2024-1939 https://github.com/rycbar77/CVE-2024-1939  claim V8CTF M122  
 CVE-2024-6778 https://github.com/ading2210/CVE-2024-6778-POC CVE-2024-5836 / CVE-2024-6778代码执行  
-
+cve-2024-7965　https://github.com/XiaomingX/cve-2024-7965-poc　chrome rce  
 
 
 
