@@ -361,6 +361,7 @@ cve-2024-3116 https://ayoubmokhtar.com/post/remote_code_execution_pgadmin_8.4-cv
 CVE-2024-24576 https://github.com/frostb1ten/CVE-2024-24576-PoC Rust flaw enables Windows command injection attacks  
 CVE-2024-32459 https://github.com/absholi7ly/FreeRDP-Out-of-Bounds-Read-CVE-2024-32459- FreeRDP 3.5.0 或 2.11.6 之前版本的客户端和服务器存在越界读漏洞  
 CVE-2024-40431　https://github.com/SpiralBL0CK/CVE-2024-40431-CVE-2022-25479-EOP-CHAIN　realtek声卡显卡驱动，RtsPer.sys信息泄漏　　
+CVE-2024-11477 https://github.com/TheN00bBuilder/cve-2024-11477-writeup/blob/main/CVE-2024-11477-Writeup.md 7-Zip Zstandard 解压缩整数下溢远程代码执行漏洞  
 
 
 
