@@ -297,12 +297,13 @@ CVE-2024-6222 https://github.com/Florian-Hoth/CVE-2024-6222 Docker Extension/Das
 
 
 
-Macos and ios 
+Macos and ios and android  
 CVE-2023-41991 macos   
 CVE-2023-41993 iphone_os  
 CVE-2024-25733 https://github.com/hackintoanetwork/ARC-Browser-Address-Bar-Spoofing-PoC ARC Browser Address Bar Spoofing  
 CVE-2024-27804 https://github.com/R00tkitSMM/CVE-2024-27804 ios 17.5本地提权  
 CVE-2024-27815 https://github.com/jprx/CVE-2024-27815 tvOS 17.5, visionOS 1.2, iOS 17.5 and iPadOS 17.5, watchOS 10.5, macOS Sonoma 14.5  
+CVE-2024-31317 https://github.com/fuhei/CVE-2024-31317 Google Android 安全漏洞  
 
 
 php  
