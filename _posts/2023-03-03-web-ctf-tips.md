@@ -70,6 +70,7 @@ CVE-2024-29050 https://github.com/Akrachli/CVE-2024-29050 Windows' cryptographic
 CVE-2024-35250 https://github.com/varwara/CVE-2024-35250 Windows 内核模式驱动程序特权提升漏洞ks.sys  
 CVE-2024-30090 https://github.com/Dor00tkit/CVE-2024-30090 Microsoft 流式处理服务特权提升漏洞  
 CVE-2024-38193 https://github.com/Nephster/CVE-2024-38193 WinSock的Windows辅助功能驱动程序特权提升漏洞  
+cve-2024-49039 https://github.com/Alexandr-bit253/CVE-2024-49039 Windows 任务计划程序特权提升漏洞  
 
 
 windows rce  
