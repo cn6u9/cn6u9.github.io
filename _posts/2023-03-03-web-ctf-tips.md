@@ -213,6 +213,7 @@ CVE-2024-21683 https://github.com/absholi7ly/-CVE-2024-21683-RCE-in-Confluence-D
 CVE-2024-34102 https://github.com/bigb0x/CVE-2024-34102 Adobe Commerce/Magento estimate-shipping-methods XXE漏洞  
 CVE-2024-44902 https://github.com/fru1ts/CVE-2024-44902 Thinkphp v6.1.3 to v8.0.4反序列化  
 CVE-2024-45519 https://github.com/Chocapikk/CVE-2024-45519 Zimbra RCE  
+CVE-2024-50379 https://github.com/v3153/CVE-2024-50379-POC Apache Tomcat 条件竞争文件上传漏洞  
 
 
 Critical and IOT and Router and nas and Cisco and teamview  
