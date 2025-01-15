@@ -72,6 +72,8 @@ CVE-2024-30090 https://github.com/Dor00tkit/CVE-2024-30090 Microsoft 流式处�
 CVE-2024-38193 https://github.com/Nephster/CVE-2024-38193 WinSock的Windows辅助功能驱动程序特权提升漏洞  
 cve-2024-49039 https://github.com/Alexandr-bit253/CVE-2024-49039 Windows 任务计划程序特权提升漏洞  
 CVE-2024-30085 https://github.com/Adamkadaban/CVE-2024-30085 Windows Cloud Files Mini Filter Driver 特权提升漏洞  
+CVE-2024-49138 https://github.com/MrAle98/CVE-2024-49138-POC CLFS.sys lpe  
+
 
 windows rce  
 
@@ -278,7 +280,7 @@ CVE-2024-21893 https://github.com/h4x0r-dz/CVE-2024-21893.py Ivanti Policy Secur
 CVE-2024-29824 https://github.com/horizon3ai/CVE-2024-29824 Ivanti EPM SQL Injection RCE  
 CVE-2024-29847 https://github.com/horizon3ai/CVE-2024-29847 Ivanti 存在反序列化漏洞  
 CVE_2024_22024 https://github.com/tequilasunsh1ne/ivanti_CVE_2024_22024 Ivanti Pulse Connect Secure VPN XXE 漏洞还有CVE_2024_8190　　
-
+CVE-2025-0282 https://github.com/rxwx/pulse-meter ivanti 栈溢出漏洞  
 CVE-2024-21006 https://github.com/momika233/CVE-2024-21006 Oracle WebLogic Server 12.2.1.4.0 and 14.1.1.0.0  
 
 
