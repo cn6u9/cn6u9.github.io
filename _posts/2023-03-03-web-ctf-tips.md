@@ -311,6 +311,7 @@ CVE-2024-27804 https://github.com/R00tkitSMM/CVE-2024-27804 ios 17.5本地提权
 CVE-2024-27815 https://github.com/jprx/CVE-2024-27815 tvOS 17.5, visionOS 1.2, iOS 17.5 and iPadOS 17.5, watchOS 10.5, macOS Sonoma 14.5  
 CVE-2024-31317 https://github.com/fuhei/CVE-2024-31317 Google Android 安全漏洞  
 CVE-2024-54498 https://github.com/wh1te4ever/CVE-2024-54498-PoC Escape macOS Sandbox using sharedfilelistd exploit  
+CVE-2024-55968 https://github.com/Wi1DN00B/CVE-2024-55968 macOS xpc lpe  
 
 php  
 https://github.com/synacktiv/php_filter_chains_oracle_exploit 有意思的漏洞  
