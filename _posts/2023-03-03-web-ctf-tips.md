@@ -293,6 +293,7 @@ CVE-2024-21762 https://github.com/Gh71m/CVE-2024-21762-POC?tab=readme-ov-file Fo
 CVE-2024-21111 https://github.com/mansk1es/CVE-2024-21111 Oracle VirtualBox Prior to 7.0.16 lpe  
 CVE-2024-21754 https://github.com/CyberSecuritist/CVE-2024-21754-Forti-RCE FortiOS and FortiProxy Password Hashing Vulnerability to RCE无poc  
 CVE-2024-23113 https://github.com/puckiestyle/CVE-2024-23113 Fortinet FortiOS 格式化字符串错误漏洞  
+CVE-2024-55591 https://github.com/watchtowrlabs/fortios-auth-bypass-check-CVE-2024-55591 Fortinet FortiOS Auth Bypass  
 CVE-2024-37081 https://github.com/mbadanoiu/CVE-2024-37081 VMware vCenter Server LPE  
 CVE-2024-22275 https://github.com/mbadanoiu/CVE-2024-22275 VMware vCenter Server File Read  
 CVE-2024-22274 https://github.com/l0n3m4n/CVE-2024-22274-RCE VMware vCenter Server Authenticated RCE  
