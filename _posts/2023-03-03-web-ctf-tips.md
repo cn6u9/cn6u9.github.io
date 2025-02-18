@@ -73,6 +73,7 @@ CVE-2024-38193 https://github.com/Nephster/CVE-2024-38193 WinSock的Windows辅�
 cve-2024-49039 https://github.com/Alexandr-bit253/CVE-2024-49039 Windows 任务计划程序特权提升漏洞  
 CVE-2024-30085 https://github.com/Adamkadaban/CVE-2024-30085 Windows Cloud Files Mini Filter Driver 特权提升漏洞  
 CVE-2024-49138 https://github.com/MrAle98/CVE-2024-49138-POC CLFS.sys lpe  
+CVE-2025-21420 https://github.com/Network-Sec/CVE-2025-21420-PoC Windows 磁盘清理工具特权提升漏洞  
 
 
 windows rce  
