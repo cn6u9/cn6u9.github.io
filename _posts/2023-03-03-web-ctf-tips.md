@@ -240,6 +240,7 @@ CVE-2025-0108 https://github.com/iSee857/CVE-2025-0108-PoC Palo Alto Networks PA
 
 mail and exim  
 CVE-2024-39929 https://github.com/michael-david-fry/CVE-2024-39929 Exim through 4.97.1 misparses a multiline RFC 2231 header filename  
+CVE-2025-26794 https://github.com/OscarBataille/CVE-2025-26794 SQLite (DBM) injection in Exim 4.98  
 
 
 Browser  
