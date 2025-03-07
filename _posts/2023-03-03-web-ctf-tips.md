@@ -75,6 +75,7 @@ CVE-2024-30085 https://github.com/Adamkadaban/CVE-2024-30085 Windows Cloud Files
 CVE-2024-49138 https://github.com/MrAle98/CVE-2024-49138-POC CLFS.sys lpe  
 CVE-2025-21420 https://github.com/Network-Sec/CVE-2025-21420-PoC Windows 磁盘清理工具特权提升漏洞  
 CVE-2025-21333 https://github.com/MrAle98/CVE-2025-21333-POC 	Windows Hyper-V NT Kernel Integration VSP LPE  
+CVE-2025-21298 https://github.com/ynwarcs/CVE-2025-21298 Windows OLE RCE  
 
 
 windows rce  
