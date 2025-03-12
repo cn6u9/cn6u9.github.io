@@ -157,6 +157,7 @@ CVE-2024-44946　https://github.com/Abdurahmon3236/CVE-2024-44946　linux kcm_ua
 CVE-2024-42642 https://github.com/VL4DR/CVE-2024-42642/tree/main ssd磁盘提权漏洞　　
 CVE-2024-47176 https://github.com/lkarlslund/jugular CUPS 远程命令执行漏洞  
 CVE-2024-27397 https://github.com/google/security-research/tree/master/pocs/linux/kernelctf/CVE-2024-27397_mitigation linux 3.6-4.1 lpe  
+CVE-2024-27398 https://github.com/secunnix/CVE-2024-27398 蓝牙修复 sco_sock_timeout 导致的释放后使用错误  
 
 
 Exchange  and  outlook  and hyper-v  and word and ppt and SharePoint  
