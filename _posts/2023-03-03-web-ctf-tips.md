@@ -192,7 +192,7 @@ CVE-2023-32315 https://github.com/Pari-Malam/CVE-2023-32315 openfire
 CVE-2023-29489 https://github.com/ViperM4sk/cpanel-xss-177 cPanel 11.102.0.x-11.109.9999.116 xss  
 CVE-2023-25135 https://github.com/getdrive/PoC/tree/main/2023/vbulletin vbulletin.version:<=5.6.9 rce  
 
-Spring Framework 6.0.7 and 5.3.26 fix cve-2023-20860 and cve-2023-20861  
+tomcat and Spring Framework 6.0.7 and 5.3.26 fix cve-2023-20860 and cve-2023-20861  
 CVE-2023-34039 https://github.com/Cyb3rEnthusiast/CVE-2023-34039 VMware newest exploit  
 CVE-2023-41362 https://github.com/SorceryIE/CVE-2023-41362_MyBB_ACP_RCE MyBB_ACP_RCE  
 CVE-2023-22515 https://github.com/Chocapikk/CVE-2023-22515 Confluence Data Center  
@@ -221,7 +221,7 @@ CVE-2024-34102 https://github.com/bigb0x/CVE-2024-34102 Adobe Commerce/Magento e
 CVE-2024-44902 https://github.com/fru1ts/CVE-2024-44902 Thinkphp v6.1.3 to v8.0.4反序列化  
 CVE-2024-45519 https://github.com/Chocapikk/CVE-2024-45519 Zimbra RCE  
 CVE-2024-50379 https://github.com/v3153/CVE-2024-50379-POC Apache Tomcat 条件竞争文件上传漏洞  
-
+CVE-2025-24813 https://github.com/iSee857/CVE-2025-24813-PoC Apache Tomcat 远程代码执行漏洞  
 
 Critical and IOT and Router and nas and Cisco and teamview  
 CVE-2023-3519 https://github.com/getdrive/PoC/tree/main/2023/Citrix%20ADC%20RCE%20CVE-2023-3519 Citrix VPX 13.1-48.47  
