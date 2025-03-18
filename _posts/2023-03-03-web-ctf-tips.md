@@ -224,7 +224,7 @@ CVE-2024-45519 https://github.com/Chocapikk/CVE-2024-45519 Zimbra RCE
 CVE-2024-50379 https://github.com/v3153/CVE-2024-50379-POC Apache Tomcat 条件竞争文件上传漏洞  
 CVE-2025-24813 https://github.com/iSee857/CVE-2025-24813-PoC Apache Tomcat 远程代码执行漏洞  
 
-Critical and IOT and Router and nas and Cisco and teamview  
+Critical and IOT and Router and nas and Cisco and teamview and tenda  
 CVE-2023-3519 https://github.com/getdrive/PoC/tree/main/2023/Citrix%20ADC%20RCE%20CVE-2023-3519 Citrix VPX 13.1-48.47  
 https://ssd-disclosure.com/ssd-advisory-zyxel-vpn-series-pre-auth-remote-command-execution/  Zyxel VPN firewall VPN50, VPN100, VPN300, VPN500, VPN1000  
 CVE-2024-27497 https://www.seebug.org/vuldb/ssvid-99816 linksys e2000 bug  
@@ -239,6 +239,7 @@ CVE-2024-29975 https://mp.weixin.qq.com/s/hs8PJOIw7DFyzv5fCUKwlw 包含了CVE-20
 CVE-2024-7357 https://github.com/BeaCox/IoT_vuln/tree/main/D-Link/DIR-600/soapcgi_main_injection D-Link DIR-600 soap.cgi soapcgi_main os 命令注入  
 CVE-2024-7479 & CVE-2024-7481 https://github.com/PeterGabaldon/CVE-2024-7479_CVE-2024-7481 TeamViewer User to lpe  
 CVE-2025-0108 https://github.com/iSee857/CVE-2025-0108-PoC Palo Alto Networks PAN-OS Management 管理端权限绕过漏洞  
+cve-2025-29384 https://github.com/shuqi233/loophole/tree/main/Tenda%20AC9 Tenda AC9 很多漏洞　　
 
 
 mail and exim  
