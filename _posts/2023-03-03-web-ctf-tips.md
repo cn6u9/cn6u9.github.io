@@ -25,9 +25,9 @@ https://github.com/sha0coder/maripyli 使用python2，是php静态代码分析�
 
 
 windows lpe  
-CVE-2023-21752 https://github.com/Wh04m1001/CVE-2023-21752   PoC for arbitrary file delete vulnerability in Windows Backup service
-CVE-2023–21746  https://github.com/blackarrowsec/redteam-research/tree/master/LPE%20via%20StorSvc LPE via StorSvc
-CVE-2023-21768 https://github.com/chompie1337/Windows_LPE_AFD_CVE-2023-21768 Windows 11 
+CVE-2023-21752 https://github.com/Wh04m1001/CVE-2023-21752   PoC for arbitrary file delete vul in Windows Backup service  
+CVE-2023–21746  https://github.com/blackarrowsec/redteam-research/tree/master/LPE%20via%20StorSvc LPE via StorSvc  
+CVE-2023-21768 https://github.com/chompie1337/Windows_LPE_AFD_CVE-2023-21768 Windows 11  
 CVE-2023-21823 https://github.com/Elizarfish/CVE-2023-21823 windows bitmap组件漏洞 poc应该是假的  
 CVE-2023-29336 https://github.com/m-cetin/CVE-2023-29336 Win32k Local Privilege  
 CVE-2023-28252 https://github.com/fortra/CVE-2023-28252 clfs.sys  
