@@ -291,6 +291,7 @@ CVE-2024-29847 https://github.com/horizon3ai/CVE-2024-29847 Ivanti 存在反序�
 CVE_2024_22024 https://github.com/tequilasunsh1ne/ivanti_CVE_2024_22024 Ivanti Pulse Connect Secure VPN XXE 漏洞还有CVE_2024_8190  
 CVE-2024-21006 https://github.com/momika233/CVE-2024-21006 Oracle WebLogic Server 12.2.1.4.0 and 14.1.1.0.0  
 CVE-2025-0282 https://github.com/sfewer-r7/CVE-2025-0282 ivanti 栈溢出漏洞  
+CVE-2025-22457 https://github.com/Vinylrider/ivantiunlocker Ivanti Connect Secure等多产品栈溢出漏洞  
 
 vmware esxi and vcenter and Fortinet and VirtualBox and docker  
 cve-2022-31705 https://github.com/s0duku/cve-2022-31705 Test on windows vmware workstation 16.2.0, with guest os ubuntu server 22  
