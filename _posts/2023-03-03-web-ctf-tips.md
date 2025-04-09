@@ -77,6 +77,7 @@ CVE-2025-21420 https://github.com/Network-Sec/CVE-2025-21420-PoC Windows 磁盘�
 CVE-2025-21333 https://github.com/MrAle98/CVE-2025-21333-POC 	Windows Hyper-V NT Kernel Integration VSP LPE  
 CVE-2025-21298 https://github.com/ynwarcs/CVE-2025-21298 Windows OLE RCE  
 CVE-2025-24071 Microsoft https://github.com/0x6rss/CVE-2025-24071_PoC Windows 文件资源管理器欺骗漏洞  
+CVE-2025-26633 https://github.com/sandsoncosta/CVE-2025-26633 Microsoft 管理控制台安全功能绕过漏洞  
 
 
 windows rce  
