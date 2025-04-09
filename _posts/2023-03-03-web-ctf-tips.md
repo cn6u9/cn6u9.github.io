@@ -36,29 +36,29 @@ CVE-2023-24871 https://github.com/ynwarcs/CVE-2023-24871 Windows Bluetooth 服�
 CVE-2023-23388 https://github.com/ynwarcs/CVE-2023-23388 Windows Bluetooth 驱动程序特权提升漏洞  
 CVE-2023-36899 https://github.com/d0rb/CVE-2023-36899 ASP.NET Elevation of Cookieless IIS Auth Bypass & App Pool Privesc  
 CVE-2023-36874 https://github.com/d0rb/CVE-2023-36874 Windows Error Reporting Service lpe  
-CVE-2023-36900 https://github.com/RomanRybachek/CVE-2023-36900 Windows Common Log File System Driver Elevation of Privilege Vulnerability  
-CVE-2023-28229 https://github.com/Y3A/CVE-2023-28229 Windows CNG Key Isolation Service Elevation of Privilege Vulnerability  
-CVE-2023-29360 https://github.com/Nero22k/cve-2023-29360 Microsoft Streaming Service Elevation of Privilege Vulnerability windows流媒体提全  
+CVE-2023-36900 https://github.com/RomanRybachek/CVE-2023-36900 Windows Common Log File System Driver LPE  
+CVE-2023-28229 https://github.com/Y3A/CVE-2023-28229 Windows CNG Key Isolation Service LPE  
+CVE-2023-29360 https://github.com/Nero22k/cve-2023-29360 Microsoft Streaming Service LPE windows流媒体提全  
 CVE-2023-36802 https://github.com/chompie1337/Windows_MSKSSRV_LPE_CVE-2023-36802 Windows 11 22H2  
-CVE-2023-36723 https://github.com/Wh04m1001/CVE-2023-36723 Windows Container Manager Service Elevation of Privilege Vulnerability  
+CVE-2023-36723 https://github.com/Wh04m1001/CVE-2023-36723 Windows Container Manager Service LPE  
 CVE-2023-36025 https://github.com/DamnIt74/CVE-2023-36025 Windows Defendor SmartScreen Bypass POC Exploit Code  
 CVE-2023-36036 https://bbs.kanxue.com/thread-279771.htm 无poc，过几天更新 Windows Cloud Files Mini Filter Driver 权限提升  
-CVE-2023-41772 https://github.com/R41N3RZUF477/CVE-2023-41772 Win32k Elevation of Privilege Vulnerability  
+CVE-2023-41772 https://github.com/R41N3RZUF477/CVE-2023-41772 Win32k LPE  
 CVE-2023-36424 https://ssd-disclosure.com/ssd-advisory-windows-kernel-pool-clfs-sys-corruption-privilege-escalation/ Windows systems running 64-bit clfs.sys with version 10.0.22621.1555  
 CVE-2023-28229 https://github.com/Y3A/CVE-2023-28229 Windows CNG KeyIso RPC EoP/SBX  
-CVE-2023-36003 https://github.com/m417z/CVE-2023-36003-POC Microsoft XAML Diagnostics Elevation of Privilege Vulnerability  
-CVE-2024-20698 https://github.com/RomanRybachek/CVE-2024-20698 Windows Kernel Elevation of Privilege Vulnerability  
+CVE-2023-36003 https://github.com/m417z/CVE-2023-36003-POC Microsoft XAML Diagnostics LPE  
+CVE-2024-20698 https://github.com/RomanRybachek/CVE-2024-20698 Windows Kernel LPE  
 CVE-2024-20666 https://github.com/nnotwen/Script-For-CVE-2024-20666 BitLocker vulnerabilit win10 win11 windows2022  
 CVE-2024-21338 https://github.com/gogobuster/CVE-2024-21338-POC lpe Windows 10 1703 (RS2/15063) Windows 11 23H2  
 CVE-2024-21306 https://github.com/d4rks1d33/C-PoC-for-CVE-2024-21306 Microsoft Bluetooth Driver Spoofing Vulnerability  
 CVE-2024-26218 https://github.com/exploits-forsale/CVE-2024-26218 Windows 内核特权提升漏洞  
 CVE-2024-21345 https://github.com/exploits-forsale/CVE-2024-21345 Windows 内核特权提升漏洞  
 CVE-2024-29988 https://github.com/Sploitus/CVE-2024-29988-exploit Exploit for Microsoft SmartScreen malicious execution  
-CVE-2024-26229 https://github.com/varwara/CVE-2024-26229 Windows CSC Service Elevation of Privilege Vulnerability  
-CVE-2024-30088 https://github.com/tykawaii98/CVE-2024-30088 Windows Kernel Elevation of Privilege Vulnerability  
+CVE-2024-26229 https://github.com/varwara/CVE-2024-26229 Windows CSC Service LPE  
+CVE-2024-30088 https://github.com/tykawaii98/CVE-2024-30088 Windows Kernel LPE  
 CVE-2024-37726 https://github.com/carsonchan12345/CVE-2024-37726-MSI-Center-Local-Privilege-Escalation MSI Center LPE  
 CVE-2024-38041 https://github.com/varwara/CVE-2024-38041 Windows appid.sys内核信息泄露漏洞  
-CVE-2024-38100 https://github.com/Florian-Hoth/CVE-2024-38100-RCE-POC Windows File Explorer Elevation of Privilege Vulnerability  
+CVE-2024-38100 https://github.com/Florian-Hoth/CVE-2024-38100-RCE-POC Windows File Explorer LPE  
 CVE-2024-26230 https://github.com/kiwids0220/CVE-2024-26230 Windows Telephony启用电话服务器特权提升漏洞  
 CVE-2024-6768 https://github.com/fortra/CVE-2024-6768 CLFS.sys服务拒绝（DoS）漏洞  
 CVE-2024-26160 https://github.com/0x00Alchemist/CVE-2024-26160 cldflt.sys 信息泄漏  
