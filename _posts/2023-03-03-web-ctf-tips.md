@@ -365,6 +365,7 @@ CVE-2023-2868  https://github.com/cfielding-r7/poc-cve-2023-2868 梭子鱼本地
 CVE-2023-3519 Citrix RCE  
 CVE-2023-4966 https://github.com/Chocapikk/CVE-2023-4966 Citrix Memory Leak Exploit  
 CVE-2023-43177 https://github.com/the-emmons/CVE-2023-43177 CrushFTP <= 10.5.1 RCE  
+CVE-2025-31161 https://github.com/Immersive-Labs-Sec/CVE-2025-31161 CrushFTP 安全漏洞  
 CVE-2023-20598 https://github.com/H4rk3nz0/CVE-2023-20598-PDFWKRNL AMD Radeon 安全漏洞  
 
 CVE-2023-20871  https://github.com/ChriSanders22/CVE-2023-20871-poc VMware Fusion Raw Disk local privilege escalation vulnerability  
