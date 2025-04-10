@@ -78,6 +78,7 @@ CVE-2025-21333 https://github.com/MrAle98/CVE-2025-21333-POC 	Windows Hyper-V NT
 CVE-2025-21298 https://github.com/ynwarcs/CVE-2025-21298 Windows OLE RCE  
 CVE-2025-24071 Microsoft https://github.com/0x6rss/CVE-2025-24071_PoC Windows 文件资源管理器欺骗漏洞  
 CVE-2025-26633 https://github.com/sandsoncosta/CVE-2025-26633 Microsoft 管理控制台安全功能绕过漏洞  
+CVE-2025-21293 https://github.com/ahmedumarehman/CVE-2025-21293 Active Directory Domain Services lpe 网上有验证poc  
 
 
 windows rce  
