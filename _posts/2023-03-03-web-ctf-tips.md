@@ -23,7 +23,7 @@ opengnb
 
 https://github.com/UCL-CREST/doublefetch c语言静态漏洞挖掘函数  
 https://github.com/sha0coder/maripyli 使用python2，是php静态代码分析工具  
-
+https://github.com/DynamoRIO/drmemory 检查内存泄漏drmemory.exe -logdir c:/logs -- c:/path/to/my/app
 
 windows lpe  
 CVE-2023-21752 https://github.com/Wh04m1001/CVE-2023-21752   PoC for arbitrary file delete vul in Windows Backup service  
