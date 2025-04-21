@@ -162,6 +162,8 @@ CVE-2024-42642 https://github.com/VL4DR/CVE-2024-42642/tree/main ssd磁盘提权
 CVE-2024-47176 https://github.com/lkarlslund/jugular CUPS 远程命令执行漏洞  
 CVE-2024-27397 https://github.com/google/security-research/tree/master/pocs/linux/kernelctf/CVE-2024-27397_mitigation linux 3.6-4.1 lpe  
 CVE-2024-27398 https://github.com/secunnix/CVE-2024-27398 蓝牙修复 sco_sock_timeout 导致的释放后使用错误  
+CVE-2025-21756 https://github.com/hoefler02/CVE-2025-21756 Linux kernel 6.6.75  
+cve-2025-xxxx https://github.com/SexyShoelessGodofWar/LibHeif---CVE-2025-XXXXX Heap Buffer Overflow Ubuntu **24.04.2 LTS  
 
 
 Exchange  and  outlook  and hyper-v  and word and ppt and SharePoint  
