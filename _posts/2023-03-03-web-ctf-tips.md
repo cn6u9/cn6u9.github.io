@@ -245,7 +245,7 @@ CVE-2024-29973 https://github.com/bigb0x/CVE-2024-29973 Zyxel NAS542 操作系�
 CVE-2024-29975 https://mp.weixin.qq.com/s/hs8PJOIw7DFyzv5fCUKwlw 包含了CVE-2024-29972-NsaRescueAngel 后门账户CVE-2024-29976 – 权限提升和信息泄露漏洞CVE-2024-29973 – Python 代码注入漏洞  
 CVE-2024-7357 https://github.com/BeaCox/IoT_vuln/tree/main/D-Link/DIR-600/soapcgi_main_injection D-Link DIR-600 soap.cgi soapcgi_main os 命令注入  
 CVE-2024-7479 & CVE-2024-7481 https://github.com/PeterGabaldon/CVE-2024-7479_CVE-2024-7481 TeamViewer User to lpe  
-CVE-2024-10442 https://github.com/ret2/Pwn2Own-Ireland2024-DiskStation Synology nas 提权  
+CVE-2024-10442 https://github.com/ret2/Pwn2Own-Ireland2024-DiskStation Synology nas 群晖 提权  
 CVE-2025-0108 https://github.com/iSee857/CVE-2025-0108-PoC Palo Alto Networks PAN-OS Management 管理端权限绕过漏洞  
 cve-2025-29384 https://github.com/shuqi233/loophole/tree/main/Tenda%20AC9 Tenda AC9 很多漏洞　　
 
