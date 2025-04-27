@@ -165,7 +165,7 @@ CVE-2024-27398 https://github.com/secunnix/CVE-2024-27398 蓝牙修复 sco_sock_
 CVE-2024-46713 https://github.com/enlist12/CVE-2024-46713 linux version : 5.12  
 CVE-2025-21756 https://github.com/hoefler02/CVE-2025-21756 Linux kernel 6.6.75  
 cve-2025-xxxx https://github.com/SexyShoelessGodofWar/LibHeif---CVE-2025-XXXXX Heap Buffer Overflow Ubuntu **24.04.2 LTS  
-
+CVE-2025-0927 https://github.com/mr-spongebob/CVE-2025-0927 targeting Linux kernel 6.5  
 
 Exchange  and  outlook  and hyper-v  and word and ppt and SharePoint  
 CVE-2022-41082 https://github.com/balki97/OWASSRF-CVE-2022-41082-POC NotProxyShell OWASSRF Vul Effecting Microsoft Exchange 
