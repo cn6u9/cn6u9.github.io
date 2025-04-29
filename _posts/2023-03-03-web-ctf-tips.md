@@ -80,6 +80,7 @@ CVE-2025-21298 https://github.com/ynwarcs/CVE-2025-21298 Windows OLE RCE
 CVE-2025-24071 Microsoft https://github.com/0x6rss/CVE-2025-24071_PoC Windows 文件资源管理器欺骗漏洞  
 CVE-2025-26633 https://github.com/sandsoncosta/CVE-2025-26633 Microsoft 管理控制台安全功能绕过漏洞  
 CVE-2025-21293 https://github.com/ahmedumarehman/CVE-2025-21293 Active Directory Domain Services lpe 网上有验证poc  
+CVE-2025-24054 https://github.com/helidem/CVE-2025-24054-PoC NTLM Hash Leak via .library-ms Exploit  
 
 
 windows rce  
@@ -120,18 +121,14 @@ CVE-2024-38200 https://github.com/passtheticket/CVE-2024-38200 Microsoft Office 
 
 linux lpe  
 
-CVE-2023-22809  https://github.com/n3m1dotsys/CVE-2023-22809-sudoedit-privesc   sudo 1.8.0 to 1.9.12p1
-
-CVE-2023-0179   https://github.com/TurtleARM/CVE-2023-0179-PoC    Linux versions from 5.5 to 6.2-rc3
-
-CVE-2023-0045   https://github.com/es0j/CVE-2023-0045        ubuntu 22.04.1-Linux 5.15.0-56-generic
-
+CVE-2023-22809  https://github.com/n3m1dotsys/CVE-2023-22809-sudoedit-privesc   sudo 1.8.0 to 1.9.12p1  
+CVE-2023-0179   https://github.com/TurtleARM/CVE-2023-0179-PoC    Linux versions from 5.5 to 6.2-rc3  
+CVE-2023-0045   https://github.com/es0j/CVE-2023-0045        ubuntu 22.04.1-Linux 5.15.0-56-generic  
 CVE-2023-2002   https://github.com/lrh2000/CVE-2023-2002/blob/master/exp/bt_power.c 蓝牙提权  
 CVE-2023-0386   https://github.com/xkaneiki/CVE-2023-0386  ubuntu提权   
 CVE-2023-20052  https://github.com/nokn0wthing/CVE-2023-25002   clamav 杀毒xxe注入   
 CVE-2023-20032  https://github.com/cn6u9/cn6u9.github.io/blob/main/tools/hfsplus.zip   clamav HFS+ file parser rce     
-CVE-2023-2008   https://github.com/bluefrostsecurity/CVE-2023-2008  Ubuntu 22.04 Linux kernel fixed in 5.19-rc4
-
+CVE-2023-2008   https://github.com/bluefrostsecurity/CVE-2023-2008  Ubuntu 22.04 Linux kernel fixed in 5.19-rc4  
 CVE-2023-1829 https://github.com/lanleft/CVE2023-1829 Ubuntu22.04 source code 5.15.0-25.25  
 CVE-2023-32233 https://github.com/Liuk3r/CVE-2023-32233 Ubuntu 23.04 linux-image-6.2.0-20-generic  
 CVE-2023-3338 https://github.com/TurtleARM/CVE-2023-3338 linux kernel 5.15  
@@ -166,6 +163,7 @@ CVE-2024-46713 https://github.com/enlist12/CVE-2024-46713 linux version : 5.12
 CVE-2025-21756 https://github.com/hoefler02/CVE-2025-21756 Linux kernel 6.6.75  
 cve-2025-xxxx https://github.com/SexyShoelessGodofWar/LibHeif---CVE-2025-XXXXX Heap Buffer Overflow Ubuntu **24.04.2 LTS  
 CVE-2025-0927 https://github.com/mr-spongebob/CVE-2025-0927 targeting Linux kernel 6.5  
+CVE-2025-0401 https://github.com/CyberSecurityUP/CVE-2025-0401 这个漏洞好像有问题需要验证  
 
 Exchange  and  outlook  and hyper-v  and word and ppt and SharePoint  
 CVE-2022-41082 https://github.com/balki97/OWASSRF-CVE-2022-41082-POC NotProxyShell OWASSRF Vul Effecting Microsoft Exchange 
@@ -198,6 +196,7 @@ CVE-2023-32315 https://github.com/Pari-Malam/CVE-2023-32315 openfire
 CVE-2023-29489 https://github.com/ViperM4sk/cpanel-xss-177 cPanel 11.102.0.x-11.109.9999.116 xss  
 CVE-2023-25135 https://github.com/getdrive/PoC/tree/main/2023/vbulletin vbulletin.version:<=5.6.9 rce  
 CVE-2025-22213 https://xz.aliyun.com/spa/#/news/17399 Joomla! CMS versions 4.0.0-4.4.11, 5.0.0-5.2.4  
+CVE-2025-32432 https://github.com/Sachinart/CVE-2025-32432  CraftCMS versions 4.5.6 rce  
 
 cacti and tomcat and Spring Framework 6.0.7 and 5.3.26 fix cve-2023-20860 and cve-2023-20861  
 CVE-2023-34039 https://github.com/Cyb3rEnthusiast/CVE-2023-34039 VMware newest exploit  
