@@ -209,7 +209,6 @@ cve-2023-34034 https://github.com/hotblac/cve-2023-34034 Spring Security 路径�
 CVE-2023-25690 https://github.com/thanhlam-attt/CVE-2023-25690 Apache HTTP Server 存在请求走私漏洞  
 CVE-2023-50164 https://github.com/jakabakos/CVE-2023-50164-Apache-Struts-RCE Apache Struts path traversal to RCE vulnerability  
 CVE-2024-53677 https://github.com/cloudwafs/s2-067-CVE-2024-53677 Apache Struts FileUploadInterceptor 目录遍历与文件上传漏洞  
-CVE-2023-41892 https://github.com/Faelian/CraftCMS_CVE-2023-41892 CraftCMS Unauthenticated RCE  
 CVE-2023-22527 https://github.com/Avento/CVE-2023-22527_Confluence_RCE Confluence Data Center and Confluence Server rce  
 CVE-2023-39362 https://github.com/m3ssap0/cacti-rce-snmp-options-vulnerable-application Cacti v1.2.24 auth cmd inject 需要登录  
 无cve https://github.com/Cacti/cacti/security/advisories/GHSA-7cmj-g5qc-pj88 cacti漏洞点位置  
