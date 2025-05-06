@@ -359,9 +359,9 @@ CVE-2024-40725 https://github.com/TAM-K592/CVE-2024-40725-CVE-2024-40898 Apache 
 
 
 other  
-
-CVE-2022-44268 https://github.com/agathanon/cve-2022-44268 ImageMagick
-cve-2022-31705 https://github.com/s0duku/cve-2022-31705 windows vmware workstation 16.2.0
+CVE-2022-44268 https://github.com/agathanon/cve-2022-44268 ImageMagick  
+cve-2022-31705 https://github.com/s0duku/cve-2022-31705 windows vmware workstation 16.2.0  
+无cve https://github.com/gandalf4a/crash_report/tree/main/ImageMagick poc  
 
 CVE-2022-26923 域提权  
 CVE-2023-27997 FortiOS SSL-VPN buffer overflow vulnerability  
