@@ -197,6 +197,7 @@ CVE-2023-29489 https://github.com/ViperM4sk/cpanel-xss-177 cPanel 11.102.0.x-11.
 CVE-2023-25135 https://github.com/getdrive/PoC/tree/main/2023/vbulletin vbulletin.version:<=5.6.9 rce  
 CVE-2025-22213 https://xz.aliyun.com/spa/#/news/17399 Joomla! CMS versions 4.0.0-4.4.11, 5.0.0-5.2.4  
 CVE-2025-32432 https://github.com/Sachinart/CVE-2025-32432  CraftCMS versions 4.5.6 rce  
+CVE-2025-46731 https://github.com/singetu0096/CVE-2025-46731/blob/main/report.md 需要管理权限的rce  
 
 cacti and tomcat and Spring Framework 6.0.7 and 5.3.26 fix cve-2023-20860 and cve-2023-20861  
 CVE-2023-34039 https://github.com/Cyb3rEnthusiast/CVE-2023-34039 VMware newest exploit  
