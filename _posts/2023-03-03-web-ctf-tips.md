@@ -390,7 +390,7 @@ CVE-2024-32459 https://github.com/absholi7ly/FreeRDP-Out-of-Bounds-Read-CVE-2024
 CVE-2024-40431　https://github.com/SpiralBL0CK/CVE-2024-40431-CVE-2022-25479-EOP-CHAIN　realtek声卡显卡驱动，RtsPer.sys信息泄漏  
 CVE-2024-11477 https://github.com/TheN00bBuilder/cve-2024-11477-writeup/blob/main/CVE-2024-11477-Writeup.md 7-Zip 7zip Zstandard 解压缩整数下溢远程代码执行漏洞  
 CVE-2025-0411 https://github.com/dhmosfunk/7-Zip-CVE-2025-0411-POC 7-Zip Mark-of-the-Web Bypass Vul  
-CVE-2025-20029 https://github.com/schoi1337/CVE-2025-20029-simulation iControl REST和BIG-IP TMOS Shell（tmsh）的保存命令中存在命令注入漏洞  
+CVE-2025-20029 https://github.com/schoi1337/CVE-2025-20029-simulation iControl REST和f5 BIG-IP TMOS Shell（tmsh）的保存命令中存在命令注入漏洞  
 
 
 
