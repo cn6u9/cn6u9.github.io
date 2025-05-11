@@ -81,6 +81,7 @@ CVE-2025-24071 Microsoft https://github.com/0x6rss/CVE-2025-24071_PoC Windows �
 CVE-2025-26633 https://github.com/sandsoncosta/CVE-2025-26633 Microsoft 管理控制台安全功能绕过漏洞  
 CVE-2025-21293 https://github.com/ahmedumarehman/CVE-2025-21293 Active Directory Domain Services lpe 网上有验证poc  
 CVE-2025-24054 https://github.com/helidem/CVE-2025-24054-PoC NTLM Hash Leak via .library-ms Exploit  
+CVE-2025-21307 https://github.com/git-account7/CVE-2025-21307 Server 2025 Transport Driver 内存损坏  
 
 
 windows rce  
