@@ -331,6 +331,7 @@ CVE-2024-27815 https://github.com/jprx/CVE-2024-27815 tvOS 17.5, visionOS 1.2, i
 CVE-2024-31317 https://github.com/fuhei/CVE-2024-31317 Google Android 安全漏洞  
 CVE-2024-54498 https://github.com/wh1te4ever/CVE-2024-54498-PoC Escape macOS Sandbox using sharedfilelistd exploit  
 CVE-2024-55968 https://github.com/Wi1DN00B/CVE-2024-55968 macOS xpc lpe  
+CVE-2025-31258 https://github.com/wh1te4ever/CVE-2025-31258-PoC macOS Sequoia 15.5 bypass sandbox  
 
 php  
 https://github.com/synacktiv/php_filter_chains_oracle_exploit 有意思的漏洞  
