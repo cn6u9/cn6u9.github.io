@@ -82,6 +82,7 @@ CVE-2025-26633 https://github.com/sandsoncosta/CVE-2025-26633 Microsoft 管理�
 CVE-2025-21293 https://github.com/ahmedumarehman/CVE-2025-21293 Active Directory Domain Services lpe 网上有验证poc  
 CVE-2025-24054 https://github.com/helidem/CVE-2025-24054-PoC NTLM Hash Leak via .library-ms Exploit  
 CVE-2025-21307 https://github.com/git-account7/CVE-2025-21307 Server 2025 Transport Driver 内存损坏  
+CVE-2025-29824 https://github.com/encrypter15/CVE-2025-29824 Windows 通用日志文件系统驱动程序提升权限漏洞  
 
 
 windows rce  
@@ -332,6 +333,7 @@ CVE-2024-31317 https://github.com/fuhei/CVE-2024-31317 Google Android 安全漏�
 CVE-2024-54498 https://github.com/wh1te4ever/CVE-2024-54498-PoC Escape macOS Sandbox using sharedfilelistd exploit  
 CVE-2024-55968 https://github.com/Wi1DN00B/CVE-2024-55968 macOS xpc lpe  
 CVE-2025-31258 https://github.com/wh1te4ever/CVE-2025-31258-PoC macOS Sequoia 15.5 bypass sandbox  
+CVE_2025_24085 https://github.com/pxx917144686/12345 CVE_2025_31200,CVE_2025_31201多个漏洞  
 
 php  
 https://github.com/synacktiv/php_filter_chains_oracle_exploit 有意思的漏洞  
