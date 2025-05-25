@@ -83,6 +83,9 @@ CVE-2025-21293 https://github.com/ahmedumarehman/CVE-2025-21293 Active Directory
 CVE-2025-24054 https://github.com/helidem/CVE-2025-24054-PoC NTLM Hash Leak via .library-ms Exploit  
 CVE-2025-21307 https://github.com/git-account7/CVE-2025-21307 Server 2025 Transport Driver 内存损坏  
 CVE-2025-29824 https://github.com/encrypter15/CVE-2025-29824 Windows 通用日志文件系统驱动程序提升权限漏洞  
+CVE-2025-47181 https://github.com/encrypter15/CVE-2025-47181 Microsoft Edge Link Following lpe  
+CVE-2025-30400 https://github.com/encrypter15/CVE-2025-30400 Windows DWM Use-After-Free (UAF)  
+
 
 
 windows rce  
