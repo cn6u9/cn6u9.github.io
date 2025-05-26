@@ -285,6 +285,7 @@ CVE-2024-6778 https://github.com/ading2210/CVE-2024-6778-POC CVE-2024-5836 / CVE
 cve-2024-7965　https://github.com/XiaomingX/cve-2024-7965-poc　chrome rce  
 CVE-2025-2135 https://github.com/Wa1nut4/CVE-2025-2135 Google Chrome 134.0.6998.88之前版本存在安全漏洞  
 cve-2025-4664 https://github.com/speinador/CVE-2025-4664- chrome 136.0.7103.113 leak cross-origin data  
+CVE-2025-27363 https://github.com/ov3rf1ow/CVE-2025-27363 chrome FreeType 缓冲区错误漏洞  测试最新浏览器也是奔溃,需调试  
 
 
 Oracle  and weblogic and geoserver and Ivanti  
