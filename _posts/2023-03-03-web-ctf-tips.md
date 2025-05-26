@@ -328,7 +328,7 @@ CVE-2024-6222 https://github.com/Florian-Hoth/CVE-2024-6222 Docker Extension/Das
 
 
 
-Macos and ios and android  
+apple Macos and apple ios and android  
 CVE-2023-41991 macos   
 CVE-2023-41993 iphone_os  
 CVE-2024-25733 https://github.com/hackintoanetwork/ARC-Browser-Address-Bar-Spoofing-PoC ARC Browser Address Bar Spoofing  
@@ -340,6 +340,7 @@ CVE-2024-55968 https://github.com/Wi1DN00B/CVE-2024-55968 macOS xpc lpe
 CVE-2025-31258 https://github.com/wh1te4ever/CVE-2025-31258-PoC macOS Sequoia 15.5 bypass sandbox  
 CVE_2025_24085 https://github.com/pxx917144686/12345 CVE_2025_31200,CVE_2025_31201多个漏洞  
 CVE-2025-24203 https://github.com/GeoSn0w/CVE-2025-24203-iOS-Exploit-With-Error-Logging lpe  
+CVE-2025-24132 https://github.com/ekomsSavior/AirBorne-PoC Apple多款产品 安全漏洞apple visionosUAF漏洞(CVE-2025-24252)  
 
 php  
 https://github.com/synacktiv/php_filter_chains_oracle_exploit 有意思的漏洞  
