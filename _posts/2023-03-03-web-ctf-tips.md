@@ -85,6 +85,7 @@ CVE-2025-21307 https://github.com/git-account7/CVE-2025-21307 Server 2025 Transp
 CVE-2025-29824 https://github.com/encrypter15/CVE-2025-29824 Windows 通用日志文件系统驱动程序提升权限漏洞  
 CVE-2025-47181 https://github.com/encrypter15/CVE-2025-47181 Microsoft Edge Link Following lpe  
 CVE-2025-30400 https://github.com/encrypter15/CVE-2025-30400 Windows DWM Use-After-Free (UAF)  
+CVE-2025-30397 https://github.com/mbanyamer/CVE-2025-30397---Windows-Server-2025-JScript-RCE-Use-After-Free-  
 
 
 
