@@ -170,6 +170,7 @@ CVE-2025-21756 https://github.com/hoefler02/CVE-2025-21756 Linux kernel 6.6.75
 cve-2025-xxxx https://github.com/SexyShoelessGodofWar/LibHeif---CVE-2025-XXXXX Heap Buffer Overflow Ubuntu **24.04.2 LTS  
 CVE-2025-0927 https://github.com/mr-spongebob/CVE-2025-0927 targeting Linux kernel 6.5  
 CVE-2025-0401 https://github.com/CyberSecurityUP/CVE-2025-0401 这个漏洞好像有问题需要验证  
+CVE-2025-22056 https://github.com/henrymartin262/CVE-2025-22056-exploit GENEVE_OPT类型混乱加法  
 
 Exchange  and  outlook  and hyper-v  and word and ppt and SharePoint  
 CVE-2022-41082 https://github.com/balki97/OWASSRF-CVE-2022-41082-POC NotProxyShell OWASSRF Vul Effecting Microsoft Exchange 
@@ -205,6 +206,7 @@ CVE-2025-22213 https://xz.aliyun.com/spa/#/news/17399 Joomla! CMS versions 4.0.0
 CVE-2025-32432 https://github.com/Sachinart/CVE-2025-32432  CraftCMS versions 4.5.6 rce  
 CVE-2025-46731 https://github.com/singetu0096/CVE-2025-46731/blob/main/report.md 需要管理权限的rce  
 CVE-2025-48827 https://github.com/0xgh057r3c0n/CVE-2025-48827 Critical Unauthenticated API Access in vBulletin  
+CVE-2025-49113 https://github.com/Ademking/CVE-2025-49113-nuclei-template Roundcube ≤ 1.6.10 rce  
 
 cacti and tomcat and Spring Framework 6.0.7 and 5.3.26 fix cve-2023-20860 and cve-2023-20861  
 CVE-2023-34039 https://github.com/Cyb3rEnthusiast/CVE-2023-34039 VMware newest exploit  
