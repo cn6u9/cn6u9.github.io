@@ -378,6 +378,7 @@ cve-2022-31705 https://github.com/s0duku/cve-2022-31705 windows vmware workstati
 无cve https://github.com/gandalf4a/crash_report/tree/main/ImageMagick poc  
 CVE-2025-32421 https://github.com/zeroc00I/CVE-2025-32421 Next.js比赛条件缓存中毒  
 
+
 CVE-2022-26923 域提权  
 CVE-2023-27997 FortiOS SSL-VPN buffer overflow vulnerability  
 
@@ -407,6 +408,7 @@ CVE-2024-11477 https://github.com/TheN00bBuilder/cve-2024-11477-writeup/blob/mai
 CVE-2025-0411 https://github.com/dhmosfunk/7-Zip-CVE-2025-0411-POC 7-Zip Mark-of-the-Web Bypass Vul  
 CVE-2025-20029 https://github.com/schoi1337/CVE-2025-20029-simulation iControl REST和f5 BIG-IP TMOS Shell（tmsh）的保存命令中存在命令注入漏洞  
 LibHeif https://github.com/SexyShoelessGodofWar/LibHeif---CVE-2025-XXXXX Heap Buffer Overflow in libheif一个开源库，专门用于处理HEIC格式的图像  
+CVE-2025-2945 https://github.com/abrewer251/CVE-2025-2945_PoC pgAdmin Query Tool RCE  
 
 
 
