@@ -86,6 +86,7 @@ CVE-2025-29824 https://github.com/encrypter15/CVE-2025-29824 Windows 通用日�
 CVE-2025-47181 https://github.com/encrypter15/CVE-2025-47181 Microsoft Edge Link Following lpe  
 CVE-2025-30400 https://github.com/encrypter15/CVE-2025-30400 Windows DWM Use-After-Free (UAF)  
 CVE-2025-30397 https://github.com/mbanyamer/CVE-2025-30397---Windows-Server-2025-JScript-RCE-Use-After-Free-  
+CVE-2025-24076 https://github.com/mbanyamer/CVE-2025-24076 Microsoft Windows Cross Device Service lpe  
 
 
 
