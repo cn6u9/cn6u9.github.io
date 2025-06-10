@@ -172,6 +172,7 @@ cve-2025-xxxx https://github.com/SexyShoelessGodofWar/LibHeif---CVE-2025-XXXXX H
 CVE-2025-0927 https://github.com/mr-spongebob/CVE-2025-0927 targeting Linux kernel 6.5  
 CVE-2025-0401 https://github.com/CyberSecurityUP/CVE-2025-0401 这个漏洞好像有问题需要验证  
 CVE-2025-22056 https://github.com/henrymartin262/CVE-2025-22056-exploit GENEVE_OPT类型混乱加法  
+cve-2025-37899 https://github.com/SeanHeelan/o3_finds_cve-2025-37899 ksmbd del Kernel de Linux uaf  
 
 Exchange  and  outlook  and hyper-v  and word and ppt and SharePoint  
 CVE-2022-41082 https://github.com/balki97/OWASSRF-CVE-2022-41082-POC NotProxyShell OWASSRF Vul Effecting Microsoft Exchange 
@@ -330,6 +331,7 @@ CVE-2024-22274 https://github.com/l0n3m4n/CVE-2024-22274-RCE VMware vCenter Serv
 CVE-2024-37085 https://github.com/Florian-Hoth/CVE-2024-37085-RCE-POC VMware ESXi RCE Vulnerability  
 CVE-2024-6222 https://github.com/Florian-Hoth/CVE-2024-6222 Docker Extension/Dashboard RCE Vulnerability  
 CVE-2025-22224 https://github.com/lacelruz/CVE-2025-22224 vmware vmx 无poc  
+CVE-2025-32756 https://github.com/alm6no5/CVE-2025-32756-POC Fortinet 栈溢出  
 
 
 
