@@ -378,6 +378,7 @@ CVE-2024-40725 https://github.com/TAM-K592/CVE-2024-40725-CVE-2024-40898 Apache 
 
 
 other  
+CVE-2019-0887 https://github.com/t43Wiu6/CVE-2019-0887 rdp 3389 desktop 剪切板劫持  
 CVE-2022-44268 https://github.com/agathanon/cve-2022-44268 ImageMagick  
 cve-2022-31705 https://github.com/s0duku/cve-2022-31705 windows vmware workstation 16.2.0  
 无cve https://github.com/gandalf4a/crash_report/tree/main/ImageMagick poc  
