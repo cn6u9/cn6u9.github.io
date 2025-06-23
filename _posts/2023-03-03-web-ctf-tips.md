@@ -243,6 +243,7 @@ CVE-2024-44902 https://github.com/fru1ts/CVE-2024-44902 Thinkphp v6.1.3 to v8.0.
 CVE-2024-45519 https://github.com/Chocapikk/CVE-2024-45519 Zimbra RCE  
 CVE-2024-50379 https://github.com/v3153/CVE-2024-50379-POC Apache Tomcat 条件竞争文件上传漏洞  
 CVE-2025-24813 https://github.com/iSee857/CVE-2025-24813-PoC Apache Tomcat 远程代码执行漏洞  
+https://github.com/Samb102/POC-CVE-2025-48988-CVE-2025-48976 tomcat 组合漏洞  
 
 Critical and IOT and Router and nas and Cisco and teamview and tenda  
 CVE-2023-3519 https://github.com/getdrive/PoC/tree/main/2023/Citrix%20ADC%20RCE%20CVE-2023-3519 Citrix VPX 13.1-48.47  
