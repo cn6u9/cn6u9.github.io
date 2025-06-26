@@ -419,6 +419,7 @@ CVE-2025-0411 https://github.com/dhmosfunk/7-Zip-CVE-2025-0411-POC 7-Zip Mark-of
 CVE-2025-20029 https://github.com/schoi1337/CVE-2025-20029-simulation iControl REST和f5 BIG-IP TMOS Shell（tmsh）的保存命令中存在命令注入漏洞  
 LibHeif https://github.com/SexyShoelessGodofWar/LibHeif---CVE-2025-XXXXX Heap Buffer Overflow in libheif一个开源库，专门用于处理HEIC格式的图像  
 CVE-2025-2945 https://github.com/abrewer251/CVE-2025-2945_PoC pgAdmin Query Tool RCE  
+CVE-2025-49144 https://github.com/TheTorjanCaptain/CVE-2025-49144_PoC 	Notepad ++特权通过无法控制的可执行搜索路径  
 
 
 
