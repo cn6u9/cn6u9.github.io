@@ -212,6 +212,7 @@ CVE-2025-22213 https://xz.aliyun.com/spa/#/news/17399 Joomla! CMS versions 4.0.0
 CVE-2025-32432 https://github.com/Sachinart/CVE-2025-32432  CraftCMS versions 4.5.6 rce  
 CVE-2025-46731 https://github.com/singetu0096/CVE-2025-46731/blob/main/report.md 需要管理权限的rce  
 CVE-2025-48827 https://github.com/0xgh057r3c0n/CVE-2025-48827 Critical Unauthenticated API Access in vBulletin  
+CVE-2025-48827 https://github.com/ill-deed/vBulletin-CVE-2025-48828-Multi-target vbulletin  
 CVE-2025-49113 https://github.com/Ademking/CVE-2025-49113-nuclei-template Roundcube ≤ 1.6.10 rce  
 
 cacti and tomcat and Spring Framework 6.0.7 and 5.3.26 fix cve-2023-20860 and cve-2023-20861  
