@@ -110,7 +110,7 @@ cve-2024-1874 https://github.com/php/php-src/security/advisories/GHSA-pc52-254m-
 CVE-2020-7071 https://github.com/php/php-src/security/advisories/GHSA-w8qr-v226-r27w Filter bypass in filter_var 7.327-8.37  
 CVE-2024-5458 https://github.com/justmexD8/CVE-2024-5458-POC filter_var (FILTER_VALIDATE_URL) 中的过滤器绕过  
 
-office and word and pdf and rar and wps  
+winrar and office and word and pdf and rar and wps  
 
 CVE_2023_21716 https://github.com/Xnuvers007/CVE-2023-21716    RTF Crash POC  
 cve-2023-23397 https://github.com/sqrtZeroKnowledge/CVE-2023-23397_EXPLOIT_0DAY  microsoft-outlook-elevation-of-privilege-vulnerability  
@@ -119,6 +119,7 @@ CVE-2023-36884 Office and Windows HTML Remote Code Execution Vulnerability
 CVE-2022-30190 https://github.com/komomon/CVE-2022-30190-follina-Office-MSDT-Fixed Microsoft Office MSDT  
 CVE-2023-40477 https://github.com/cn6u9/cn6u9.github.io/blob/main/tools/CVE-2023-40477.sh winrar rce  
 CVE-2023-38831 https://github.com/Garck3h/cve-2023-38831 winrar rce  
+CVE-2025-6218 https://github.com/speinador/CVE-2025-6218_WinRAR Path Traversal en WinRAR  
 wps rce  https://github.com/ba0gu0/wps-rce WPS Office 2023 个人版 < 11.1.0.15120---WPS Office 2019 企业版 < 11.8.2.12085  
 CVE-2024-7262 https://www.4hou.com/posts/5MWx WPS Office从路径穿越到远程代码执行漏洞  
 CVE-2022-21974 https://github.com/0vercl0k/CVE-2022-21974 winword  
