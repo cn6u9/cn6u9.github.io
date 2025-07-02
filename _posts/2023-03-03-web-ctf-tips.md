@@ -173,12 +173,12 @@ CVE-2024-27397 https://github.com/google/security-research/tree/master/pocs/linu
 CVE-2024-27398 https://github.com/secunnix/CVE-2024-27398 蓝牙修复 sco_sock_timeout 导致的释放后使用错误  
 CVE-2024-46713 https://github.com/enlist12/CVE-2024-46713 linux version : 5.12  
 CVE-2025-21756 https://github.com/hoefler02/CVE-2025-21756 Linux kernel 6.6.75  
-cve-2025-xxxx https://github.com/SexyShoelessGodofWar/LibHeif---CVE-2025-XXXXX Heap Buffer Overflow Ubuntu **24.04.2 LTS  
+CVE-2025-xxxx https://github.com/SexyShoelessGodofWar/LibHeif---CVE-2025-XXXXX Heap Buffer Overflow Ubuntu **24.04.2 LTS  
 CVE-2025-0927 https://github.com/mr-spongebob/CVE-2025-0927 targeting Linux kernel 6.5  
 CVE-2025-0401 https://github.com/CyberSecurityUP/CVE-2025-0401 这个漏洞好像有问题需要验证  
 CVE-2025-22056 https://github.com/henrymartin262/CVE-2025-22056-exploit GENEVE_OPT类型混乱加法  
-cve-2025-37899 https://github.com/SeanHeelan/o3_finds_cve-2025-37899 ksmbd del Kernel de Linux uaf  
-CVE-2025-6019 https://github.com/And-oss/CVE-2025-6019-exploit linux libblockdev 权限提升漏洞  
+CVE-2025-37899 https://github.com/SeanHeelan/o3_finds_cve-2025-37899 ksmbd del Kernel de Linux uaf  
+CVE-2025-6019 https://github.com/And-oss/CVE-2025-6019-exploit 还有一个叫6018,linux libblockdev 权限提升漏洞  
 CVE-2025-32463 https://github.com/4f-kira/CVE-2025-32463 sudo (versions 1.9.14 to 1.9.17)  
 
 Exchange  and  outlook  and hyper-v  and word and ppt and SharePoint  
