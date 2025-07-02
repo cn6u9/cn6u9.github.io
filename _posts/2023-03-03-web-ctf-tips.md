@@ -179,7 +179,7 @@ CVE-2025-0401 https://github.com/CyberSecurityUP/CVE-2025-0401 这个漏洞好�
 CVE-2025-22056 https://github.com/henrymartin262/CVE-2025-22056-exploit GENEVE_OPT类型混乱加法  
 cve-2025-37899 https://github.com/SeanHeelan/o3_finds_cve-2025-37899 ksmbd del Kernel de Linux uaf  
 CVE-2025-6019 https://github.com/And-oss/CVE-2025-6019-exploit linux libblockdev 权限提升漏洞  
-CVE-2025-32463 https://github.com/4f-kira/CVE-2025-32463 sudo chroot ("chwoot") PoC  
+CVE-2025-32463 https://github.com/4f-kira/CVE-2025-32463 sudo (versions 1.9.14 to 1.9.17)  
 
 Exchange  and  outlook  and hyper-v  and word and ppt and SharePoint  
 CVE-2022-41082 https://github.com/balki97/OWASSRF-CVE-2022-41082-POC NotProxyShell OWASSRF Vul Effecting Microsoft Exchange 
