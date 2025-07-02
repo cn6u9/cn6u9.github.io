@@ -113,7 +113,6 @@ CVE-2024-5458 https://github.com/justmexD8/CVE-2024-5458-POC filter_var (FILTER_
 winrar and office and word and pdf and rar and wps  
 
 CVE_2023_21716 https://github.com/Xnuvers007/CVE-2023-21716    RTF Crash POC  
-cve-2023-23397 https://github.com/sqrtZeroKnowledge/CVE-2023-23397_EXPLOIT_0DAY  microsoft-outlook-elevation-of-privilege-vulnerability  
 CVE-2023-27363 https://github.com/webraybtl/CVE-2023-27363 福昕Foxit PDF远程代码执行漏洞  
 CVE-2023-36884 Office and Windows HTML Remote Code Execution Vulnerability  
 CVE-2022-30190 https://github.com/komomon/CVE-2022-30190-follina-Office-MSDT-Fixed Microsoft Office MSDT  
