@@ -132,13 +132,14 @@ CVE-2025-47165 https://www.exploit-db.com/exploits/52343 Microsoft Excel 2024 ua
 
 linux lpe  
 
-CVE-2023-22809  https://github.com/n3m1dotsys/CVE-2023-22809-sudoedit-privesc   sudo 1.8.0 to 1.9.12p1  
-CVE-2023-0179   https://github.com/TurtleARM/CVE-2023-0179-PoC    Linux versions from 5.5 to 6.2-rc3  
+CVE-2021-3156 https://github.com/Sebastianbedoya25/CVE-2021-3156/tree/main sudo 1.8.2-1.9.5p1  
+CVE-2023-22809  https://github.com/n3m1dotsys/CVE-2023-22809-sudoedit-privesc   sudo 1.8.0-1.9.12p1  
+CVE-2023-0179   https://github.com/TurtleARM/CVE-2023-0179-PoC    Linux versions from 5.5-6.2-rc3  
 CVE-2023-0045   https://github.com/es0j/CVE-2023-0045        ubuntu 22.04.1-Linux 5.15.0-56-generic  
 CVE-2023-2002   https://github.com/lrh2000/CVE-2023-2002/blob/master/exp/bt_power.c 蓝牙提权  
 CVE-2023-0386   https://github.com/xkaneiki/CVE-2023-0386  ubuntu提权   
 CVE-2023-20052  https://github.com/nokn0wthing/CVE-2023-25002   clamav 杀毒xxe注入   
-CVE-2023-20032  https://github.com/cn6u9/cn6u9.github.io/blob/main/tools/hfsplus.zip   clamav HFS+ file parser rce     
+CVE-2023-20032  https://github.com/cn6u9/cn6u9.github.io/blob/main/tools/hfsplus.zip   clamav HFS+ file parser rce  
 CVE-2023-2008   https://github.com/bluefrostsecurity/CVE-2023-2008  Ubuntu 22.04 Linux kernel fixed in 5.19-rc4  
 CVE-2023-1829 https://github.com/lanleft/CVE2023-1829 Ubuntu22.04 source code 5.15.0-25.25  
 CVE-2023-32233 https://github.com/Liuk3r/CVE-2023-32233 Ubuntu 23.04 linux-image-6.2.0-20-generic  
@@ -182,7 +183,6 @@ CVE-2025-32463 https://github.com/4f-kira/CVE-2025-32463 sudo (versions 1.9.14 t
 
 Exchange  and  outlook  and hyper-v  and word and ppt and SharePoint  
 CVE-2022-41082 https://github.com/balki97/OWASSRF-CVE-2022-41082-POC NotProxyShell OWASSRF Vul Effecting Microsoft Exchange 
-
 CVE-2023-21707 https://github.com/N1k0la-T/CVE-2023-21707 Microsoft Exchange Server Remote Code Execution Vulnerability  
 CVE-2023-23397 https://github.com/CKevens/CVE-2023-23397-POC/blob/main/CVE-2023-23397.py outlook 2019 auto get NetNTLM  
 CVE-2023-29357 https://github.com/Chocapikk/CVE-2023-29357 Microsoft SharePoint Server Elevation of Privilege Vulnerability  
