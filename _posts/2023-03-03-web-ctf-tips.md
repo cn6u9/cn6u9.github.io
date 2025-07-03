@@ -301,6 +301,7 @@ CVE-2025-2135 https://github.com/Wa1nut4/CVE-2025-2135 Google Chrome 134.0.6998.
 cve-2025-4664 https://github.com/speinador/CVE-2025-4664- chrome 136.0.7103.113 leak cross-origin data  
 CVE-2025-27363 https://github.com/ov3rf1ow/CVE-2025-27363 chrome FreeType 缓冲区错误漏洞  测试最新浏览器也是奔溃,需调试  
 CVE-2025-2783 https://github.com/byteReaper77/CVE-2025-2783-SandboxEscape Educational Sandbox Escape Simulation for Chrome  
+cve-2025-5419 https://github.com/itsShotgun/chrome_v8_cve_checker chrome bug  
 
 
 Oracle  and weblogic and geoserver and Ivanti  
