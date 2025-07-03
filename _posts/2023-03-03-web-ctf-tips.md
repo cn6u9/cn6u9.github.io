@@ -132,7 +132,7 @@ CVE-2025-47165 https://www.exploit-db.com/exploits/52343 Microsoft Excel 2024 ua
 
 linux lpe  
 CVE-2021-3560  
-CVE-2021-4034  pkexec
+CVE-2021-4034  pkexec  
 CVE-2021-3156 https://github.com/Sebastianbedoya25/CVE-2021-3156/tree/main sudo 1.8.2-1.9.5p1  
 CVE-2023-22809  https://github.com/n3m1dotsys/CVE-2023-22809-sudoedit-privesc   sudo 1.8.0-1.9.12p1  
 CVE-2023-0179   https://github.com/TurtleARM/CVE-2023-0179-PoC    Linux versions from 5.5-6.2-rc3  
