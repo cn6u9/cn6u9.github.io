@@ -270,7 +270,9 @@ CVE-2024-10442 https://github.com/ret2/Pwn2Own-Ireland2024-DiskStation Synology 
 CVE-2025-0108 https://github.com/iSee857/CVE-2025-0108-PoC Palo Alto Networks PAN-OS Management 管理端权限绕过漏洞  
 cve-2025-29384 https://github.com/shuqi233/loophole/tree/main/Tenda%20AC9 Tenda AC9 很多漏洞  
 CVE-2025-20281-Cisco https://github.com/grupooruss/CVE-2025-20281-Cisco Cisco ISE RCE  
-
+CVE-2023-3519 Citrix RCE  
+CVE-2023-4966 https://github.com/Chocapikk/CVE-2023-4966 Citrix Memory Leak Exploit  
+CVE-2025-5777 https://github.com/mingshenhk/CitrixBleed-2-CVE-2025-5777-PoC- NetScaler ADC和NetScaler Gateway-输入验证不足导致内存过读  
 
 
 mail and exim  
@@ -402,12 +404,9 @@ CVE-2023-27997 FortiOS SSL-VPN buffer overflow vulnerability
 
 CVE-2023-21554-RCE https://github.com/zoemurmure/CVE-2023-21554-PoC   Windows MessageQueuing PoC  
 CVE-2023-2868  https://github.com/cfielding-r7/poc-cve-2023-2868 梭子鱼本地提权漏洞poc在本地  
-CVE-2023-3519 Citrix RCE  
-CVE-2023-4966 https://github.com/Chocapikk/CVE-2023-4966 Citrix Memory Leak Exploit  
 CVE-2023-43177 https://github.com/the-emmons/CVE-2023-43177 CrushFTP <= 10.5.1 RCE  
 CVE-2025-31161 https://github.com/Immersive-Labs-Sec/CVE-2025-31161 CrushFTP 安全漏洞  
 CVE-2023-20598 https://github.com/H4rk3nz0/CVE-2023-20598-PDFWKRNL AMD Radeon 安全漏洞  
-
 CVE-2023-20871  https://github.com/ChriSanders22/CVE-2023-20871-poc VMware Fusion Raw Disk local privilege escalation vulnerability  
 CVE-2023-34312  https://github.com/vi3t1/qq-tim-elevation Tencent QQ/TIM Local Privilege Elevation  
 CVE-2023-40031 https://github.com/webraybtl/CVE-2023-40031 notepad++堆缓冲区溢出漏洞  
