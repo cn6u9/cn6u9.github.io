@@ -273,6 +273,7 @@ CVE-2025-20281-Cisco https://github.com/grupooruss/CVE-2025-20281-Cisco Cisco IS
 CVE-2023-3519 Citrix RCE  
 CVE-2023-4966 https://github.com/Chocapikk/CVE-2023-4966 Citrix Memory Leak Exploit  
 CVE-2025-5777 https://github.com/mingshenhk/CitrixBleed-2-CVE-2025-5777-PoC- NetScaler ADC和NetScaler Gateway-输入验证不足导致内存过读  
+CVE-2025-41646 https://github.com/cyberre124/CVE-2025-41646---Critical-Authentication-Bypass- Critical-Authentication-Bypass  
 
 
 mail and exim  
