@@ -429,6 +429,7 @@ CVE-2025-20029 https://github.com/schoi1337/CVE-2025-20029-simulation iControl R
 LibHeif https://github.com/SexyShoelessGodofWar/LibHeif---CVE-2025-XXXXX Heap Buffer Overflow in libheif一个开源库，专门用于处理HEIC格式的图像  
 CVE-2025-2945 https://github.com/abrewer251/CVE-2025-2945_PoC pgAdmin Query Tool RCE  
 CVE-2025-49144 https://github.com/TheTorjanCaptain/CVE-2025-49144_PoC 	Notepad ++特权通过无法控制的可执行搜索路径  
+CVE-2024-46981 https://github.com/xsshk/CVE-2024-46981 Redis的Lua库命令可能导致远程代码执行CVE-2024-51741无poc  
 
 
 
