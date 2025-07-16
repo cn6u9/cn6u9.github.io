@@ -90,7 +90,7 @@ CVE-2025-24076 https://github.com/mbanyamer/CVE-2025-24076 Microsoft Windows Cro
 CVE-2025-33073 https://github.com/mverschu/CVE-2025-33073 Windows SMB客户端特权lpe  
 CVE-2025-48799 https://github.com/Wh04m1001/CVE-2025-48799 Windows Update service lpe  
 CVE-2025-49744 https://github.com/nu11secur1ty/CVE-mitre/tree/main/2025/CVE-2025-49744 windows11 lpe  
-CVE-2025-47968 https://github.com/nu11secur1ty/CVE-mitre/tree/main/2025/CVE-2025-47968 
+CVE-2025-47968 https://github.com/nu11secur1ty/CVE-mitre/tree/main/2025/CVE-2025-47968  
 CVE-2025-47181 https://github.com/nu11secur1ty/CVE-mitre/tree/main/2025/CVE-2025-47181 Microsoft Edge Symlink-based  
 CVE-2025-47170 https://github.com/nu11secur1ty/CVE-mitre/tree/main/2025/CVE-2025-47170 VBA Bypass Windows Defender  
 
