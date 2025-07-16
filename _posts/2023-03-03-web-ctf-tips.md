@@ -432,6 +432,7 @@ LibHeif https://github.com/SexyShoelessGodofWar/LibHeif---CVE-2025-XXXXX Heap Bu
 CVE-2025-2945 https://github.com/abrewer251/CVE-2025-2945_PoC pgAdmin Query Tool RCE  
 CVE-2025-49144 https://github.com/TheTorjanCaptain/CVE-2025-49144_PoC 	Notepad ++特权通过无法控制的可执行搜索路径  
 CVE-2024-46981 https://github.com/xsshk/CVE-2024-46981 Redis的Lua库命令可能导致远程代码执行CVE-2024-51741无poc  
+CVE-2025-21479 https://github.com/zhuowei/cheese qualcomm 高通漏洞  
 
 
 
