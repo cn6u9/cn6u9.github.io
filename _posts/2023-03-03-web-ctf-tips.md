@@ -190,7 +190,7 @@ CVE-2025-32463 https://github.com/4f-kira/CVE-2025-32463 sudo (versions 1.9.14 t
 CVE-2025-32462 https://github.com/mylovem313/CVE-2025-32462 sudo (versions 1.8.8 to 1.9.17)  
 
 
-Exchange  and  outlook  and hyper-v  and word and ppt and SharePoint  
+Exchange  and  outlook  and hyper-v and wps and word and ppt and SharePoint  
 CVE-2022-41082 https://github.com/balki97/OWASSRF-CVE-2022-41082-POC NotProxyShell OWASSRF Vul Effecting Microsoft Exchange 
 CVE-2023-21707 https://github.com/N1k0la-T/CVE-2023-21707 Microsoft Exchange Server Remote Code Execution Vulnerability  
 CVE-2023-23397 https://github.com/CKevens/CVE-2023-23397-POC/blob/main/CVE-2023-23397.py outlook 2019 auto get NetNTLM  
@@ -203,7 +203,8 @@ CVE-2024-21413 https://github.com/xaitax/CVE-2024-21413-Microsoft-Outlook-Remote
 CVE-2024-21378 https://github.com/JohnHormond/CVE-2024-21378 Microsoft Outlook 远程代码执行漏洞  
 CVE-2024-30043 https://github.com/W01fh4cker/CVE-2024-30043-XXE Microsoft Sharepoint Server 2019(16.0.10409.20027)  
 CVE-2024-38127 https://github.com/pwndorei/CVE-2024-38127 Windows Hyper-V 特权提升漏洞  
-
+CVE-2025-49706 https://github.com/AdityaBhatt3010/CVE-2025-49706-SharePoint-Spoofing-Vulnerability-Under-Active-Exploitation  
+CVE-2025-53770 https://github.com/B1ack4sh/Blackash-CVE-2025-53770 Critical SharePoint RCE  
 
 域控  
 https://github.com/Amulab/advul  
@@ -275,6 +276,7 @@ CVE-2024-7479 & CVE-2024-7481 https://github.com/PeterGabaldon/CVE-2024-7479_CVE
 CVE-2024-10442 https://github.com/ret2/Pwn2Own-Ireland2024-DiskStation Synology nas 群晖 提权  
 CVE-2025-0108 https://github.com/iSee857/CVE-2025-0108-PoC Palo Alto Networks PAN-OS Management 管理端权限绕过漏洞  
 cve-2025-29384 https://github.com/shuqi233/loophole/tree/main/Tenda%20AC9 Tenda AC9 很多漏洞  
+CVE-2025-7795 https://github.com/byteReaper77/CVE-2025-7795 Tenda Router Buffer Overflow Exploit  
 CVE-2025-20281-Cisco https://github.com/grupooruss/CVE-2025-20281-Cisco Cisco ISE RCE  
 CVE-2023-3519 Citrix RCE  
 CVE-2023-4966 https://github.com/Chocapikk/CVE-2023-4966 Citrix Memory Leak Exploit  
