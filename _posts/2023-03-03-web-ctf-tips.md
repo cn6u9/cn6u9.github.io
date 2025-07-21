@@ -204,7 +204,7 @@ CVE-2024-21378 https://github.com/JohnHormond/CVE-2024-21378 Microsoft Outlook �
 CVE-2024-30043 https://github.com/W01fh4cker/CVE-2024-30043-XXE Microsoft Sharepoint Server 2019(16.0.10409.20027)  
 CVE-2024-38127 https://github.com/pwndorei/CVE-2024-38127 Windows Hyper-V 特权提升漏洞  
 CVE-2025-49706 https://github.com/AdityaBhatt3010/CVE-2025-49706-SharePoint-Spoofing-Vulnerability-Under-Active-Exploitation  
-CVE-2025-53770 https://github.com/B1ack4sh/Blackash-CVE-2025-53770 Critical SharePoint RCE  
+CVE-2025-53770 https://github.com/Bluefire-Redteam-Cybersecurity/bluefire-sharepoint-cve-2025-53770 Critical SharePoint RCE  
 
 域控  
 https://github.com/Amulab/advul  
