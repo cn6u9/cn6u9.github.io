@@ -205,6 +205,7 @@ CVE-2024-30043 https://github.com/W01fh4cker/CVE-2024-30043-XXE Microsoft Sharep
 CVE-2024-38127 https://github.com/pwndorei/CVE-2024-38127 Windows Hyper-V 特权提升漏洞  
 CVE-2025-49706 https://github.com/AdityaBhatt3010/CVE-2025-49706-SharePoint-Spoofing-Vulnerability-Under-Active-Exploitation  
 CVE-2025-53770 https://github.com/Bluefire-Redteam-Cybersecurity/bluefire-sharepoint-cve-2025-53770 Critical SharePoint RCE  
+CVE-2025-53786 https://github.com/barbaraeivyu/CVE-2025-53786 exchange hybrid deployments lpe 无poc  
 
 域控  
 https://github.com/Amulab/advul  
