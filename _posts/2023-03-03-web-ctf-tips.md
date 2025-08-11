@@ -116,7 +116,7 @@ cve-2024-1874 https://github.com/php/php-src/security/advisories/GHSA-pc52-254m-
 CVE-2020-7071 https://github.com/php/php-src/security/advisories/GHSA-w8qr-v226-r27w Filter bypass in filter_var 7.327-8.37  
 CVE-2024-5458 https://github.com/justmexD8/CVE-2024-5458-POC filter_var (FILTER_VALIDATE_URL) 中的过滤器绕过  
 
-winrar and office and word and pdf and rar and wps  
+winrar and office and word and pdf and 7zip and rar and wps  
 
 CVE_2023_21716 https://github.com/Xnuvers007/CVE-2023-21716    RTF Crash POC  
 CVE-2023-27363 https://github.com/webraybtl/CVE-2023-27363 福昕Foxit PDF远程代码执行漏洞  
@@ -134,6 +134,8 @@ CVE-2023-21608 https://github.com/hacksysteam/CVE-2023-21608 Adobe Acrobat Reade
 CVE-2024-4367 https://github.com/Zombie-Kaiser/cve-2024-4367-PoC-fixed PDF.js是由Mozilla维护的基于JavaScript的PDF查看器  
 CVE-2024-38200 https://github.com/passtheticket/CVE-2024-38200 Microsoft Office 欺骗漏洞  
 CVE-2025-47165 https://www.exploit-db.com/exploits/52343 Microsoft Excel 2024 uaf RCE  
+CVE-2025-8088 https://github.com/jordan922/CVE-2025-8088 winrar 目录遍历漏洞  
+CVE-2025-55188 https://github.com/hunters-sec/CVE-2025-55188-7z-exploit 7-Zip Symlink Arbitrary File Write  
 
 
 linux lpe  
@@ -442,6 +444,7 @@ CVE-2025-49144 https://github.com/TheTorjanCaptain/CVE-2025-49144_PoC 	Notepad +
 CVE-2024-46981 https://github.com/xsshk/CVE-2024-46981 Redis的Lua库命令可能导致远程代码执行CVE-2024-51741无poc  
 CVE-2025-32023 https://github.com/leesh3288/CVE-2025-32023 Redis hyperloglog 越界写入致远程代码执行漏洞  
 CVE-2025-21479 https://github.com/zhuowei/cheese qualcomm 高通漏洞  
+
 
 
 
