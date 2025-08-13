@@ -418,7 +418,7 @@ cve-2022-31705 https://github.com/s0duku/cve-2022-31705 windows vmware workstati
 无cve https://github.com/gandalf4a/crash_report/tree/main/ImageMagick poc  
 CVE-2025-32421 https://github.com/zeroc00I/CVE-2025-32421 Next.js比赛条件缓存中毒  
 CVE-2025-53101 https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-qh3h-j545-h8c9 Stack Buffer Overflow in image.c  
-
+CVE-2024-3094  https://github.com/FabioBaroni/CVE-2024-3094-checker XZ Utils 后门  
 CVE-2023-21554-RCE https://github.com/zoemurmure/CVE-2023-21554-PoC   Windows MessageQueuing PoC  
 CVE-2023-2868  https://github.com/cfielding-r7/poc-cve-2023-2868 梭子鱼本地提权漏洞poc在本地  
 CVE-2023-43177 https://github.com/the-emmons/CVE-2023-43177 CrushFTP <= 10.5.1 RCE  
