@@ -96,6 +96,7 @@ CVE-2025-47181 https://github.com/nu11secur1ty/CVE-mitre/tree/main/2025/CVE-2025
 CVE-2025-47170 https://github.com/nu11secur1ty/CVE-mitre/tree/main/2025/CVE-2025-47170 VBA Bypass Windows Defender  
 CVE-2025-49689 https://github.com/advisories/GHSA-xqmg-px28-29cq Windows虚拟硬盘lpe无poc  
 CVE-2025-53778 https://github.com/OxPloited/CVE-2025-53778-Exploit Windows Network Time Protocol (NTLM)无poc  
+CVE-2025-50154 https://github.com/zenzue/CVE-2025-50154 Microsoft Windows 文件资源管理器欺骗漏洞  
 
 
 windows rce  
