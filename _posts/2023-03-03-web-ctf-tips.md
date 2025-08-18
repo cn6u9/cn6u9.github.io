@@ -99,6 +99,7 @@ CVE-2025-53778 https://github.com/OxPloited/CVE-2025-53778-Exploit Windows Netwo
 CVE-2025-50154 https://github.com/zenzue/CVE-2025-50154 Microsoft Windows 文件资源管理器欺骗漏洞  
 CVE-2025-49667 https://github.com/Yuri08loveElaina/CVE-2025-49667 Windows Win32 内核子系统特权提升漏洞  
 CVE-2025-50165 https://github.com/allinsthon/CVE-2025-50165 无poc gdi lpe  
+CVE-2025-53766 https://github.com/rich98/cve_2025_53766 windows GDI 远程执行代码漏洞  
 
 windows rce  
 
