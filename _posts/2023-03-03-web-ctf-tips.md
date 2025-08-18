@@ -286,6 +286,7 @@ cve-2025-29384 https://github.com/shuqi233/loophole/tree/main/Tenda%20AC9 Tenda 
 CVE-2025-7795 https://github.com/byteReaper77/CVE-2025-7795 Tenda Router Buffer Overflow Exploit  
 CVE-2025-20281-Cisco https://github.com/grupooruss/CVE-2025-20281-Cisco Cisco ISE RCE  
 CVE-2025-20124 https://github.com/137f/Cisco-ISE-3.0---Remote-Code-Execution-RCE- cisco ise rce  
+cve-2025-20265https://github.com/jordan922/cve2025-20265 思科安全防火墙管理中心软件半径远程代码执行漏洞  
 CVE-2023-3519 Citrix RCE  
 CVE-2023-4966 https://github.com/Chocapikk/CVE-2023-4966 Citrix Memory Leak Exploit  
 CVE-2025-5777 https://github.com/mingshenhk/CitrixBleed-2-CVE-2025-5777-PoC- NetScaler ADC和NetScaler Gateway-输入验证不足导致内存过读  
