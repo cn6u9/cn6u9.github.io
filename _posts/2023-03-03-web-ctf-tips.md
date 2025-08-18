@@ -97,7 +97,7 @@ CVE-2025-47170 https://github.com/nu11secur1ty/CVE-mitre/tree/main/2025/CVE-2025
 CVE-2025-49689 https://github.com/advisories/GHSA-xqmg-px28-29cq Windows虚拟硬盘lpe无poc  
 CVE-2025-53778 https://github.com/OxPloited/CVE-2025-53778-Exploit Windows Network Time Protocol (NTLM)无poc  
 CVE-2025-50154 https://github.com/zenzue/CVE-2025-50154 Microsoft Windows 文件资源管理器欺骗漏洞  
-
+CVE-2025-49667 https://github.com/Yuri08loveElaina/CVE-2025-49667 Windows Win32 内核子系统特权提升漏洞  
 
 windows rce  
 
