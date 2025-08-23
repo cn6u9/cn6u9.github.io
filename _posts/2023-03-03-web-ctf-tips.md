@@ -372,6 +372,7 @@ CVE-2025-22224 https://github.com/lacelruz/CVE-2025-22224 vmware vmx 无poc
 CVE-2025-32756 https://github.com/alm6no5/CVE-2025-32756-POC Fortinet 栈溢出  
 CVE-2025-25257 https://github.com/mtjanus106/CVE-2025-25257 Fortinet FortiWeb Fabric Connector SQL注入漏洞  
 CVE-2025-25256 https://github.com/watchtowrlabs/watchTowr-vs-FortiSIEM-CVE-2025-25256 Fortinet FortiSIEM OS inject  
+CVE-2025-52970 https://github.com/Hex00-0x4/FortiWeb-CVE-2025-52970-Authentication-Bypass Fortinet FortiWeb rce  
 
 
 
