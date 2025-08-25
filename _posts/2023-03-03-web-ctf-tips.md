@@ -389,7 +389,7 @@ CVE-2025-31258 https://github.com/wh1te4ever/CVE-2025-31258-PoC macOS Sequoia 15
 CVE_2025_24085 https://github.com/pxx917144686/12345 CVE_2025_31200,CVE_2025_31201多个漏洞  
 CVE-2025-24203 https://github.com/GeoSn0w/CVE-2025-24203-iOS-Exploit-With-Error-Logging lpe  
 CVE-2025-24132 https://github.com/ekomsSavior/AirBorne-PoC Apple多款产品 安全漏洞apple visionosUAF漏洞(CVE-2025-24252)  
-CVE-2025-43300 https://github.com/XiaomingX/CVE-2025-43300-exp iOS、iPadOS 和 macOS 中 Image I/O 框架越界写入无Poc  
+CVE-2025-43300 https://github.com/hunters-sec/CVE-2025-43300 iOS、iPadOS 和 macOS 中 Image I/O 框架越界写入  
 
 php  
 https://github.com/synacktiv/php_filter_chains_oracle_exploit 有意思的漏洞  
