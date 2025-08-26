@@ -369,6 +369,7 @@ CVE-2024-22275 https://github.com/mbadanoiu/CVE-2024-22275 VMware vCenter Server
 CVE-2024-22274 https://github.com/l0n3m4n/CVE-2024-22274-RCE VMware vCenter Server Authenticated RCE  
 CVE-2024-37085 https://github.com/Florian-Hoth/CVE-2024-37085-RCE-POC VMware ESXi RCE Vulnerability  
 CVE-2024-6222 https://github.com/Florian-Hoth/CVE-2024-6222 Docker Extension/Dashboard RCE Vulnerability  
+CVE-2025-9074 https://github.com/zenzue/CVE-2025-9074 CVE-2025-9074 – Docker Desktop (Windows)  
 CVE-2025-22224 https://github.com/lacelruz/CVE-2025-22224 vmware vmx 无poc  
 CVE-2025-32756 https://github.com/alm6no5/CVE-2025-32756-POC Fortinet 栈溢出  
 CVE-2025-25257 https://github.com/mtjanus106/CVE-2025-25257 Fortinet FortiWeb Fabric Connector SQL注入漏洞  
