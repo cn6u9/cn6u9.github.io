@@ -196,6 +196,7 @@ CVE-2025-6019 https://github.com/And-oss/CVE-2025-6019-exploit 还有一个叫60
 CVE-2025-32463 https://github.com/4f-kira/CVE-2025-32463 sudo (versions 1.9.14 to 1.9.17)  
 CVE-2025-32462 https://github.com/mylovem313/CVE-2025-32462 sudo (versions 1.8.8 to 1.9.17)  
 CVE-2025-38001 https://github.com/0xdevil/CVE-2025-38001 Linux HFSC Eltree Use-After-Free-Debian 12 PoC  
+CVE-2025-38676 https://github.com/14mb1v45h/CVE-2025-38676 Linux Kernel ≤ 6.17-rc2 (AMD IOMMU) stack buffer overflow  
 
 
 Exchange  and  outlook  and hyper-v and wps and word and ppt and SharePoint  
