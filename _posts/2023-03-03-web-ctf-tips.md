@@ -270,7 +270,7 @@ CVE-2025-24813 https://github.com/iSee857/CVE-2025-24813-PoC Apache Tomcat 远�
 https://github.com/Samb102/POC-CVE-2025-48988-CVE-2025-48976 tomcat 组合漏洞  
 cve-2025-22235 https://github.com/idealzh/cve-2025-22235-demo Spring Security EndpointRequest鉴权不当漏洞  
 
-Critical and IOT and Router and nas and Cisco and teamview and tenda  
+Critical and Citrix and IOT and Router and nas and Cisco and teamview and tenda  
 CVE-2023-3519 https://github.com/getdrive/PoC/tree/main/2023/Citrix%20ADC%20RCE%20CVE-2023-3519 Citrix VPX 13.1-48.47  
 https://ssd-disclosure.com/ssd-advisory-zyxel-vpn-series-pre-auth-remote-command-execution/  Zyxel VPN firewall VPN50, VPN100, VPN300, VPN500, VPN1000  
 CVE-2024-27497 https://www.seebug.org/vuldb/ssvid-99816 linksys e2000 bug  
@@ -295,7 +295,7 @@ CVE-2023-3519 Citrix RCE
 CVE-2023-4966 https://github.com/Chocapikk/CVE-2023-4966 Citrix Memory Leak Exploit  
 CVE-2025-5777 https://github.com/mingshenhk/CitrixBleed-2-CVE-2025-5777-PoC- NetScaler ADC和NetScaler Gateway-输入验证不足导致内存过读  
 CVE-2025-41646 https://github.com/cyberre124/CVE-2025-41646---Critical-Authentication-Bypass- Critical-Authentication-Bypass  
-
+CVE-2025-7775 https://github.com/hacker-r3volv3r/CVE-2025-7775-PoC/tree/main Citrix NetScaler ADC RCE  
 
 mail and exim  
 CVE-2024-39929 https://github.com/michael-david-fry/CVE-2024-39929 Exim through 4.97.1 misparses a multiline RFC 2231 header filename  
