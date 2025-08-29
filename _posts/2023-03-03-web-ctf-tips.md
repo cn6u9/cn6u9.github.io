@@ -101,6 +101,7 @@ CVE-2025-49667 https://github.com/Yuri08loveElaina/CVE-2025-49667 Windows Win32 
 CVE-2025-50165 https://github.com/allinsthon/CVE-2025-50165 无poc gdi lpe  
 CVE-2025-53766 https://github.com/rich98/cve_2025_53766 windows GDI 远程执行代码漏洞  
 CVE-2025-55230 https://github.com/barbaraeivyu/CVE-2025-55230-Exploit Windows MBT 传输驱动程序特权提升漏洞无Poc  
+CVE-2025-47987 https://github.com/Kryptoenix/CVE-2025-47987_PoC windows CredSSP lpe  
 
 windows rce  
 
@@ -393,6 +394,7 @@ CVE_2025_24085 https://github.com/pxx917144686/12345 CVE_2025_31200,CVE_2025_312
 CVE-2025-24203 https://github.com/GeoSn0w/CVE-2025-24203-iOS-Exploit-With-Error-Logging lpe  
 CVE-2025-24132 https://github.com/ekomsSavior/AirBorne-PoC Apple多款产品 安全漏洞apple visionosUAF漏洞(CVE-2025-24252)  
 CVE-2025-43300 https://github.com/hunters-sec/CVE-2025-43300 iOS、iPadOS 和 macOS 中 Image I/O 框架越界写入  
+CVE-2025-31200 https://github.com/hunters-sec/CVE-2025-31200 ios CoreAudio APAC Channel Remapping Buffer Overflow  
 
 php  
 https://github.com/synacktiv/php_filter_chains_oracle_exploit 有意思的漏洞  
