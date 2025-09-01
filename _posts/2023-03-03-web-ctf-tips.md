@@ -332,6 +332,7 @@ CVE-2025-27363 https://github.com/ov3rf1ow/CVE-2025-27363 chrome FreeType 缓冲
 CVE-2025-2783 https://github.com/byteReaper77/CVE-2025-2783-SandboxEscape Educational Sandbox Escape Simulation for Chrome  
 cve-2025-5419 https://github.com/itsShotgun/chrome_v8_cve_checker chrome bug  
 CVE-2025-6554 https://github.com/gmh5225/CVE-2025-6554-2 chrome uaf  
+CVE-2025-9478 https://github.com/Kamgreen50/STIG-Edge-RCE-CVE2025-9478 Microsoft Edge (Chromium) < 139.0.3405 rce  
 
 
 Oracle  and weblogic and geoserver and Ivanti  
@@ -377,7 +378,7 @@ CVE-2025-32756 https://github.com/alm6no5/CVE-2025-32756-POC Fortinet 栈溢出
 CVE-2025-25257 https://github.com/mtjanus106/CVE-2025-25257 Fortinet FortiWeb Fabric Connector SQL注入漏洞  
 CVE-2025-25256 https://github.com/watchtowrlabs/watchTowr-vs-FortiSIEM-CVE-2025-25256 Fortinet FortiSIEM OS inject  
 CVE-2025-52970 https://github.com/Hex00-0x4/FortiWeb-CVE-2025-52970-Authentication-Bypass Fortinet FortiWeb rce  
-
+CVE-2025-53744 https://github.com/fortinetx/CVE-2025-53744 FortiOS An incorrect privilege assignment vulnerability无poc  
 
 
 apple Macos and apple ios and android  
