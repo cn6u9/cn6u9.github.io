@@ -103,6 +103,7 @@ CVE-2025-53766 https://github.com/rich98/cve_2025_53766 windows GDI 远程执行
 CVE-2025-55230 https://github.com/barbaraeivyu/CVE-2025-55230-Exploit Windows MBT 传输驱动程序特权提升漏洞无Poc  
 CVE-2025-47987 https://github.com/Kryptoenix/CVE-2025-47987_PoC windows CredSSP lpe  
 CVE-2025-9491 https://github.com/barbaraeivyu/CVE-2025-9491 windows lnk漏洞无poc  
+CVE-2025-32709 https://github.com/AdnanSiyat/How-to-Patch-CVE-2025-32709 WinSock 的 Windows 辅助功能驱动程序特权提升漏洞无poc  
 
 windows rce  
 
