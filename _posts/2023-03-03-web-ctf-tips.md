@@ -470,6 +470,7 @@ CVE-2025-21479 https://github.com/zhuowei/cheese qualcomm 高通漏洞
 没找到cve https://github.com/mr-r0ot/0day-buffer-overflow-in-exiv2 exiv2  
 CVE-2025-6713 https://github.com/c137req/CVE-2025-6713 MongoDB服务器可能因$ MergeCursors阶段而受到特权升级  
 CVE-2025-43960 https://github.com/far00t01/CVE-2025-43960 PHP Object Injection in Adminer < 4.8.1 dos  
+CVE-2025-2502 https://github.com/IHK-ONE/CVE-2025-2502 联想电脑管家权限提升漏洞  
 
 
 
