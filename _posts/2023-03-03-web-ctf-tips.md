@@ -357,6 +357,9 @@ CVE-2025-0282 https://github.com/sfewer-r7/CVE-2025-0282 ivanti 栈溢出漏洞
 CVE-2025-22457 https://github.com/Vinylrider/ivantiunlocker Ivanti Connect Secure等多产品栈溢出漏洞  
 CVE-2025-4427 https://github.com/xie-22/CVE-2025-4428 身份验证旁路  
 
+杀毒
+CVE-2025-1055 https://github.com/diego-tella/CVE-2025-1055-poc K7安全性反恶意软件  
+
 vmware esxi and vcenter and Fortinet and VirtualBox and docker  
 cve-2022-31705 https://github.com/s0duku/cve-2022-31705 Test on windows vmware workstation 16.2.0, with guest os ubuntu server 22  
 CVE-2021-21974 https://github.com/Shadow0ps/CVE-2021-21974 VMWare ESXi RCE Exploit  
