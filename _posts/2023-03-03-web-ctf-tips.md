@@ -25,7 +25,7 @@ https://github.com/UCL-CREST/doublefetch c语言静态漏洞挖掘函数
 https://github.com/sha0coder/maripyli 使用python2，是php静态代码分析工具  
 https://github.com/DynamoRIO/drmemory 检查内存泄漏drmemory.exe -logdir c:/logs -- c:/path/to/my/app
 
-windows lpe  
+windows iis lpe  
 CVE-2023-21752 https://github.com/Wh04m1001/CVE-2023-21752   PoC for arbitrary file delete vul in Windows Backup service  
 CVE-2023–21746  https://github.com/blackarrowsec/redteam-research/tree/master/LPE%20via%20StorSvc LPE via StorSvc  
 CVE-2023-21768 https://github.com/chompie1337/Windows_LPE_AFD_CVE-2023-21768 Windows 11  
@@ -104,9 +104,9 @@ CVE-2025-55230 https://github.com/barbaraeivyu/CVE-2025-55230-Exploit Windows MB
 CVE-2025-47987 https://github.com/Kryptoenix/CVE-2025-47987_PoC windows CredSSP lpe  
 CVE-2025-9491 https://github.com/barbaraeivyu/CVE-2025-9491 windows lnk漏洞无poc  
 CVE-2025-32709 https://github.com/AdnanSiyat/How-to-Patch-CVE-2025-32709 WinSock 的 Windows 辅助功能驱动程序特权提升漏洞无poc  
+CVE-2025-53772 https://github.com/Momollax/CVE-2025-53772-IIS-WebDeploy-RCE iis Web 部署远程代码执行漏洞  
 
 windows rce  
-
 CVE-2022-34718 https://github.com/numencyber/Vulnerability_PoC/blob/main/CVE-2022-34718/poc.cpp  TCP/IP RCE Vulnerability  
 CVE-2023-28231 https://github.com/numencyber/Vulnerability_PoC/blob/main/CVE-2023-28231/CVE-2023-28231-DHCP-VUL-PoC.cpp  MICROSOFT WINDOWS SERVER 2008-2019 DHCP SERVER  
 CVE-2023-28231 https://github.com/glavstroy/CVE-2023-28231  MICROSOFT WINDOWS SERVER 2008-2019 DHCP SERVER   
@@ -357,8 +357,9 @@ CVE-2025-0282 https://github.com/sfewer-r7/CVE-2025-0282 ivanti 栈溢出漏洞
 CVE-2025-22457 https://github.com/Vinylrider/ivantiunlocker Ivanti Connect Secure等多产品栈溢出漏洞  
 CVE-2025-4427 https://github.com/xie-22/CVE-2025-4428 身份验证旁路  
 
-杀毒
+杀毒 and NVIDIA
 CVE-2025-1055 https://github.com/diego-tella/CVE-2025-1055-poc K7安全性反恶意软件  
+cve-2025-23266 https://github.com/Mindasy/cve-2025-23266-migration-bypass NVIDIA Container Toolkit 容器逃逸漏洞  
 
 vmware esxi and vcenter and Fortinet and VirtualBox and docker  
 cve-2022-31705 https://github.com/s0duku/cve-2022-31705 Test on windows vmware workstation 16.2.0, with guest os ubuntu server 22  
