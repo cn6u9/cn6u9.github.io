@@ -362,7 +362,7 @@ CVE-2025-4427 https://github.com/xie-22/CVE-2025-4428 身份验证旁路
 CVE-2025-1055 https://github.com/diego-tella/CVE-2025-1055-poc K7安全性反恶意软件  
 cve-2025-23266 https://github.com/Mindasy/cve-2025-23266-migration-bypass NVIDIA Container Toolkit 容器逃逸漏洞  
 
-vmware esxi and vcenter and Fortinet and VirtualBox and docker  
+vmware esxi and vcenter and Azure and android and Fortinet and VirtualBox and docker  
 cve-2022-31705 https://github.com/s0duku/cve-2022-31705 Test on windows vmware workstation 16.2.0, with guest os ubuntu server 22  
 CVE-2021-21974 https://github.com/Shadow0ps/CVE-2021-21974 VMWare ESXi RCE Exploit  
 cve-2022-31680 https://www.idappcom.co.uk/post/vmware-vcenter-server-code-execution-cve-2022-31680 有帐号之后才能提权  
@@ -386,6 +386,8 @@ CVE-2025-25257 https://github.com/mtjanus106/CVE-2025-25257 Fortinet FortiWeb Fa
 CVE-2025-25256 https://github.com/watchtowrlabs/watchTowr-vs-FortiSIEM-CVE-2025-25256 Fortinet FortiSIEM OS inject  
 CVE-2025-52970 https://github.com/Hex00-0x4/FortiWeb-CVE-2025-52970-Authentication-Bypass Fortinet FortiWeb rce  
 CVE-2025-53744 https://github.com/fortinetx/CVE-2025-53744 FortiOS An incorrect privilege assignment vulnerability无poc  
+CVE-2025-54914 https://github.com/mrk336/Azure-Networking-Privilege-Escalation-Exploit-CVE-2025-54914 Azure Networking LPE  
+CVE-2025-48543 https://github.com/gamesarchive/CVE-2025-48543 Android ART Use-After-Free  
 
 
 apple Macos and apple ios and android  
