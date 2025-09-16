@@ -168,6 +168,7 @@ CVE-2023-32629 https://github.com/g1vi/CVE-2023-2640-CVE-2023-32629 Ubuntu 18.04
 CVE-2023-4911 https://github.com/RickdeJager/CVE-2023-4911 Ubuntu 22.10  glibc 2.34 ld.so  
 cve-2023-4813 https://github.com/tnishiox/cve-2023-4813 gaih_inet() 中潜在的释放后使用  
 CVE-2023-3269 
+CVE-2023-52440 and CVE-2023-4130 https://github.com/BitsByWill/ksmbd-n-day linux LTS kernel (6.1.45) lpe  
 CVE-2023-1521 https://github.com/rubbxalc/CVE-2023-1521 Linux the sccache client lpe  
 cve-2023-2598 https://github.com/ysanatomic/io_uring_LPE-CVE-2023-2598/blob/main/exploit.c Linux Kernel io_uring 拒绝服务漏洞  
 CVE-2023-50254 https://github.com/febinrev/deepin-linux_reader_RCE-exploit Deepin Linux的默认文档阅读器deepin-reader在版本6.0.7  
