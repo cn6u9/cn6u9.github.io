@@ -105,6 +105,7 @@ CVE-2025-47987 https://github.com/Kryptoenix/CVE-2025-47987_PoC windows CredSSP 
 CVE-2025-9491 https://github.com/barbaraeivyu/CVE-2025-9491 windows lnk漏洞无poc  
 CVE-2025-32709 https://github.com/AdnanSiyat/How-to-Patch-CVE-2025-32709 WinSock 的 Windows 辅助功能驱动程序特权提升漏洞无poc  
 CVE-2025-53772 https://github.com/Momollax/CVE-2025-53772-IIS-WebDeploy-RCE iis Web 部署远程代码执行漏洞  
+CVE-2025-54106 https://github.com/callinston/CVE-2025-54106 Windows RRAS Integer Overflow Exploit无poc  
 
 windows rce  
 CVE-2022-34718 https://github.com/numencyber/Vulnerability_PoC/blob/main/CVE-2022-34718/poc.cpp  TCP/IP RCE Vulnerability  
