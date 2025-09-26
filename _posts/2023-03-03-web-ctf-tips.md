@@ -243,6 +243,7 @@ CVE-2025-48827 https://github.com/0xgh057r3c0n/CVE-2025-48827 Critical Unauthent
 CVE-2025-48827 https://github.com/ill-deed/vBulletin-CVE-2025-48828-Multi-target vbulletin  
 CVE-2025-49113 https://github.com/Ademking/CVE-2025-49113-nuclei-template Roundcube ≤ 1.6.10 rce  
 CVE-2025-57833 https://github.com/Mkway/CVE-2025-57833 Django SQL Injection Test Environment  
+CVE-2025-6384 https://github.com/maestro-ant/CrafterCMS-CVE-2025-6384 CrafterCMS Auth rce Groovy Sandbox Bypass  
 
 cacti and tomcat and Spring Framework 6.0.7 and 5.3.26 fix cve-2023-20860 and cve-2023-20861  
 CVE-2023-34039 https://github.com/Cyb3rEnthusiast/CVE-2023-34039 VMware newest exploit  
@@ -470,6 +471,7 @@ CVE-2025-20029 https://github.com/schoi1337/CVE-2025-20029-simulation iControl R
 LibHeif https://github.com/SexyShoelessGodofWar/LibHeif---CVE-2025-XXXXX Heap Buffer Overflow in libheif一个开源库，专门用于处理HEIC格式的图像  
 CVE-2025-2945 https://github.com/abrewer251/CVE-2025-2945_PoC pgAdmin Query Tool RCE  
 CVE-2025-49144 https://github.com/TheTorjanCaptain/CVE-2025-49144_PoC 	Notepad ++特权通过无法控制的可执行搜索路径  
+CVE-2025-56383 https://github.com/zer0t0/CVE-2025-56383-Proof-of-Concept Notepad++ v8.8.3 has a DLL hijacking  
 CVE-2024-46981 https://github.com/xsshk/CVE-2024-46981 Redis的Lua库命令可能导致远程代码执行CVE-2024-51741无poc  
 CVE-2025-32023 https://github.com/leesh3288/CVE-2025-32023 Redis hyperloglog 越界写入致远程代码执行漏洞  
 CVE-2025-21479 https://github.com/zhuowei/cheese qualcomm 高通漏洞  
