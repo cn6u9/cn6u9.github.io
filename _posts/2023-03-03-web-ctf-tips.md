@@ -305,6 +305,7 @@ CVE-2023-4966 https://github.com/Chocapikk/CVE-2023-4966 Citrix Memory Leak Expl
 CVE-2025-5777 https://github.com/mingshenhk/CitrixBleed-2-CVE-2025-5777-PoC- NetScaler ADC和NetScaler Gateway-输入验证不足导致内存过读  
 CVE-2025-41646 https://github.com/cyberre124/CVE-2025-41646---Critical-Authentication-Bypass- Critical-Authentication-Bypass  
 CVE-2025-7775 https://github.com/hacker-r3volv3r/CVE-2025-7775-PoC/tree/main Citrix NetScaler ADC RCE  
+CVE-2025-20333 https://github.com/callinston/CVE-2025-20333 Cisco Secure Firewall VPN Web Server RCE无poc  
 
 mail and exim  
 CVE-2024-39929 https://github.com/michael-david-fry/CVE-2024-39929 Exim through 4.97.1 misparses a multiline RFC 2231 header filename  
