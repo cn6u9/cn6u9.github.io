@@ -125,7 +125,7 @@ cve-2024-1874 https://github.com/php/php-src/security/advisories/GHSA-pc52-254m-
 CVE-2020-7071 https://github.com/php/php-src/security/advisories/GHSA-w8qr-v226-r27w Filter bypass in filter_var 7.327-8.37  
 CVE-2024-5458 https://github.com/justmexD8/CVE-2024-5458-POC filter_var (FILTER_VALIDATE_URL) 中的过滤器绕过  
 
-winrar and office and word and pdf and 7zip and rar and wps  
+winrar and office and word and pdf and 7zip and 7-zip and rar and wps  
 
 CVE_2023_21716 https://github.com/Xnuvers007/CVE-2023-21716    RTF Crash POC  
 CVE-2023-27363 https://github.com/webraybtl/CVE-2023-27363 福昕Foxit PDF远程代码执行漏洞  
@@ -145,6 +145,7 @@ CVE-2024-38200 https://github.com/passtheticket/CVE-2024-38200 Microsoft Office 
 CVE-2025-47165 https://www.exploit-db.com/exploits/52343 Microsoft Excel 2024 uaf RCE  
 CVE-2025-8088 https://github.com/jordan922/CVE-2025-8088 winrar 目录遍历漏洞  
 CVE-2025-55188 https://github.com/hunters-sec/CVE-2025-55188-7z-exploit 7-Zip Symlink Arbitrary File Write  
+CVE-2025-11001 https://github.com/shalevo13/Se7enSlip 7-Zip两大高危漏洞可导致任意代码执行  
 
 
 linux lpe  
