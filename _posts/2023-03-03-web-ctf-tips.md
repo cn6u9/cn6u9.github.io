@@ -483,7 +483,7 @@ CVE-2025-6713 https://github.com/c137req/CVE-2025-6713 MongoDB服务器可能因
 CVE-2025-43960 https://github.com/far00t01/CVE-2025-43960 PHP Object Injection in Adminer < 4.8.1 dos  
 CVE-2025-2502 https://github.com/IHK-ONE/CVE-2025-2502 联想电脑管家权限提升漏洞  
 cve-2025-61984 https://github.com/dgl/cve-2025-61984-poc OpenSSH's <10.1 ProxyCommand  
-
+CVE-2025-50505 https://github.com/bron1e/CVE-2025-50505 Clash Verge Rev版本至2.2.3默认强制安装系统服务  
 
 
 # 小结
