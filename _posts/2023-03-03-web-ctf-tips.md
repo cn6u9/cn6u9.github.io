@@ -207,7 +207,7 @@ CVE-2025-39866 https://github.com/byteReaper77/CVE-2025-39866 Linux systems < 6.
 CVE-2025-39913 https://github.com/byteReaper77/CVE-2025-39913 Linux Kernel eBPF SOCKMAP  
 
 
-Exchange  and  outlook  and hyper-v and wps and word and ppt and SharePoint  
+Exchange  and  outlook  and hyper-v and wps and word and ppt and Oracle and SharePoint  
 CVE-2022-41082 https://github.com/balki97/OWASSRF-CVE-2022-41082-POC NotProxyShell OWASSRF Vul Effecting Microsoft Exchange 
 CVE-2023-21707 https://github.com/N1k0la-T/CVE-2023-21707 Microsoft Exchange Server Remote Code Execution Vulnerability  
 CVE-2023-23397 https://github.com/CKevens/CVE-2023-23397-POC/blob/main/CVE-2023-23397.py outlook 2019 auto get NetNTLM  
@@ -223,6 +223,7 @@ CVE-2024-38127 https://github.com/pwndorei/CVE-2024-38127 Windows Hyper-V 特权
 CVE-2025-49706 https://github.com/AdityaBhatt3010/CVE-2025-49706-SharePoint-Spoofing-Vulnerability-Under-Active-Exploitation  
 CVE-2025-53770 https://github.com/Bluefire-Redteam-Cybersecurity/bluefire-sharepoint-cve-2025-53770 Critical SharePoint RCE  
 CVE-2025-53786 https://github.com/barbaraeivyu/CVE-2025-53786 exchange hybrid deployments lpe 无poc  
+CVE-2025-61882 https://github.com/zerozenxlabs/CVE-2025-61882-Oracle-EBS Oracle E-Business Suite中（组件：BI Publisher集成）存在漏洞  
 
 域控  
 https://github.com/Amulab/advul  
