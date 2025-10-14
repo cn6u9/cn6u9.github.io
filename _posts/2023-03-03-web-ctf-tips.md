@@ -369,7 +369,7 @@ CVE-2025-4427 https://github.com/xie-22/CVE-2025-4428 身份验证旁路
 CVE-2025-1055 https://github.com/diego-tella/CVE-2025-1055-poc K7安全性反恶意软件  
 cve-2025-23266 https://github.com/Mindasy/cve-2025-23266-migration-bypass NVIDIA Container Toolkit 容器逃逸漏洞  
 
-vmware esxi and vcenter and Azure and android and Fortinet and Fortra and VirtualBox and docker  
+vmware esxi and vcenter and Azure  and Fortinet and Fortra and VirtualBox and docker  
 cve-2022-31705 https://github.com/s0duku/cve-2022-31705 Test on windows vmware workstation 16.2.0, with guest os ubuntu server 22  
 CVE-2021-21974 https://github.com/Shadow0ps/CVE-2021-21974 VMWare ESXi RCE Exploit  
 cve-2022-31680 https://www.idappcom.co.uk/post/vmware-vcenter-server-code-execution-cve-2022-31680 有帐号之后才能提权  
@@ -394,7 +394,6 @@ CVE-2025-25256 https://github.com/watchtowrlabs/watchTowr-vs-FortiSIEM-CVE-2025-
 CVE-2025-52970 https://github.com/Hex00-0x4/FortiWeb-CVE-2025-52970-Authentication-Bypass Fortinet FortiWeb rce  
 CVE-2025-53744 https://github.com/fortinetx/CVE-2025-53744 FortiOS An incorrect privilege assignment vulnerability无poc  
 CVE-2025-54914 https://github.com/mrk336/Azure-Networking-Privilege-Escalation-Exploit-CVE-2025-54914 Azure Networking LPE  
-CVE-2025-48543 https://github.com/gamesarchive/CVE-2025-48543 Android ART Use-After-Free  
 CVE-2025-10035 https://github.com/ThemeHackers/CVE-2025-10035 Fortra的GoAnywhere MFT中的许可证Servlet存在反序列化漏洞  
 
 
@@ -413,6 +412,8 @@ CVE-2025-24203 https://github.com/GeoSn0w/CVE-2025-24203-iOS-Exploit-With-Error-
 CVE-2025-24132 https://github.com/ekomsSavior/AirBorne-PoC Apple多款产品 安全漏洞apple visionosUAF漏洞(CVE-2025-24252)  
 CVE-2025-43300 https://github.com/hunters-sec/CVE-2025-43300 iOS、iPadOS 和 macOS 中 Image I/O 框架越界写入  
 CVE-2025-31200 https://github.com/hunters-sec/CVE-2025-31200 ios CoreAudio APAC Channel Remapping Buffer Overflow  
+CVE-2025-48543 https://github.com/gamesarchive/CVE-2025-48543 Android ART Use-After-Free  
+CVE-2025-22441 https://github.com/michalbednarski/ResourcePoison Google Android 安全漏洞  
 
 php  
 https://github.com/synacktiv/php_filter_chains_oracle_exploit 有意思的漏洞  
