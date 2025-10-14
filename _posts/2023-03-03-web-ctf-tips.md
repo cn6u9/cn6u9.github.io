@@ -389,6 +389,7 @@ CVE-2024-37085 https://github.com/Florian-Hoth/CVE-2024-37085-RCE-POC VMware ESX
 CVE-2024-6222 https://github.com/Florian-Hoth/CVE-2024-6222 Docker Extension/Dashboard RCE Vulnerability  
 CVE-2025-9074 https://github.com/zenzue/CVE-2025-9074 CVE-2025-9074 – Docker Desktop (Windows)  
 CVE-2025-22224 https://github.com/lacelruz/CVE-2025-22224 vmware vmx 无poc  
+CVE-2025-41244 https://github.com/haspiranti/CVE-2025-41244-PoC VMware Aria Operations<4.18.5 & VMware Tools lpe  
 CVE-2025-32756 https://github.com/alm6no5/CVE-2025-32756-POC Fortinet 栈溢出  
 CVE-2025-25257 https://github.com/mtjanus106/CVE-2025-25257 Fortinet FortiWeb Fabric Connector SQL注入漏洞  
 CVE-2025-25256 https://github.com/watchtowrlabs/watchTowr-vs-FortiSIEM-CVE-2025-25256 Fortinet FortiSIEM OS inject  
@@ -415,6 +416,7 @@ CVE-2025-43300 https://github.com/hunters-sec/CVE-2025-43300 iOS、iPadOS 和 ma
 CVE-2025-31200 https://github.com/hunters-sec/CVE-2025-31200 ios CoreAudio APAC Channel Remapping Buffer Overflow  
 CVE-2025-48543 https://github.com/gamesarchive/CVE-2025-48543 Android ART Use-After-Free  
 CVE-2025-22441 https://github.com/michalbednarski/ResourcePoison Google Android 安全漏洞  
+CVE-2025-59489 https://github.com/GithubKillsMyOpsec/CVE-2025-59489-POC android Unity Gaming Engine Editor vul  
 
 php  
 https://github.com/synacktiv/php_filter_chains_oracle_exploit 有意思的漏洞  
