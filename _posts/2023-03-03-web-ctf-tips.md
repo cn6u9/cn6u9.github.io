@@ -204,6 +204,7 @@ CVE-2025-38001 https://github.com/0xdevil/CVE-2025-38001 Linux HFSC Eltree Use-A
 CVE-2025-38676 https://github.com/14mb1v45h/CVE-2025-38676 Linux Kernel ≤ 6.17-rc2 (AMD IOMMU) stack buffer overflow  
 CVE-2025-21692 https://github.com/volticks/CVE-2025-21692-poc linux 修复ETS QDISC OOB  
 CVE-2025-39866 https://github.com/byteReaper77/CVE-2025-39866 Linux systems < 6.12.16  
+CVE-2025-39913 https://github.com/byteReaper77/CVE-2025-39913 Linux Kernel eBPF SOCKMAP  
 
 
 Exchange  and  outlook  and hyper-v and wps and word and ppt and SharePoint  
