@@ -107,6 +107,9 @@ CVE-2025-32709 https://github.com/AdnanSiyat/How-to-Patch-CVE-2025-32709 WinSock
 CVE-2025-53772 https://github.com/Momollax/CVE-2025-53772-IIS-WebDeploy-RCE iis Web 部署远程代码执行漏洞  
 CVE-2025-54106 https://github.com/callinston/CVE-2025-54106 Windows RRAS Integer Overflow Exploit无poc  
 CVE-2025-24990 https://github.com/moiz-2x/CVE-2025-24990_POC Windows Agere 调制解调器驱动程序特权提升漏洞  
+CVE-2025-59230 https://github.com/moegameka/CVE-2025-59230 Local Privilege Escalation in Windows Remote Access Connection Manager  
+CVE-2025-33073 https://github.com/SellMeFish/windows-smb-vulnerability-framework-cve-2025-33073 Windows SMB Client Vulnerability Research  
+
 
 windows rce  
 CVE-2022-34718 https://github.com/numencyber/Vulnerability_PoC/blob/main/CVE-2022-34718/poc.cpp  TCP/IP RCE Vulnerability  
@@ -207,6 +210,7 @@ CVE-2025-38676 https://github.com/14mb1v45h/CVE-2025-38676 Linux Kernel ≤ 6.17
 CVE-2025-21692 https://github.com/volticks/CVE-2025-21692-poc linux 修复ETS QDISC OOB  
 CVE-2025-39866 https://github.com/byteReaper77/CVE-2025-39866 Linux systems < 6.12.16  
 CVE-2025-39913 https://github.com/byteReaper77/CVE-2025-39913 Linux Kernel eBPF SOCKMAP  
+cve-2025-54874 https://github.com/cyhe50/cve-2025-54874-poc Linux 6.10.14-linuxkit opengpeg25.1  
 
 
 Exchange  and  outlook  and hyper-v and wps and word and ppt and Oracle and SharePoint  
@@ -346,6 +350,7 @@ CVE-2025-2783 https://github.com/byteReaper77/CVE-2025-2783-SandboxEscape Educat
 cve-2025-5419 https://github.com/itsShotgun/chrome_v8_cve_checker chrome bug  
 CVE-2025-6554 https://github.com/gmh5225/CVE-2025-6554-2 chrome uaf  
 CVE-2025-9478 https://github.com/Kamgreen50/STIG-Edge-RCE-CVE2025-9478 Microsoft Edge (Chromium) < 139.0.3405 rce  
+CVE-2025-59295 https://github.com/usjnx72726w/CVE-2025-59295 Internet Explorer Heap overflow  
 
 
 Oracle  and weblogic and geoserver and Ivanti  
