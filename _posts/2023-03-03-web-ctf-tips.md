@@ -316,10 +316,10 @@ CVE-2025-41646 https://github.com/cyberre124/CVE-2025-41646---Critical-Authentic
 CVE-2025-7775 https://github.com/hacker-r3volv3r/CVE-2025-7775-PoC/tree/main Citrix NetScaler ADC RCE  
 CVE-2025-20333 https://github.com/callinston/CVE-2025-20333 Cisco Secure Firewall VPN Web Server RCE无poc  
 
-mail and exim  
+sqlite and mail and exim  
 CVE-2024-39929 https://github.com/michael-david-fry/CVE-2024-39929 Exim through 4.97.1 misparses a multiline RFC 2231 header filename  
 CVE-2025-26794 https://github.com/OscarBataille/CVE-2025-26794 SQLite (DBM) injection in Exim 4.98  
-
+CVE-2025-52099 https://github.com/SCREAMBBY/CVE-2025-52099 Ubuntu 22.04 x86_64 with SQLite 3.50.0  
 
 Browser  
 
