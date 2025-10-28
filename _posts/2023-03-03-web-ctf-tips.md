@@ -124,6 +124,7 @@ CVE-2024-38063　https://github.com/diegoalbuquerque/CVE-2024-38063　Windows TC
 CVE-2024-49112 https://github.com/SafeBreach-Labs/CVE-2024-49112 Windows 轻量级目录访问协议 (LDAP) 远程代码执行漏洞  
 CVE-2025-33053 https://github.com/DevBuiHieu/CVE-2025-33053-Proof-Of-Concept windows WebDAV rce via File Path Manipulation  
 CVE-2025-32710 https://github.com/Sincan2/RCE-CVE-2025-32710 Windows远程桌面服务远程代码执行漏洞  
+CVE-2025-59287 https://github.com/garvitv14/CVE-2025-59287 windows WSUS RCE Exploit  
 
 php  
 cve-2024-1874 https://github.com/php/php-src/security/advisories/GHSA-pc52-254m-w9w7 PHP直到8.1.27/8.2.17/8.3.4WINDOWS PROC_OPEN 权限升级  
