@@ -498,6 +498,7 @@ CVE-2025-2502 https://github.com/IHK-ONE/CVE-2025-2502 联想电脑管家权限�
 cve-2025-61984 https://github.com/dgl/cve-2025-61984-poc OpenSSH's <10.1 ProxyCommand  
 CVE-2025-50505 https://github.com/bron1e/CVE-2025-50505 Clash Verge Rev版本至2.2.3默认强制安装系统服务  
 CVE-2025-0886 https://github.com/JNDataRT/VirtualLockSensorLPE 联想Elliptic Labs的虚拟锁传感器报告了一个权限漏洞  
+CVE-2025-56521 https://github.com/Dong-hui-li/CVE-2025-56521andCVE-2025-56522/tree/main clang 编译代码指针错误  
 
 
 # 小结
