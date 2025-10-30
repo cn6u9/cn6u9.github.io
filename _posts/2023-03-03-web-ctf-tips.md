@@ -287,6 +287,7 @@ CVE-2024-45519 https://github.com/Chocapikk/CVE-2024-45519 Zimbra RCE
 CVE-2024-50379 https://github.com/v3153/CVE-2024-50379-POC Apache Tomcat 条件竞争文件上传漏洞  
 CVE-2025-24813 https://github.com/iSee857/CVE-2025-24813-PoC Apache Tomcat 远程代码执行漏洞  
 https://github.com/Samb102/POC-CVE-2025-48988-CVE-2025-48976 tomcat 组合漏洞  
+CVE-2025-55752 https://github.com/masahiro331/CVE-2025-55752/ Apache Tomcat Path Traversal Vulnerability  
 cve-2025-22235 https://github.com/idealzh/cve-2025-22235-demo Spring Security EndpointRequest鉴权不当漏洞  
 
 Critical and Citrix and IOT and Router and nas and Cisco and teamview and tenda  
