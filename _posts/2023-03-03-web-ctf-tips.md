@@ -110,6 +110,7 @@ CVE-2025-24990 https://github.com/moiz-2x/CVE-2025-24990_POC Windows Agere 调�
 CVE-2025-59230 https://github.com/moegameka/CVE-2025-59230 Local Privilege Escalation in Windows Remote Access Connection Manager  
 CVE-2025-33073 https://github.com/SellMeFish/windows-smb-vulnerability-framework-cve-2025-33073 Windows SMB Client Vulnerability Research  
 CVE-2025-50168 https://github.com/D4m0n/CVE-2025-50168-pwn2own-berlin-2025 Win32k 特权提升漏洞  
+CVE-2025-60710 https://github.com/Wh04m1001/CVE-2025-60710 Windows 任务主机进程权限提升漏洞  
 
 
 
