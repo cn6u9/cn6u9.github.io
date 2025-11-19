@@ -406,6 +406,7 @@ CVE-2025-32756 https://github.com/alm6no5/CVE-2025-32756-POC Fortinet 栈溢出
 CVE-2025-25257 https://github.com/mtjanus106/CVE-2025-25257 Fortinet FortiWeb Fabric Connector SQL注入漏洞  
 CVE-2025-25256 https://github.com/watchtowrlabs/watchTowr-vs-FortiSIEM-CVE-2025-25256 Fortinet FortiSIEM OS inject  
 CVE-2025-52970 https://github.com/Hex00-0x4/FortiWeb-CVE-2025-52970-Authentication-Bypass Fortinet FortiWeb rce  
+CVE-2025-25255 https://github.com/chjkfbvmvff/CVE-2025-25255/tree/main watchTowr-vs-Fortiweb-AuthBypass8.0  
 CVE-2025-53744 https://github.com/fortinetx/CVE-2025-53744 FortiOS An incorrect privilege assignment vulnerability无poc  
 CVE-2025-54914 https://github.com/mrk336/Azure-Networking-Privilege-Escalation-Exploit-CVE-2025-54914 Azure Networking LPE  
 CVE-2025-10035 https://github.com/ThemeHackers/CVE-2025-10035 Fortra的GoAnywhere MFT中的许可证Servlet存在反序列化漏洞  
