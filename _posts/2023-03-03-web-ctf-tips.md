@@ -111,6 +111,7 @@ CVE-2025-59230 https://github.com/moegameka/CVE-2025-59230 Local Privilege Escal
 CVE-2025-33073 https://github.com/SellMeFish/windows-smb-vulnerability-framework-cve-2025-33073 Windows SMB Client Vulnerability Research  
 CVE-2025-50168 https://github.com/D4m0n/CVE-2025-50168-pwn2own-berlin-2025 Win32k 特权提升漏洞  
 CVE-2025-60710 https://github.com/Wh04m1001/CVE-2025-60710 Windows 任务主机进程权限提升漏洞  
+CVE-2025-54110 https://github.com/canomer/CVE-2025-54110-Kernel-EoP-PoC Windows Kernel EoP Vulnerability  
 
 
 
@@ -408,6 +409,7 @@ CVE-2025-25256 https://github.com/watchtowrlabs/watchTowr-vs-FortiSIEM-CVE-2025-
 CVE-2025-52970 https://github.com/Hex00-0x4/FortiWeb-CVE-2025-52970-Authentication-Bypass Fortinet FortiWeb rce  
 CVE-2025-25255 https://github.com/chjkfbvmvff/CVE-2025-25255/tree/main watchTowr-vs-Fortiweb-AuthBypass8.0  
 CVE-2025-53744 https://github.com/fortinetx/CVE-2025-53744 FortiOS An incorrect privilege assignment vulnerability无poc  
+CVE-2025-58034 https://github.com/B1ack4sh/Blackash-CVE-2025-58034 FortiWeb 8.0.0命令注入  
 CVE-2025-54914 https://github.com/mrk336/Azure-Networking-Privilege-Escalation-Exploit-CVE-2025-54914 Azure Networking LPE  
 CVE-2025-10035 https://github.com/ThemeHackers/CVE-2025-10035 Fortra的GoAnywhere MFT中的许可证Servlet存在反序列化漏洞  
 
