@@ -154,7 +154,7 @@ CVE-2024-38200 https://github.com/passtheticket/CVE-2024-38200 Microsoft Office 
 CVE-2025-47165 https://www.exploit-db.com/exploits/52343 Microsoft Excel 2024 uaf RCE  
 CVE-2025-8088 https://github.com/jordan922/CVE-2025-8088 winrar 目录遍历漏洞  
 CVE-2025-55188 https://github.com/hunters-sec/CVE-2025-55188-7z-exploit 7-Zip Symlink Arbitrary File Write  
-CVE-2025-11001 https://github.com/shalevo13/Se7enSlip 7-Zip两大高危漏洞可导致任意代码执行  
+CVE-2025-11001 https://github.com/lastvocher/7zip-CVE-2025-11001 7-Zip两大高危漏洞可导致任意代码执行  
 
 
 linux lpe  
