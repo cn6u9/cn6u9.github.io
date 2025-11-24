@@ -507,6 +507,7 @@ cve-2025-61984 https://github.com/dgl/cve-2025-61984-poc OpenSSH's <10.1 ProxyCo
 CVE-2025-50505 https://github.com/bron1e/CVE-2025-50505 Clash Verge Rev版本至2.2.3默认强制安装系统服务  
 CVE-2025-0886 https://github.com/JNDataRT/VirtualLockSensorLPE 联想Elliptic Labs的虚拟锁传感器报告了一个权限漏洞  
 CVE-2025-56521 https://github.com/Dong-hui-li/CVE-2025-56521andCVE-2025-56522/tree/main clang 编译代码指针错误  
+CVE-2025-10680 https://github.com/B1ack4sh/Blackash-CVE-2025-10680 openvpn DNS变量注入shell  
 
 
 # 小结
