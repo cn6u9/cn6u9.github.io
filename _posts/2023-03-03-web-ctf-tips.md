@@ -413,6 +413,7 @@ CVE-2025-53744 https://github.com/fortinetx/CVE-2025-53744 FortiOS An incorrect 
 CVE-2025-58034 https://github.com/B1ack4sh/Blackash-CVE-2025-58034 FortiWeb 8.0.0命令注入  
 CVE-2025-54914 https://github.com/mrk336/Azure-Networking-Privilege-Escalation-Exploit-CVE-2025-54914 Azure Networking LPE  
 CVE-2025-10035 https://github.com/ThemeHackers/CVE-2025-10035 Fortra的GoAnywhere MFT中的许可证Servlet存在反序列化漏洞  
+CVE-2025-62641 https://github.com/Al-Lord0x/CVE-2025-62641/ Oracle VM VirtualBox  
 
 
 apple Macos and apple ios and android  
@@ -508,6 +509,6 @@ CVE-2025-50505 https://github.com/bron1e/CVE-2025-50505 Clash Verge Rev版本至
 CVE-2025-0886 https://github.com/JNDataRT/VirtualLockSensorLPE 联想Elliptic Labs的虚拟锁传感器报告了一个权限漏洞  
 CVE-2025-56521 https://github.com/Dong-hui-li/CVE-2025-56521andCVE-2025-56522/tree/main clang 编译代码指针错误  
 CVE-2025-10680 https://github.com/B1ack4sh/Blackash-CVE-2025-10680 openvpn DNS变量注入shell  
-
+CVE-2025-3500 https://github.com/chicken3962/CVE-2025-3500-Poc Avast 25.1.981.6整数溢出lpe  
 
 # 小结
