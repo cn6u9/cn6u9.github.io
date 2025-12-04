@@ -112,7 +112,7 @@ CVE-2025-33073 https://github.com/SellMeFish/windows-smb-vulnerability-framework
 CVE-2025-50168 https://github.com/D4m0n/CVE-2025-50168-pwn2own-berlin-2025 Win32k 特权提升漏洞  
 CVE-2025-60710 https://github.com/Wh04m1001/CVE-2025-60710 Windows 任务主机进程权限提升漏洞  
 CVE-2025-54110 https://github.com/canomer/CVE-2025-54110-Kernel-EoP-PoC Windows Kernel EoP Vulnerability  
-
+CVE-2025-60719 https://github.com/akamai/CVE-2025-60719-AFD.SYS windwos uaf afd.sys  
 
 
 windows rce  
