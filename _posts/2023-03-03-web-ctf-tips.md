@@ -277,6 +277,7 @@ CVE-2024-29895 https://github.com/Stuub/CVE-2024-29895-CactiRCE-PoC
 CVE-2024-25641 https://github.com/5ma1l/CVE-2024-25641 RCE for Cacti 1.2.26  
 CVE-2024-43363 https://github.com/p33d/CVE-2024-43363 通过 Cacti 中的日志中毒执行远程代码  
 CVE-2025-22604 https://github.com/Cacti/cacti/security/advisories/GHSA-c5j8-jxj3-hh36 Cacti 多行SNMP响应验证致代码执行漏洞  
+CVE-2025-24367 https://github.com/TheCyberGeek/CVE-2025-24367-Cacti-PoC Cacti Authenticated Graph Template RCE  
 CVE-2023-41892 https://github.com/diegaccio/Craft-CMS-Exploit Craft CMS Versions between 4.0.0-RC1 - 4.4.14  
 CVE-2024-23897 https://github.com/godylockz/CVE-2024-23897 file-read access on a Jenkins server <= version 2.441  
 CVE-2024-34144 https://github.com/MXWXZ/CVE-2024-34144 Jenkins 脚本安全插件存在涉及精心设计的构造函数体的沙箱绕过漏洞  
