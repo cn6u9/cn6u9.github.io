@@ -113,8 +113,7 @@ CVE-2025-50168 https://github.com/D4m0n/CVE-2025-50168-pwn2own-berlin-2025 Win32
 CVE-2025-60710 https://github.com/Wh04m1001/CVE-2025-60710 Windows 任务主机进程权限提升漏洞  
 CVE-2025-54110 https://github.com/canomer/CVE-2025-54110-Kernel-EoP-PoC Windows Kernel EoP Vulnerability  
 CVE-2025-60719 https://github.com/akamai/CVE-2025-60719-AFD.SYS windwos uaf afd.sys  
-
-
+CVE-2025-54100 https://github.com/osman1337-security/CVE-2025-54100 Windows PowerShell中用于命令的特殊元素  
 windows rce  
 CVE-2022-34718 https://github.com/numencyber/Vulnerability_PoC/blob/main/CVE-2022-34718/poc.cpp  TCP/IP RCE Vulnerability  
 CVE-2023-28231 https://github.com/numencyber/Vulnerability_PoC/blob/main/CVE-2023-28231/CVE-2023-28231-DHCP-VUL-PoC.cpp  MICROSOFT WINDOWS SERVER 2008-2019 DHCP SERVER  
