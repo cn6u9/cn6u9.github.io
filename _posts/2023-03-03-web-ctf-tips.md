@@ -514,5 +514,6 @@ CVE-2025-0886 https://github.com/JNDataRT/VirtualLockSensorLPE 联想Elliptic La
 CVE-2025-56521 https://github.com/Dong-hui-li/CVE-2025-56521andCVE-2025-56522/tree/main clang 编译代码指针错误  
 CVE-2025-10680 https://github.com/B1ack4sh/Blackash-CVE-2025-10680 openvpn DNS变量注入shell  
 CVE-2025-3500 https://github.com/chicken3962/CVE-2025-3500-Poc Avast 25.1.981.6整数溢出lpe  
+CVE-2025-23339 https://github.com/SpiralBL0CK/ce-for-CVE-2025-23339 NVIDIA CUDA Toolkit在所有平台上都存在cuobjdump漏洞  
 
 # 小结
