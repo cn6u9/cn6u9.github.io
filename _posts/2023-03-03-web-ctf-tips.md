@@ -324,6 +324,7 @@ CVE-2025-5777 https://github.com/mingshenhk/CitrixBleed-2-CVE-2025-5777-PoC- Net
 CVE-2025-41646 https://github.com/cyberre124/CVE-2025-41646---Critical-Authentication-Bypass- Critical-Authentication-Bypass  
 CVE-2025-7775 https://github.com/hacker-r3volv3r/CVE-2025-7775-PoC/tree/main Citrix NetScaler ADC RCE  
 CVE-2025-20333 https://github.com/callinston/CVE-2025-20333 Cisco Secure Firewall VPN Web Server RCE无poc  
+CVE-2025-20393 https://github.com/thesystemowner/CVE-2025-20393-POC 思科安全电子邮件网关和思科安全电子邮件和 Web 管理器远程命令执行漏洞  
 
 sqlite and mail and exim  
 CVE-2024-39929 https://github.com/michael-david-fry/CVE-2024-39929 Exim through 4.97.1 misparses a multiline RFC 2231 header filename  
