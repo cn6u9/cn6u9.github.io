@@ -261,7 +261,7 @@ CVE-2025-49113 https://github.com/Ademking/CVE-2025-49113-nuclei-template Roundc
 CVE-2025-57833 https://github.com/Mkway/CVE-2025-57833 Django SQL Injection Test Environment  
 CVE-2025-6384 https://github.com/maestro-ant/CrafterCMS-CVE-2025-6384 CrafterCMS Auth rce Groovy Sandbox Bypass  
 
-cacti and tomcat and Spring Framework 6.0.7 and 5.3.26 fix cve-2023-20860 and cve-2023-20861  
+cacti and SonicWall and tomcat and Spring Framework 6.0.7 and 5.3.26 fix cve-2023-20860 and cve-2023-20861  
 CVE-2023-34039 https://github.com/Cyb3rEnthusiast/CVE-2023-34039 VMware newest exploit  
 CVE-2023-41362 https://github.com/SorceryIE/CVE-2023-41362_MyBB_ACP_RCE MyBB_ACP_RCE  
 CVE-2023-22515 https://github.com/Chocapikk/CVE-2023-22515 Confluence Data Center  
@@ -296,6 +296,7 @@ CVE-2025-24813 https://github.com/iSee857/CVE-2025-24813-PoC Apache Tomcat 远�
 https://github.com/Samb102/POC-CVE-2025-48988-CVE-2025-48976 tomcat 组合漏洞  
 CVE-2025-55752 https://github.com/masahiro331/CVE-2025-55752/ Apache Tomcat Path Traversal Vulnerability  
 cve-2025-22235 https://github.com/idealzh/cve-2025-22235-demo Spring Security EndpointRequest鉴权不当漏洞  
+CVE-2025-40602 https://github.com/rxerium/CVE-2025-40602 SonicWall Secure Mobile Access (SMA)  
 
 Critical and Citrix and IOT and Router and nas and Cisco and teamview and tenda  
 CVE-2023-3519 https://github.com/getdrive/PoC/tree/main/2023/Citrix%20ADC%20RCE%20CVE-2023-3519 Citrix VPX 13.1-48.47  
