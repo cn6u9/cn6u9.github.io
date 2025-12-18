@@ -115,6 +115,7 @@ CVE-2025-54110 https://github.com/canomer/CVE-2025-54110-Kernel-EoP-PoC Windows 
 CVE-2025-60719 https://github.com/akamai/CVE-2025-60719-AFD.SYS windwos uaf afd.sys  
 CVE-2025-54100 https://github.com/osman1337-security/CVE-2025-54100 Windows PowerShell中用于命令的特殊元素  
 CVE-2025-62221 https://github.com/LoKinii/CVE-2025-62221-Exploit Windows 云文件小型筛选器驱动程序权限提升漏洞  
+CVE-2025-62454 https://github.com/96613686/CVE-2025-62454 Windows 云文件迷你筛选器驱动程序权限提升漏洞  
 
 windows rce  
 CVE-2022-34718 https://github.com/numencyber/Vulnerability_PoC/blob/main/CVE-2022-34718/poc.cpp  TCP/IP RCE Vulnerability  
