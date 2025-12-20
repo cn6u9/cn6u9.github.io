@@ -258,6 +258,7 @@ CVE-2025-46731 https://github.com/singetu0096/CVE-2025-46731/blob/main/report.md
 CVE-2025-48827 https://github.com/0xgh057r3c0n/CVE-2025-48827 Critical Unauthenticated API Access in vBulletin  
 CVE-2025-48827 https://github.com/ill-deed/vBulletin-CVE-2025-48828-Multi-target vbulletin  
 CVE-2025-49113 https://github.com/Ademking/CVE-2025-49113-nuclei-template Roundcube ≤ 1.6.10 rce  
+CVE-2025-68461 https://github.com/rxerium/CVE-2025-68461 Roundcube Webmail before 1.5.12 and 1.6 before 1.6.12  
 CVE-2025-57833 https://github.com/Mkway/CVE-2025-57833 Django SQL Injection Test Environment  
 CVE-2025-6384 https://github.com/maestro-ant/CrafterCMS-CVE-2025-6384 CrafterCMS Auth rce Groovy Sandbox Bypass  
 
