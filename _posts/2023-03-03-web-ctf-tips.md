@@ -159,7 +159,7 @@ CVE-2025-55188 https://github.com/hunters-sec/CVE-2025-55188-7z-exploit 7-Zip Sy
 CVE-2025-11001 https://github.com/lastvocher/7zip-CVE-2025-11001 7-Zip两大高危漏洞可导致任意代码执行  
 
 
-linux lpe  
+linux and freebsd lpe  
 CVE-2021-3560  
 CVE-2021-4034  pkexec  
 CVE-2021-3156 https://github.com/Sebastianbedoya25/CVE-2021-3156/tree/main sudo 1.8.2-1.9.5p1  
@@ -218,6 +218,7 @@ CVE-2025-21692 https://github.com/volticks/CVE-2025-21692-poc linux 修复ETS QD
 CVE-2025-39866 https://github.com/byteReaper77/CVE-2025-39866 Linux systems < 6.12.16  
 CVE-2025-39913 https://github.com/byteReaper77/CVE-2025-39913 Linux Kernel eBPF SOCKMAP  
 cve-2025-54874 https://github.com/cyhe50/cve-2025-54874-poc Linux 6.10.14-linuxkit opengpeg25.1  
+CVE-2025-14558 https://github.com/JohannesLks/CVE-2025-14558 FreeBSD rtsold DNSSL Command Injection (RCE)  
 
 
 Exchange  and  outlook  and hyper-v and wps and word and ppt and Oracle and SharePoint  
