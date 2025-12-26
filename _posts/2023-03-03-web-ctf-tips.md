@@ -476,6 +476,11 @@ CVE-2024-32113 https://github.com/Mr-xn/CVE-2024-32113 Apache OFBIZ Path travers
 CVE-2024-27348 https://github.com/Zeyad-Azima/CVE-2024-27348 Apache HugeGraph Server RCE  
 CVE-2024-40725 https://github.com/TAM-K592/CVE-2024-40725-CVE-2024-40898 Apache HTTP Server 源代码泄露漏洞  
 
+数据库 and database  
+CVE-2025-14847 https://github.com/ProbiusOfficial/CVE-2025-14847 MongoDB Zlib 压缩协议堆内存信息泄露漏洞  
+CVE-2024-46981 https://github.com/xsshk/CVE-2024-46981 Redis的Lua库命令可能导致远程代码执行CVE-2024-51741无poc  
+CVE-2025-32023 https://github.com/leesh3288/CVE-2025-32023 Redis hyperloglog 越界写入致远程代码执行漏洞  
+CVE-2025-46817 https://github.com/slayerkkkk/CVE-2025-46817-PoC CVE-2025-46817 Redis Integer Overflow  
 
 other  
 CVE-2019-0887 https://github.com/t43Wiu6/CVE-2019-0887 rdp 3389 desktop 剪切板劫持  
@@ -511,9 +516,6 @@ LibHeif https://github.com/SexyShoelessGodofWar/LibHeif---CVE-2025-XXXXX Heap Bu
 CVE-2025-2945 https://github.com/abrewer251/CVE-2025-2945_PoC pgAdmin Query Tool RCE  
 CVE-2025-49144 https://github.com/TheTorjanCaptain/CVE-2025-49144_PoC 	Notepad ++特权通过无法控制的可执行搜索路径  
 CVE-2025-56383 https://github.com/zer0t0/CVE-2025-56383-Proof-of-Concept Notepad++ v8.8.3 has a DLL hijacking  
-CVE-2024-46981 https://github.com/xsshk/CVE-2024-46981 Redis的Lua库命令可能导致远程代码执行CVE-2024-51741无poc  
-CVE-2025-32023 https://github.com/leesh3288/CVE-2025-32023 Redis hyperloglog 越界写入致远程代码执行漏洞  
-CVE-2025-46817 https://github.com/slayerkkkk/CVE-2025-46817-PoC CVE-2025-46817 Redis Integer Overflow  
 CVE-2025-21479 https://github.com/zhuowei/cheese qualcomm 高通漏洞  
 没找到cve https://github.com/mr-r0ot/0day-buffer-overflow-in-exiv2 exiv2  
 CVE-2025-6713 https://github.com/c137req/CVE-2025-6713 MongoDB服务器可能因$ MergeCursors阶段而受到特权升级  
