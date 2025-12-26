@@ -370,6 +370,7 @@ CVE-2025-6554 https://github.com/gmh5225/CVE-2025-6554-2 chrome uaf
 CVE-2025-9478 https://github.com/Kamgreen50/STIG-Edge-RCE-CVE2025-9478 Microsoft Edge (Chromium) < 139.0.3405 rce  
 CVE-2025-59295 https://github.com/usjnx72726w/CVE-2025-59295 Internet Explorer Heap overflow  
 CVE-2025-43541 https://github.com/crypt0bit/CVE-2025-43541 Safari 类型混淆  
+CVE-2025-14766 https://github.com/InfoSecAntara/CVE-2025-14765-and-CVE-2025-14766 Chrome Vulnerability Interactive Lab  
 
 
 Oracle  and weblogic and geoserver and Ivanti  
