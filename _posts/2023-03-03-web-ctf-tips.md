@@ -449,6 +449,7 @@ CVE-2025-31200 https://github.com/hunters-sec/CVE-2025-31200 ios CoreAudio APAC 
 CVE-2025-48543 https://github.com/gamesarchive/CVE-2025-48543 Android ART Use-After-Free  
 CVE-2025-22441 https://github.com/michalbednarski/ResourcePoison Google Android 安全漏洞  
 CVE-2025-59489 https://github.com/GithubKillsMyOpsec/CVE-2025-59489-POC android Unity Gaming Engine Editor vul  
+CVE-2025-48543 https://github.com/gamesarchive/CVE-2025-48543 Google Android 安全漏洞  
 
 php  
 https://github.com/synacktiv/php_filter_chains_oracle_exploit 有意思的漏洞  
