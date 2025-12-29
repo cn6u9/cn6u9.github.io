@@ -116,6 +116,7 @@ CVE-2025-60719 https://github.com/akamai/CVE-2025-60719-AFD.SYS windwos uaf afd.
 CVE-2025-54100 https://github.com/osman1337-security/CVE-2025-54100 Windows PowerShell中用于命令的特殊元素  
 CVE-2025-62221 https://github.com/LoKinii/CVE-2025-62221-Exploit Windows 云文件小型筛选器驱动程序权限提升漏洞  
 CVE-2025-62454 https://github.com/96613686/CVE-2025-62454 Windows 云文件迷你筛选器驱动程序权限提升漏洞  
+CVE-2025-54100 https://github.com/xiaoLvChen/CVE-2025-54100 Windows PowerShell 5.1 解析mhtml RCE  
 
 windows rce  
 CVE-2022-34718 https://github.com/numencyber/Vulnerability_PoC/blob/main/CVE-2022-34718/poc.cpp  TCP/IP RCE Vulnerability  
@@ -266,6 +267,7 @@ CVE-2025-49113 https://github.com/Ademking/CVE-2025-49113-nuclei-template Roundc
 CVE-2025-68461 https://github.com/rxerium/CVE-2025-68461 Roundcube Webmail before 1.5.12 and 1.6 before 1.6.12  
 CVE-2025-57833 https://github.com/Mkway/CVE-2025-57833 Django SQL Injection Test Environment  
 CVE-2025-6384 https://github.com/maestro-ant/CrafterCMS-CVE-2025-6384 CrafterCMS Auth rce Groovy Sandbox Bypass  
+CVE-2025-66429 https://github.com/baseng1337/CVE-2025-66429 cPanel 110-132该漏洞源于Team Manager API目录遍历可能导致任意文件覆盖和权限提升  
 
 cacti and SonicWall and tomcat and Spring Framework 6.0.7 and 5.3.26 fix cve-2023-20860 and cve-2023-20861  
 CVE-2023-34039 https://github.com/Cyb3rEnthusiast/CVE-2023-34039 VMware newest exploit  
