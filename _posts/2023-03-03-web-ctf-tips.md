@@ -306,7 +306,7 @@ https://github.com/Samb102/POC-CVE-2025-48988-CVE-2025-48976 tomcat 组合漏洞
 CVE-2025-55752 https://github.com/masahiro331/CVE-2025-55752/ Apache Tomcat Path Traversal Vulnerability  
 cve-2025-22235 https://github.com/idealzh/cve-2025-22235-demo Spring Security EndpointRequest鉴权不当漏洞  
 CVE-2025-40602 https://github.com/rxerium/CVE-2025-40602 SonicWall Secure Mobile Access (SMA)  
-CVE-2025-68645 https://github.com/chinaxploiter/CVE-2025-68645-PoC zimbra 本地文件读取  
+CVE-2025-68645 https://github.com/Ashwesker/Ashwesker-CVE-2025-68645 zimbra 本地文件读取  
 
 
 Critical and Citrix and IOT and Router and nas and Cisco and teamview and tenda  
