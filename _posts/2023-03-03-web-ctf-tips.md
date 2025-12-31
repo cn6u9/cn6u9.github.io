@@ -254,7 +254,6 @@ CVE-2022-33679
 
 web  
 Joomla 未授权访问漏洞 CVE-2023-23752  
-CVE-2023-34192 Zimbra XSS To RCE  
 CVE-2023-28467 mybb1.8.33 email xss  
 CVE-2023-32315 https://github.com/Pari-Malam/CVE-2023-32315 openfire  
 CVE-2023-29489 https://github.com/ViperM4sk/cpanel-xss-177 cPanel 11.102.0.x-11.109.9999.116 xss  
@@ -270,7 +269,7 @@ CVE-2025-57833 https://github.com/Mkway/CVE-2025-57833 Django SQL Injection Test
 CVE-2025-6384 https://github.com/maestro-ant/CrafterCMS-CVE-2025-6384 CrafterCMS Auth rce Groovy Sandbox Bypass  
 CVE-2025-66429 https://github.com/baseng1337/CVE-2025-66429 cPanel 110-132该漏洞源于Team Manager API目录遍历可能导致任意文件覆盖和权限提升  
 
-cacti and SonicWall and tomcat and Spring Framework 6.0.7 and 5.3.26 fix cve-2023-20860 and cve-2023-20861  
+zimbra and cacti and SonicWall and tomcat and Spring Framework 6.0.7 and 5.3.26 fix cve-2023-20860 and cve-2023-20861  
 CVE-2023-34039 https://github.com/Cyb3rEnthusiast/CVE-2023-34039 VMware newest exploit  
 CVE-2023-41362 https://github.com/SorceryIE/CVE-2023-41362_MyBB_ACP_RCE MyBB_ACP_RCE  
 CVE-2023-22515 https://github.com/Chocapikk/CVE-2023-22515 Confluence Data Center  
@@ -297,6 +296,7 @@ CVE-2024-22234 https://github.com/shellfeel/CVE-2024-22243-CVE-2024-22234 Spring
 CVE-2024-38816 https://github.com/weliveby/cve-2024-38816-demo/tree/master Spring Framework 特定条件下目录遍历漏洞  
 CVE-2024-21683 https://github.com/absholi7ly/-CVE-2024-21683-RCE-in-Confluence-Data-Center-and-Server Confluence需要帐号密码  
 CVE-2024-34102 https://github.com/bigb0x/CVE-2024-34102 Adobe Commerce/Magento estimate-shipping-methods XXE漏洞  
+CVE-2023-34192 Zimbra XSS To RCE  
 CVE-2024-45519 https://github.com/Chocapikk/CVE-2024-45519 Zimbra RCE  
 CVE-2024-50379 https://github.com/v3153/CVE-2024-50379-POC Apache Tomcat 条件竞争文件上传漏洞  
 CVE-2024-44902 https://github.com/fru1ts/CVE-2024-44902 Thinkphp v6.1.3 to v8.0.4反序列化  
@@ -306,6 +306,8 @@ https://github.com/Samb102/POC-CVE-2025-48988-CVE-2025-48976 tomcat 组合漏洞
 CVE-2025-55752 https://github.com/masahiro331/CVE-2025-55752/ Apache Tomcat Path Traversal Vulnerability  
 cve-2025-22235 https://github.com/idealzh/cve-2025-22235-demo Spring Security EndpointRequest鉴权不当漏洞  
 CVE-2025-40602 https://github.com/rxerium/CVE-2025-40602 SonicWall Secure Mobile Access (SMA)  
+CVE-2025-68645 https://github.com/chinaxploiter/CVE-2025-68645-PoC zimbra 本地文件读取  
+
 
 Critical and Citrix and IOT and Router and nas and Cisco and teamview and tenda  
 CVE-2023-3519 https://github.com/getdrive/PoC/tree/main/2023/Citrix%20ADC%20RCE%20CVE-2023-3519 Citrix VPX 13.1-48.47  
