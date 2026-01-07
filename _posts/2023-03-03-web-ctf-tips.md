@@ -225,6 +225,7 @@ CVE-2025-39866 https://github.com/byteReaper77/CVE-2025-39866 Linux systems < 6.
 CVE-2025-39913 https://github.com/byteReaper77/CVE-2025-39913 Linux Kernel eBPF SOCKMAP  
 cve-2025-54874 https://github.com/cyhe50/cve-2025-54874-poc Linux 6.10.14-linuxkit opengpeg25.1  
 CVE-2025-14558 https://github.com/JohannesLks/CVE-2025-14558 FreeBSD rtsold DNSSL Command Injection (RCE)  
+CVE-2025-38352 https://github.com/farazsth98/chronomaly Linux kernel posix-cpu-timers条件竞争漏洞  
 
 
 Exchange  and  outlook  and hyper-v and wps and word and ppt and Oracle and SharePoint  
