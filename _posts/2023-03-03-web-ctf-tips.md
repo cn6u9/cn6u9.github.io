@@ -118,6 +118,9 @@ CVE-2025-62221 https://github.com/LoKinii/CVE-2025-62221-Exploit Windows 云文�
 CVE-2025-62454 https://github.com/96613686/CVE-2025-62454 Windows 云文件迷你筛选器驱动程序权限提升漏洞  
 CVE-2025-54100 https://github.com/xiaoLvChen/CVE-2025-54100 Windows PowerShell 5.1 解析mhtml RCE  
 CVE-2025-47962 https://github.com/q1uf3ng/CVE-2025-47962-POC Windows SDK LPE  
+CVE-2025-53136 https://github.com/nu1lptr0/CVE-2025-53136 windows 内核信息泄漏  
+CVE-2026-20856 https://github.com/b1gchoi/poc-CVE-2026-20856 ClientWebService Unauthenticated RCE in WSUS  
+CVE-2026-20805 https://github.com/fevar54/CVE-2026-20805-POC Desktop Windows Manager (dwm.exe)  
 
 windows rce  
 CVE-2022-34718 https://github.com/numencyber/Vulnerability_PoC/blob/main/CVE-2022-34718/poc.cpp  TCP/IP RCE Vulnerability  
