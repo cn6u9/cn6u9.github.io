@@ -248,6 +248,7 @@ CVE-2025-49706 https://github.com/AdityaBhatt3010/CVE-2025-49706-SharePoint-Spoo
 CVE-2025-53770 https://github.com/Bluefire-Redteam-Cybersecurity/bluefire-sharepoint-cve-2025-53770 Critical SharePoint RCE  
 CVE-2025-53786 https://github.com/barbaraeivyu/CVE-2025-53786 exchange hybrid deployments lpe 无poc  
 CVE-2025-61882 https://github.com/zerozenxlabs/CVE-2025-61882-Oracle-EBS Oracle E-Business Suite中（组件：BI Publisher集成）存在漏洞  
+CVE-2026-21509 https://github.com/nicole2ilodl/CVE-2026-21509-PoC Microsoft Office 2016-2019 OLE object  
 
 域控  
 https://github.com/Amulab/advul  
