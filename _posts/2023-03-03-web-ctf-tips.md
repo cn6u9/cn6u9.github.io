@@ -495,7 +495,7 @@ CVE-2024-46981 https://github.com/xsshk/CVE-2024-46981 Redis的Lua库命令可�
 CVE-2025-32023 https://github.com/leesh3288/CVE-2025-32023 Redis hyperloglog 越界写入致远程代码执行漏洞  
 CVE-2025-46817 https://github.com/slayerkkkk/CVE-2025-46817-PoC CVE-2025-46817 Redis Integer Overflow  
 
-杀毒软件 and EDR
+杀毒软件 and EDR  
 CVE-2026-3796 https://github.com/cwjchoi01/CVE-2026-3796 qax驱动结束微软杀毒  
 
 other  
