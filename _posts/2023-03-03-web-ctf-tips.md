@@ -121,6 +121,7 @@ CVE-2025-47962 https://github.com/q1uf3ng/CVE-2025-47962-POC Windows SDK LPE
 CVE-2025-53136 https://github.com/nu1lptr0/CVE-2025-53136 windows 内核信息泄漏  
 CVE-2026-20856 https://github.com/b1gchoi/poc-CVE-2026-20856 ClientWebService Unauthenticated RCE in WSUS  
 CVE-2026-20805 https://github.com/fevar54/CVE-2026-20805-POC Desktop Windows Manager (dwm.exe)  
+CVE-2026-20820 https://github.com/uname1able/CVE-2026-20820 Windows 通用日志文件系统驱动程序权限提升漏洞  
 
 windows rce  
 CVE-2022-34718 https://github.com/numencyber/Vulnerability_PoC/blob/main/CVE-2022-34718/poc.cpp  TCP/IP RCE Vulnerability  
@@ -462,6 +463,7 @@ CVE-2025-48543 https://github.com/gamesarchive/CVE-2025-48543 Android ART Use-Af
 CVE-2025-22441 https://github.com/michalbednarski/ResourcePoison Google Android 安全漏洞  
 CVE-2025-59489 https://github.com/GithubKillsMyOpsec/CVE-2025-59489-POC android Unity Gaming Engine Editor vul  
 CVE-2025-48543 https://github.com/gamesarchive/CVE-2025-48543 Google Android 安全漏洞  
+CVE-2026-20643 https://github.com/zeroxjf/WebKit-NavigationAPI-SOP-Bypass WebKit-NavigationAPI-SOP-Bypass  
 
 php  
 https://github.com/synacktiv/php_filter_chains_oracle_exploit 有意思的漏洞  
