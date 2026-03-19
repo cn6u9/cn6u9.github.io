@@ -231,7 +231,7 @@ CVE-2025-39913 https://github.com/byteReaper77/CVE-2025-39913 Linux Kernel eBPF 
 cve-2025-54874 https://github.com/cyhe50/cve-2025-54874-poc Linux 6.10.14-linuxkit opengpeg25.1  
 CVE-2025-14558 https://github.com/JohannesLks/CVE-2025-14558 FreeBSD rtsold DNSSL Command Injection (RCE)  
 CVE-2025-38352 https://github.com/farazsth98/chronomaly Linux kernel posix-cpu-timers条件竞争漏洞  
-
+CVE-2026-3888 https://github.com/fevar54/CVE-2026-3888-POC-all-from-the-Qualys-platform. ubuntu snapd LPE PoC  
 
 Exchange  and  outlook  and hyper-v and wps and word and ppt and Oracle and SharePoint  
 CVE-2022-41082 https://github.com/balki97/OWASSRF-CVE-2022-41082-POC NotProxyShell OWASSRF Vul Effecting Microsoft Exchange 
