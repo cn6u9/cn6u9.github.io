@@ -464,6 +464,7 @@ CVE-2025-22441 https://github.com/michalbednarski/ResourcePoison Google Android 
 CVE-2025-59489 https://github.com/GithubKillsMyOpsec/CVE-2025-59489-POC android Unity Gaming Engine Editor vul  
 CVE-2025-48543 https://github.com/gamesarchive/CVE-2025-48543 Google Android 安全漏洞  
 CVE-2026-20643 https://github.com/zeroxjf/WebKit-NavigationAPI-SOP-Bypass WebKit-NavigationAPI-SOP-Bypass  
+CVE-2026-20687 https://github.com/zeroxjf/CVE-2026-20687-AppleSEPKeyStore-UAF iOS 26.4-macOS 26.4 uaf  
 
 php  
 https://github.com/synacktiv/php_filter_chains_oracle_exploit 有意思的漏洞  
