@@ -122,6 +122,7 @@ CVE-2025-53136 https://github.com/nu1lptr0/CVE-2025-53136 windows 内核信息�
 CVE-2026-20856 https://github.com/b1gchoi/poc-CVE-2026-20856 ClientWebService Unauthenticated RCE in WSUS  
 CVE-2026-20805 https://github.com/fevar54/CVE-2026-20805-POC Desktop Windows Manager (dwm.exe)  
 CVE-2026-20820 https://github.com/uname1able/CVE-2026-20820 Windows 通用日志文件系统驱动程序权限提升漏洞  
+无cve https://github.com/Nightmare-Eclipse/BlueHammer BlueHammer Windows Defender LPE  
 
 windows rce  
 CVE-2022-34718 https://github.com/numencyber/Vulnerability_PoC/blob/main/CVE-2022-34718/poc.cpp  TCP/IP RCE Vulnerability  
