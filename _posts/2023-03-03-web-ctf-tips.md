@@ -145,12 +145,7 @@ windows driver 利用
 CVE-2025-7771 https://github.com/AmrHuss/throttlestop-exploit-rw ThrottleStop.sys Memory R/W微软签名  
 
 
-php  
-cve-2024-1874 https://github.com/php/php-src/security/advisories/GHSA-pc52-254m-w9w7 PHP直到8.1.27/8.2.17/8.3.4WINDOWS PROC_OPEN 权限升级  
-CVE-2020-7071 https://github.com/php/php-src/security/advisories/GHSA-w8qr-v226-r27w Filter bypass in filter_var 7.327-8.37  
-CVE-2024-5458 https://github.com/justmexD8/CVE-2024-5458-POC filter_var (FILTER_VALIDATE_URL) 中的过滤器绕过  
-cve https://github.com/m0x41nos/TimeAfterFree PHP 8 sandbox escape PoC  
-无cve https://github.com/ez-lbz/php8-UAF 当前仅限于8.4和8.5  
+
 
 winrar and office and word and pdf and 7zip and 7-zip and rar and wps  
 
@@ -477,6 +472,11 @@ php
 https://github.com/synacktiv/php_filter_chains_oracle_exploit 有意思的漏洞  
 cve-2023-3824 https://github.com/php/php-src/security/advisories/GHSA-jqcx-ccgc-xwhv phar_dir_read()overflow  
 CVE-2023-3824 https://github.com/m4p1e/php-exploit/tree/master/CVE-2023-3824  
+cve-2024-1874 https://github.com/php/php-src/security/advisories/GHSA-pc52-254m-w9w7 PHP直到8.1.27/8.2.17/8.3.4WINDOWS PROC_OPEN 权限升级  
+CVE-2020-7071 https://github.com/php/php-src/security/advisories/GHSA-w8qr-v226-r27w Filter bypass in filter_var 7.327-8.37  
+CVE-2024-5458 https://github.com/justmexD8/CVE-2024-5458-POC filter_var (FILTER_VALIDATE_URL) 中的过滤器绕过  
+cve https://github.com/m0x41nos/TimeAfterFree PHP 8 sandbox escape PoC  
+无cve https://github.com/ez-lbz/php8-UAF 当前仅限于8.4和8.5  
 
 qnap and nas  
 CVE-2023-47218 https://github.com/passwa11/CVE-2023-47218 qnap rce  
