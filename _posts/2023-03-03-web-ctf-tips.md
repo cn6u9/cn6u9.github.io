@@ -130,7 +130,7 @@ windows rce
 CVE-2022-34718 https://github.com/numencyber/Vulnerability_PoC/blob/main/CVE-2022-34718/poc.cpp  TCP/IP RCE Vulnerability  
 CVE-2023-28231 https://github.com/numencyber/Vulnerability_PoC/blob/main/CVE-2023-28231/CVE-2023-28231-DHCP-VUL-PoC.cpp  MICROSOFT WINDOWS SERVER 2008-2019 DHCP SERVER  
 CVE-2023-28231 https://github.com/glavstroy/CVE-2023-28231  MICROSOFT WINDOWS SERVER 2008-2019 DHCP SERVER   
-CVE-2023-38148 https://github.com/Chestnuts4/POC/blob/master/CVE-https://github.com/synacktiv/php_filter_chains_oracle_exploit 有意思的漏洞  2023-38148-windows-ics-rce/CVE-2023-38148.c Internet Connection Sharing (ICS) RCE  
+CVE-2023-38148 https://github.com/Chestnuts4/POC/blob/master/CVE-https://github.com/synacktiv/_filter_chains_oracle_exploit 有意思的漏洞  2023-38148-windows-ics-rce/CVE-2023-38148.c Internet Connection Sharing (ICS) RCE  
 CVE-2024-20696 https://github.com/clearbluejar/CVE-2024-20696 Windows Libarchive 远程代码执行漏洞  
 CVE-2024-30078 https://github.com/kvx07/CVE_2024_30078_A_POC Windows Wi-Fi Driver Remote Code Execution Vulnerability  
 CVE-2024-38077 https://github.com/CloudCrowSec001/CVE-2024-38077-POC/blob/main/CVE-2024-38077-poc.py Windows 远程桌面授权服务远程代码执行漏洞  
@@ -150,6 +150,7 @@ cve-2024-1874 https://github.com/php/php-src/security/advisories/GHSA-pc52-254m-
 CVE-2020-7071 https://github.com/php/php-src/security/advisories/GHSA-w8qr-v226-r27w Filter bypass in filter_var 7.327-8.37  
 CVE-2024-5458 https://github.com/justmexD8/CVE-2024-5458-POC filter_var (FILTER_VALIDATE_URL) 中的过滤器绕过  
 cve https://github.com/m0x41nos/TimeAfterFree PHP 8 sandbox escape PoC  
+无cve https://github.com/ez-lbz/php8-UAF 当前仅限于8.4和8.5  
 
 winrar and office and word and pdf and 7zip and 7-zip and rar and wps  
 
