@@ -125,6 +125,7 @@ CVE-2026-20820 https://github.com/uname1able/CVE-2026-20820 Windows 通用日志
 无cve https://github.com/Nightmare-Eclipse/BlueHammer BlueHammer Windows Defender LPE  
 cve-2026-0828 https://github.com/oxfemale/KillChain A BYOVD technique abuse tool可以杀本地杀毒软件  
 CVE-2026-21250 https://github.com/kaleth4/CVE-2026-21250 Windows HTTP.sys LPE  
+CVE-2026-24291 https://github.com/n0isegat3/RegPwnBRc4BOF Windows ATBroker.exe 权限分配不当本地提权漏洞如放大镜、讲述人  
 
 windows rce  
 CVE-2022-34718 https://github.com/numencyber/Vulnerability_PoC/blob/main/CVE-2022-34718/poc.cpp  TCP/IP RCE Vulnerability  
@@ -334,7 +335,6 @@ CVE-2024-29975 https://mp.weixin.qq.com/s/hs8PJOIw7DFyzv5fCUKwlw 包含了CVE-20
 CVE-2024-7357 https://github.com/BeaCox/IoT_vuln/tree/main/D-Link/DIR-600/soapcgi_main_injection D-Link DIR-600 soap.cgi soapcgi_main os 命令注入  
 CVE-2024-7479 & CVE-2024-7481 https://github.com/PeterGabaldon/CVE-2024-7479_CVE-2024-7481 TeamViewer User to lpe  
 CVE-2024-10442 https://github.com/ret2/Pwn2Own-Ireland2024-DiskStation Synology nas 群晖 提权  
-CVE-2025-0108 https://github.com/iSee857/CVE-2025-0108-PoC Palo Alto Networks PAN-OS Management 管理端权限绕过漏洞  
 cve-2025-29384 https://github.com/shuqi233/loophole/tree/main/Tenda%20AC9 Tenda AC9 很多漏洞  
 CVE-2025-7795 https://github.com/byteReaper77/CVE-2025-7795 Tenda Router Buffer Overflow Exploit  
 CVE-2025-20281-Cisco https://github.com/grupooruss/CVE-2025-20281-Cisco Cisco ISE RCE  
@@ -347,6 +347,8 @@ CVE-2025-41646 https://github.com/cyberre124/CVE-2025-41646---Critical-Authentic
 CVE-2025-7775 https://github.com/hacker-r3volv3r/CVE-2025-7775-PoC/tree/main Citrix NetScaler ADC RCE  
 CVE-2025-20333 https://github.com/callinston/CVE-2025-20333 Cisco Secure Firewall VPN Web Server RCE无poc  
 CVE-2025-20393 https://github.com/thesystemowner/CVE-2025-20393-POC 思科安全电子邮件网关和思科安全电子邮件和 Web 管理器远程命令执行漏洞  
+CVE-2025-0108 https://github.com/iSee857/CVE-2025-0108-PoC Palo Alto Networks PAN-OS Management 管理端权限绕过漏洞  
+CVE-2026-0300 https://github.com/p3Nt3st3r-sTAr/CVE-2026-0300-POC PAN-OS：User-ID™ 身份验证门户中未经身份验证的用户启动缓冲区溢出漏洞  
 
 sqlite and mail and exim  
 CVE-2024-39929 https://github.com/michael-david-fry/CVE-2024-39929 Exim through 4.97.1 misparses a multiline RFC 2231 header filename  
