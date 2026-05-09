@@ -235,7 +235,9 @@ CVE-2025-38352 https://github.com/farazsth98/chronomaly Linux kernel posix-cpu-t
 CVE-2026-3888 https://github.com/fevar54/CVE-2026-3888-POC-all-from-the-Qualys-platform. ubuntu snapd LPE PoC  
 CVE-2026-41651 https://github.com/Vozec/CVE-2026-41651 PackageKit ≥ 1.3.5  
 CVE-2026-31431 https://github.com/tgies/copy-fail-c Copy Fail Linux LPE  
-无cve https://github.com/V4bel/dirtyfrag Dirty Frag: Universal Linux LPE  
+CVE-2026-43500 https://github.com/V4bel/dirtyfrag Dirty Frag: Universal Linux LPE  
+
+
 
 Exchange  and  outlook  and hyper-v and wps and word and ppt and Oracle and SharePoint  
 CVE-2022-41082 https://github.com/balki97/OWASSRF-CVE-2022-41082-POC NotProxyShell OWASSRF Vul Effecting Microsoft Exchange 
