@@ -206,7 +206,7 @@ CVE-2024-1086 https://github.com/Notselwyn/CVE-2024-1086 Linux kernel v5.14 and 
 CVE-2024-0582 https://github.com/ysanatomic/io_uring_LPE-CVE-2024-0582 linux内核通过缓冲区环 mmap 的页面释放后  
 CVE-2024-28085 https://github.com/skyler-ferrante/CVE-2024-28085 linux标准软件包 util-linux <2.40 setid 提权漏洞  
 CVE-2024-2961 https://github.com/mattaperkins/FIX-CVE-2024-2961 glibc 安全漏洞The iconv() function in the GNU C Library versions 2.39  
-CVE-2024-2961 https://github.com/m4p1e/php-exploit/blob/master/CVE-2024-2961/exp.py roundcube邮件服务器利用方式  
+CVE-2024-2961 https://github.com/m4p1e/-exploit/blob/master/CVE-2024-2961/exp.py roundcube邮件服务器利用方式  
 CVE-2024-37383 https://github.com/bartfroklage/CVE-2024-37383-POC Roundcube Webmail 1.5.7 and 1.6.x  1.6.7 allows XSS SVG  
 CVE-2024-0193 https://github.com/google/security-research/tree/master/pocs/linux/kernelctf/CVE-2024-0193_cos/ netfilter uaf lpe  
 CVE-2024-44946　https://github.com/Abdurahmon3236/CVE-2024-44946　linux kcm_uaf_poc lpe  
@@ -312,8 +312,8 @@ CVE-2024-34102 https://github.com/bigb0x/CVE-2024-34102 Adobe Commerce/Magento e
 CVE-2023-34192 Zimbra XSS To RCE  
 CVE-2024-45519 https://github.com/Chocapikk/CVE-2024-45519 Zimbra RCE  
 CVE-2024-50379 https://github.com/v3153/CVE-2024-50379-POC Apache Tomcat 条件竞争文件上传漏洞  
-CVE-2024-44902 https://github.com/fru1ts/CVE-2024-44902 Thinkphp v6.1.3 to v8.0.4反序列化  
-cve-2025-63888 https://github.com/AN5I/cve-2025-63888-exploit ThinkPHP 5.0.24 rce  
+CVE-2024-44902 https://github.com/fru1ts/CVE-2024-44902 Think v6.1.3 to v8.0.4反序列化  
+cve-2025-63888 https://github.com/AN5I/cve-2025-63888-exploit Think 5.0.24 rce  
 CVE-2025-24813 https://github.com/iSee857/CVE-2025-24813-PoC Apache Tomcat 远程代码执行漏洞  
 https://github.com/Samb102/POC-CVE-2025-48988-CVE-2025-48976 tomcat 组合漏洞  
 CVE-2025-55752 https://github.com/masahiro331/CVE-2025-55752/ Apache Tomcat Path Traversal Vulnerability  
@@ -482,6 +482,7 @@ CVE-2020-7071 https://github.com/php/php-src/security/advisories/GHSA-w8qr-v226-
 CVE-2024-5458 https://github.com/justmexD8/CVE-2024-5458-POC filter_var (FILTER_VALIDATE_URL) 中的过滤器绕过  
 cve https://github.com/m0x41nos/TimeAfterFree PHP 8 sandbox escape PoC  
 无cve https://github.com/ez-lbz/php8-UAF 当前仅限于8.4和8.5  
+https://github.com/php/php-src/issues/21961 php5.2.5-8.6通用bypass open_basedir  
 
 qnap and nas  
 CVE-2023-47218 https://github.com/passwa11/CVE-2023-47218 qnap rce  
