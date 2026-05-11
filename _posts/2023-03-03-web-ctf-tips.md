@@ -482,7 +482,7 @@ CVE-2020-7071 https://github.com/php/php-src/security/advisories/GHSA-w8qr-v226-
 CVE-2024-5458 https://github.com/justmexD8/CVE-2024-5458-POC filter_var (FILTER_VALIDATE_URL) 中的过滤器绕过  
 cve https://github.com/m0x41nos/TimeAfterFree PHP 8 sandbox escape PoC  
 无cve https://github.com/ez-lbz/php8-UAF 当前仅限于8.4和8.5  
-https://github.com/php/php-src/issues/21961 php5.2.5-8.6通用bypass open_basedir  
+无cve https://github.com/php/php-src/issues/21961 php5.2.5-8.6通用bypass open_basedir  
 
 qnap and nas  
 CVE-2023-47218 https://github.com/passwa11/CVE-2023-47218 qnap rce  
