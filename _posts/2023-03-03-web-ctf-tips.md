@@ -237,6 +237,7 @@ CVE-2026-3888 https://github.com/fevar54/CVE-2026-3888-POC-all-from-the-Qualys-p
 CVE-2026-41651 https://github.com/Vozec/CVE-2026-41651 PackageKit ≥ 1.3.5  
 CVE-2026-31431 https://github.com/tgies/copy-fail-c Copy Fail Linux LPE  
 CVE-2026-43500 https://github.com/V4bel/dirtyfrag Dirty Frag: Universal Linux LPE  
+无cve https://github.com/v12-security/pocs/tree/main/fragnesia fragnesia本地提权和copy Fail一样  
 
 
 
