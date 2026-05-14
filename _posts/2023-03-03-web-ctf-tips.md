@@ -126,6 +126,7 @@ CVE-2026-20820 https://github.com/uname1able/CVE-2026-20820 Windows 通用日志
 cve-2026-0828 https://github.com/oxfemale/KillChain A BYOVD technique abuse tool可以杀本地杀毒软件  
 CVE-2026-21250 https://github.com/kaleth4/CVE-2026-21250 Windows HTTP.sys LPE  
 CVE-2026-24291 https://github.com/n0isegat3/RegPwnBRc4BOF Windows ATBroker.exe 权限分配不当本地提权漏洞如放大镜、讲述人  
+CVE-2026-40369 https://github.com/orinimron123/CVE-2026-40369-EXPLOIT Windows 内核特权提升漏洞uaf  
 
 windows rce  
 CVE-2022-34718 https://github.com/numencyber/Vulnerability_PoC/blob/main/CVE-2022-34718/poc.cpp  TCP/IP RCE Vulnerability  
