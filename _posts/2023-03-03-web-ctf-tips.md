@@ -242,6 +242,7 @@ CVE-2026-31431 https://github.com/tgies/copy-fail-c Copy Fail Linux LPE
 CVE-2026-43500 https://github.com/V4bel/dirtyfrag Dirty Frag: Universal Linux LPE  
 无cve https://github.com/q1uf3ng/Dirty-Merge 类似上面的漏洞  
 CVE-2026-46300 https://github.com/v12-security/pocs/tree/main/fragnesia fragnesia本地提权和copy Fail一样  
+CVE-2026-43503 https://github.com/aexdyhaxor/CVE-2026-43503-DirtyClone DirtyClone LPE  
 
 
 
